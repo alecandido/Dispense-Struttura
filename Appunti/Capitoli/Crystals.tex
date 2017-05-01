@@ -501,3 +501,66 @@ e l'energia totale emessa per unità di tempo:
 e_\nu (\nu,T) = \int_{0}^{\infty} u_\nu \frac{c}{4} = \frac{2 \pi^5 k_B^4}{15h^3c^2}T^4 = \sigma T^4
 \end{equation*}
 ed è nota come \textit{legge di Stefan}, mentre $ \sigma $ è la \textit{costante di Stefan-Boltzmann}.
+
+\section{Proprietà geometriche dei cristalli}
+
+Nella precedente sezione si è discusso della capacità termica dei cristalli, ma si è quasi sempre fatto riferimento a teorie di campo medio, e l'unico modello introdotto è quello di cristallo unidimensionale.
+
+Non si è quindi fatto uso di specifiche proprietà geometriche dei cristalli, ma solo del fatto che gli atomi siano spazialmente vincolati al sito che occupano. Si procede dunque in questa sezione a prenderà in esame più in dettaglio quali siano le proprietà geometriche dei cristalli.
+
+\subsection{Simmetrie spaziali}
+
+I cristalli sono caratterizzati da una periodicità discreta, che si realizza in una proprietà fondamentale. Per definirla si consideri un punto $ \textbf{r} $, tutti i punti associati da specifici vettori di traslazione $ \bm{\tau}_n $ sono ad esso equivalenti, cioè indistiguibili.
+
+Il senso di questa affermazione è che dato qualunque punto
+\[ \textbf{r}' = \textbf{r} + \bm{\tau}_n \]
+tutte le osservabili fisiche assumono lo stesso valore in $ \textbf{r} $ e $ \textbf{r'} $.
+
+La proprietà fondamentale è quindi la seguente: la struttura dei vettori di traslazione introdotti è
+\[ \bm{\tau}_{\textbf{n}} = n_1 \bm{\tau}_1 + n_2 \bm{\tau}_2 + n_3 \bm{\tau}_3  \]
+dove $ n_1, n_2, n_3 \in \mathbb{N} $ e $ \bm{\tau}_1, \bm{\tau}_2, \bm{\tau}3 $ sono vettori indipendenti che definiscono una cella primitiva.
+
+L'insieme dei vettori di traslazione $ \bm{\tau}_n $ costituisce il reticolo cristallino, e poiché la somma di due traslazione è ancora una traslazione, e ad ogni traslazione ne corrispone una inversa, tale insieme costituisce un gruppo, chiamato \textit{gruppo delle operazioni di traslazione.}
+
+Lo stesso reticolo traslazionale può essere ottenuto scegliendo celle primitive diverse, come mostrato in . Il nuovo insieme di vettori non sarà indipendente dal precedente, ma sono ottenibili l'uno dall'altro con combinazioni lineari a coefficienti interi.
+
+Proprio per quest'ultimo motivo il volume della cella elementare sarà indipendente dalla scelta dei vettori di base, infatti il volume di un parallelepipedo è un'applicazione multilineare alternante sui vettori che ne definiscono gli spigoli.
+\`E quindi possibile definire la cella elementare proprio come una qualunque cella di volume minimo (un altro modo potrebbe essere che non contenga punti del reticolo nella parte interna del suo volume).
+
+\begin{note}[Orientamento]
+	Si specifica che, perché i punti siano equivalenti, non solo la disposizione deve essere la stessa (cioè la struttura dei vettori di base), ma anche l'orientamento. Ad esempio la piastrellatura esagonale del piano rispetta il requisito sulla disposizione, ma non quello sull'orientamento.
+\end{note}
+
+Un reticolo definito in tal modo è detto \textit{reticolo di Bravais}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.6\textwidth]{Immagini/ElementaryCell.png}
+	\vspace{-5pt}
+	\caption{}
+	\label{fig:elcell}
+	\vspace{-20pt}
+\end{figure}
+
+\paragraph{Gruppi di simmetria} \`E possibile ottenere tutti i gruppi di simmetria realizzabili da un cristallo tridimensionale: essi sono $ 230 $ (ottenuti da $ 14 $ reticoli di traslazione e $ 32 $ gruppi puntuali, di cui $ 7 $ oloedrici).
+Non si vuole studiare in dettaglio questa affermazione, né è importante chiarire il significato dei termini usati, ma è importante sapere che i gruppi cristallini sono completamente classificati e in numero limitato.
+
+\begin{defn}[Numero di coordinazione]
+	Poiché il numero di \textit{primi vicini} non dipende dal punto, a causa della periodicità del reticolo, allora esso è una proprietà del reticolo, ed è chiamato \textit{numero di coordinazione}.
+\end{defn}
+
+
+
+\subsection{Diffrazione dei raggi X}
+
+\section{Hamiltoniana dei Cristalli}
+
+\subsection{Approssimazione di Born-Oppenheimer}
+
+\subsection{Hartree-Fock}
+
+\section{Il teorema di Bloch}
+
+\subsection{Zone di Brillouin}
+
+\subsection{Il concetto di banda}

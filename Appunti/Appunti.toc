@@ -136,3 +136,13 @@
 \contentsline {subsubsection}{Fotoni}{80}{section*.111}
 \contentsline {paragraph}{Potenziale chimico}{81}{section*.112}
 \contentsline {paragraph}{Legge di dispersione}{81}{section*.113}
+\contentsline {section}{\numberline {4.2}Propriet\IeC {\`a} geometriche dei cristalli}{82}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Simmetrie spaziali}{82}{subsection.4.2.1}
+\contentsline {paragraph}{Gruppi di simmetria}{82}{section*.116}
+\contentsline {subsection}{\numberline {4.2.2}Diffrazione dei raggi X}{83}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Hamiltoniana dei Cristalli}{83}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Approssimazione di Born-Oppenheimer}{83}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Hartree-Fock}{83}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Il teorema di Bloch}{83}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Zone di Brillouin}{83}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Il concetto di banda}{83}{subsection.4.4.2}
