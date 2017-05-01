@@ -1,2 +1,7 @@
 # Dispense-Struttura
-Dispense di Struttura della Materia, relative al corso del prof. A. Tredicucci a.a. 2016/2017
+
+Le dispense sono per chiunque le voglia, ad oggi sono interamente a cura di Alessandro Candido.
+A breve però altri due meritevoli contributori prenderanno parte al progetto:
+
+- Roberto Ribatti
+- Andrea Luzio
