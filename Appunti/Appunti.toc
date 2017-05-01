@@ -1,0 +1,138 @@
+\select@language {italian}
+\select@language {italian}
+\contentsline {chapter}{\numberline {1}Termodinamica e Meccanica Statistica}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Introduzione}{1}{section.1.1}
+\contentsline {paragraph}{Osservabili macroscopiche}{1}{section*.8}
+\contentsline {subsection}{\numberline {1.1.1}Principi della Meccanica Statistica}{1}{subsection.1.1.1}
+\contentsline {subsubsection}{Equilibrio}{1}{section*.9}
+\contentsline {paragraph}{Sulla natura dei principi fisici}{2}{section*.10}
+\contentsline {subsection}{\numberline {1.1.2}Entropia}{2}{subsection.1.1.2}
+\contentsline {paragraph}{Osservabili intensive}{2}{section*.11}
+\contentsline {paragraph}{Temperatura}{2}{section*.12}
+\contentsline {paragraph}{Equazione di stato}{3}{section*.13}
+\contentsline {subsection}{\numberline {1.1.3}Precisazioni teoriche sui fondamenti}{3}{subsection.1.1.3}
+\contentsline {paragraph}{Descrizione canonica}{4}{section*.14}
+\contentsline {subparagraph}{Fluttuazioni}{4}{section*.15}
+\contentsline {section}{\numberline {1.2}Termodinamica}{4}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}I principi della termodinamica}{4}{subsection.1.2.1}
+\contentsline {paragraph}{Principio zero}{4}{section*.16}
+\contentsline {paragraph}{Primo principio}{4}{section*.17}
+\contentsline {paragraph}{Secondo principio}{5}{section*.18}
+\contentsline {paragraph}{Terzo principio}{5}{section*.19}
+\contentsline {subsection}{\numberline {1.2.2}Grandezze termodinamiche}{5}{subsection.1.2.2}
+\contentsline {paragraph}{Energia E}{6}{section*.20}
+\contentsline {paragraph}{Energia libera F}{6}{section*.21}
+\contentsline {paragraph}{Energia libera di Gibbs G }{6}{section*.22}
+\contentsline {paragraph}{Entalpia H}{6}{section*.23}
+\contentsline {subsubsection}{Relazioni di Maxwell}{6}{section*.24}
+\contentsline {subsubsection}{Numero di particelle}{7}{section*.26}
+\contentsline {paragraph}{Gran Potenziale $\Omega $}{8}{section*.27}
+\contentsline {subsection}{\numberline {1.2.3}Variabili Magnetiche}{8}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}Principio variazionale}{8}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.5}Derivate termodinamiche}{8}{subsection.1.2.5}
+\contentsline {paragraph}{Relazioni notevoli}{9}{section*.28}
+\contentsline {paragraph}{Variabili magnetiche}{10}{section*.29}
+\contentsline {subsubsection}{Funzioni di risposta}{10}{section*.30}
+\contentsline {paragraph}{Propriet\IeC {\`a}}{10}{section*.31}
+\contentsline {subsection}{\numberline {1.2.6}Diagrammi di fase}{11}{subsection.1.2.6}
+\contentsline {subsubsection}{Digressione sul concetto di fase}{11}{section*.32}
+\contentsline {subsubsection}{Piano $P-T$}{11}{section*.33}
+\contentsline {subsubsection}{Equazione di Clausius-Clapeyron}{12}{section*.36}
+\contentsline {section}{\numberline {1.3}Meccanica Statistica}{13}{section.1.3}
+\contentsline {subsubsection}{Derivazione}{13}{section*.37}
+\contentsline {subsection}{\numberline {1.3.1}Densit\IeC {\`a} di stati}{15}{subsection.1.3.1}
+\contentsline {subsubsection}{Approssimazione di Einstein}{16}{section*.38}
+\contentsline {subsection}{\numberline {1.3.2}Propriet\IeC {\`a} di $Z$ e $\mathcal {Z}$}{17}{subsection.1.3.2}
+\contentsline {paragraph}{Sistemi indipendenti}{17}{section*.39}
+\contentsline {subsection}{\numberline {1.3.3}Particelle identiche}{17}{subsection.1.3.3}
+\contentsline {paragraph}{Primo metodo}{18}{section*.40}
+\contentsline {paragraph}{Secondo metodo}{19}{section*.41}
+\contentsline {subparagraph}{Assunzioni fatte}{20}{section*.42}
+\contentsline {subsection}{\numberline {1.3.4}Integrazione sugli stati}{20}{subsection.1.3.4}
+\contentsline {subsubsection}{Densit\IeC {\`a} degli stati di singola particella}{21}{section*.43}
+\contentsline {subsubsection}{Sistemi interagenti}{22}{section*.44}
+\contentsline {subsubsection}{Funzioni di partizione del gas ideale}{23}{section*.45}
+\contentsline {paragraph}{Funzione di partizione}{23}{section*.46}
+\contentsline {paragraph}{Funzione di granpartizione}{23}{section*.47}
+\contentsline {subsection}{\numberline {1.3.5}Fluttuazioni}{23}{subsection.1.3.5}
+\contentsline {subsubsection}{Fluttuazioni della densit\IeC {\`a}}{25}{section*.50}
+\contentsline {paragraph}{Fluttuazioni nelle altre grandezze}{26}{section*.51}
+\contentsline {subsubsection}{Fluttuazioni nel caso generale}{26}{section*.52}
+\contentsline {paragraph}{Variabile generica}{26}{section*.53}
+\contentsline {subparagraph}{Grandezze dipendenti}{28}{section*.54}
+\contentsline {section}{\numberline {1.4}Commenti sui principi della Meccanica Statistica}{28}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Incertezza quantistica e termodinamica}{28}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Principio di equiprobabilit\IeC {\`a} a priori}{30}{subsection.1.4.2}
+\contentsline {subsubsection}{Meccanica Classica}{30}{section*.55}
+\contentsline {subsubsection}{Meccanica quantistica}{30}{section*.56}
+\contentsline {subsection}{\numberline {1.4.3}Ensemble}{30}{subsection.1.4.3}
+\contentsline {section}{\numberline {1.5}Bibliografia}{31}{section.1.5}
+\contentsline {chapter}{\numberline {2}Gas perfetto}{33}{chapter.2}
+\contentsline {section}{\numberline {2.1}Gas ideale}{33}{section.2.1}
+\contentsline {paragraph}{Deviazioni dall'idealit\IeC {\`a}}{34}{section*.57}
+\contentsline {section}{\numberline {2.2}Statistiche di Bose-Einstein e Fermi-Dirac}{34}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Fermi-Dirac}{35}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Bose-Einstein}{35}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Gas poco degenere}{36}{section.2.3}
+\contentsline {subsubsection}{Integrazione sugli stati}{36}{section*.58}
+\contentsline {subsubsection}{Correzioni al caso classico}{36}{section*.59}
+\contentsline {paragraph}{Degenerazione di spin}{36}{section*.60}
+\contentsline {paragraph}{Equazione di stato}{36}{section*.61}
+\contentsline {section}{\numberline {2.4}Gas di Fermi molto degenere: elettroni nei metalli}{38}{section.2.4}
+\contentsline {paragraph}{Basse temperature}{39}{section*.63}
+\contentsline {section}{\numberline {2.5}Gas di Bose molto degenere: condensati di Bose-Einstein}{44}{section.2.5}
+\contentsline {subsubsection}{Propriet\IeC {\`a} del condensato di Bose-Einstein}{46}{section*.69}
+\contentsline {subsection}{\numberline {2.5.1}Tecniche di realizzazione sperimentale di un condensato di Bose-Einstein}{47}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Approfondimenti sui condensati}{47}{subsection.2.5.2}
+\contentsline {section}{\numberline {2.6}Elettroni}{47}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Conduzione nei metalli}{47}{subsection.2.6.1}
+\contentsline {subsubsection}{Modello di Drude}{47}{section*.71}
+\contentsline {subsubsection}{Modello di Drude quantistico}{48}{section*.72}
+\contentsline {subsubsection}{Equazione del trasporto di Boltzmann}{48}{section*.73}
+\contentsline {paragraph}{Trasporto di carica}{49}{section*.74}
+\contentsline {subsection}{\numberline {2.6.2}Elettroni in un campo magnetico}{50}{subsection.2.6.2}
+\contentsline {subsubsection}{Modello classico}{50}{section*.75}
+\contentsline {paragraph}{Entropia}{51}{section*.77}
+\contentsline {paragraph}{Demagnetizzazione adiabatica}{52}{section*.79}
+\contentsline {subsubsection}{Gas di Fermi}{52}{section*.81}
+\contentsline {subsection}{\numberline {2.6.3}Emissione di elettroni da un metallo}{53}{subsection.2.6.3}
+\contentsline {subsubsection}{Effetto termoionico}{54}{section*.83}
+\contentsline {subsubsection}{Effetto fotoelettrico}{54}{section*.84}
+\contentsline {section}{\numberline {2.7}Bibliografia}{56}{section.2.7}
+\contentsline {chapter}{\numberline {3}Fluttuazioni e Rumore}{57}{chapter.3}
+\contentsline {section}{\numberline {3.1}Fluttuazioni}{57}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Fluttuazioni di fotoni}{57}{subsection.3.1.1}
+\contentsline {paragraph}{Interpretazione a pacchetti d'onda}{58}{section*.85}
+\contentsline {subsection}{\numberline {3.1.2}Spazio delle fasi per un fascio di luce}{59}{subsection.3.1.2}
+\contentsline {paragraph}{Esperimento di Young}{60}{section*.86}
+\contentsline {subparagraph}{Interpretazione della coerenza spaziale}{60}{section*.88}
+\contentsline {subsubsection}{Conteggio degli stati}{61}{section*.90}
+\contentsline {subsection}{\numberline {3.1.3}Interferometria stellare e di Hanbury Brown e Twiss}{62}{subsection.3.1.3}
+\contentsline {paragraph}{Interferometro stellare di Michelson}{62}{section*.92}
+\contentsline {paragraph}{Interferometro di Hanbury Brown e Twiss}{63}{section*.93}
+\contentsline {paragraph}{Misura della coerenza temporale}{64}{section*.95}
+\contentsline {section}{\numberline {3.2}Rumore}{64}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Teorema di Nyquist}{64}{subsection.3.2.1}
+\contentsline {paragraph}{Generalizzazione ad impedenze complesse}{66}{section*.98}
+\contentsline {subsection}{\numberline {3.2.2}Teorema di Wiener-Khintchine}{67}{subsection.3.2.2}
+\contentsline {subsubsection}{Serie di Fourier}{67}{section*.99}
+\contentsline {subsubsection}{Trasformata di Fourier}{67}{section*.100}
+\contentsline {subparagraph}{Modulo della trasformata}{68}{section*.101}
+\contentsline {subparagraph}{Manipolazioni algebriche}{68}{section*.102}
+\contentsline {subsection}{\numberline {3.2.3}Derivazione microscopica del Teorema di Nyquist}{69}{subsection.3.2.3}
+\contentsline {subsubsection}{Statistica di Maxwell-Boltzmann}{69}{section*.103}
+\contentsline {subsubsection}{Statistica di Fermi-Dirac}{70}{section*.104}
+\contentsline {subsection}{\numberline {3.2.4}Shot noise}{70}{subsection.3.2.4}
+\contentsline {subsubsection}{Distribuzione spettrale}{71}{section*.105}
+\contentsline {section}{\numberline {3.3}Bibliografia}{72}{section.3.3}
+\contentsline {chapter}{\numberline {4}Cristalli}{73}{chapter.4}
+\contentsline {section}{\numberline {4.1}Il dilemma della capacit\IeC {\`a} termica}{73}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Teorema di equipartizione}{73}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Modello di Einstein}{75}{subsection.4.1.2}
+\contentsline {subsubsection}{Numero di modi normali}{76}{section*.107}
+\contentsline {subsection}{\numberline {4.1.3}Modello di Debye}{77}{subsection.4.1.3}
+\contentsline {subsubsection}{Legge di dispersione per onde lunghe}{77}{section*.108}
+\contentsline {subsubsection}{Capacit\IeC {\`a} termica e propriet\IeC {\`a} termodinamiche}{78}{section*.109}
+\contentsline {subsubsection}{Fotoni}{80}{section*.111}
+\contentsline {paragraph}{Potenziale chimico}{81}{section*.112}
+\contentsline {paragraph}{Legge di dispersione}{81}{section*.113}
