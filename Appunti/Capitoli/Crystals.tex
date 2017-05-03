@@ -703,17 +703,115 @@ Un modo più facile è accorgersi che la condizione che devono soddisfare i vett
 
 \paragraph{Volume della cella} Il volume della cella primitiva del reticolo reciproco si trova facilmente a partire dalle espressioni esplicite per i $ \textbf{b}_i $, esso è $ (2\pi)^3/v $, dove $ v $ è il volume della cella primitiva del reticolo diretto.
 
+\paragraph{Zone di Brillouin} Si da inoltre la seguente definizione:
 
-\subsection{Zone di Brillouin}
+\begin{defn}[Prima zona di Brillouin]
+	Si definisce \textit{prima zona di Brillouin} la cella primitiva di Wigner-Seitz del reticolo reciproco.
+\end{defn}
+
+Le seconda zona si ottiene applicando la definizione di cella di Wigner-Seitz a un elemento del reticolo, avendo eliminato i suoi primi vicini (per cui si ottiene bisecando i segmenti che congiungono l'elemento in esame con i secondi vicini).
+Analogamente per le zone successive.
+
+\subsubsection{Piani reticolari}
+
+\begin{defn}[Piano reticolare]
+	Si definisce \textit{piano reticolare} qualunque piano contenente tre elementi indipendenti (non allineati) del reticolo di Bravais.
+\end{defn}
+Ovviamente la definizione può essere estesa a iperpiani in dimensione generica.
+
+Ognuno di questi piani conterrà infiniti punti del reticolo, a causa delle proprietà di periodicità di esso, che costituiranno un sottoreticolo bidimensionale.
+Inoltre a ogni piano saranno associati infiniti altri piani, paralleli ad esso ed equispaziati, che vengono collettivamente chiamati \textit{famiglia di piani reticolari}, e conterranno tutti i punti del reticolo di Bravais\footnote{In pratica: due dimensioni vengono coperte dal singolo piano, e la terza dalla famiglia. \`E facile verificare questa affermazione poiché dati tre punti è facile associare ad essi una cella primitiva. Le celle che si possono associare a tre punti sono in realtà infinite, poiché una faccia della cella è definita dai tre punti, mentre il terzo spigolo è arbitrario, fra tutti quelli che rendono la cella primitiva.}.
+
+Evidentemente esisteranno più di una famiglia di piani reticolari: infinite. Un modo molto semplice per classificarle è dato dal reticolo reciproco:
+
+\begin{thm}[Classificazione delle famiglie di piani reticolari]
+	Per ogni famiglia di piani reticolari separati da una distanza $ d $, esiste una retta di vettori del reticolo reciproco, il più corto dei quali è lungo $ 2\pi/d $.
+	
+	\`E vero anche il viceversa: per ogni vettore del reticolo reciproco esiste una famiglia di piani reticolari del reticolo diretto ortogonali ad esso. Se si considera la retta di vettori del reticolo reciproco vale anche la stessa relazione per le distanze, considerando la separazione tra i piani e la lunghezza del più corto vettore della retta.
+\end{thm}
+
+Il teorema è una diretta conseguenza di:
+\begin{itemize}
+	\item la definizione di reticolo reciproco in termini di vettori d'onda di onde piane con la corretta periodicità;
+	\item il fatto che le onde piane hanno piani di fase definiti e equispaziati.
+\end{itemize}
+
+\begin{proof}
+	Per provare la prima parte del teorema, data una famigli di piani reticolari, sia $ \hat{\textbf{n}} $ il vettore unitario ortogonale a tali piani.
+	Si ha che posto $ \textbf{K} = 2\pi\hat{\textbf{n}}/d $, i piani a fase costante di $ e^{i\textbf{K}\cdot\textbf{r}} $ sono piani ortogonali a $ \textbf{K} $, e quindi a $ \hat{\textbf{n}} $, e la lunghezza d'onda è $ \lambda = 2\pi/K = d$, che è anche la distanza tra due piani consecutivi con la stessa fase.
+	
+	Poiché un piano contiene il punto $ \textbf{r} = 0 $ allora la famiglia è definita da $ e^{i\textbf{K}\cdot\textbf{r}} = 1 $. Inoltre $ \textbf{K} $ è il vettore più corto, poiché se fosse più piccolo non si potrebbe avere la stessa fase su due piani a distanza $ d $, ma solo a distanza maggiore.
+	
+	Per mostrare il teorema inverso si consideri un vettore del reticolo reciproco $ \textbf{K} $. La relazione $ e^{i\textbf{K}\cdot\textbf{r}} = 1 $ definisce piani paralleli, a distanza $ \lambda = 2\pi/K $, e per la definizione di reticolo reciproco questi piani sono tutti piani reticolari.
+	
+	Se si considera il più corto vettore del reticolo reciproco parallelo a $ \textbf{K} $ si ha che i piani definiti da $ e^{i\textbf{K}\cdot\textbf{r}} = 1 $ sono un'intera famiglia: se ve ne fossero di ulteriori applicando la prima parte del teorema si otterrebbe un vettore del reticolo reciproco più corto di quello più corto, che è evidentemente assurdo.
+\end{proof}
 
 \subsection{Diffrazione dei raggi X}
 
 \section{Hamiltoniana dei Cristalli}
 
+L'operatore Hamiltoniano per un sistema cristallino può essere suddiviso in più termini:
+\[ H = T_e + T_N + V_{NN} + V_{ee} + V_{eN} + C_e^{Rel} \]
+
+Il primo termine indica l'operatore cinetico per gli elettroni, che si può scrivere:
+\[ T_e = \sum_e \frac{p_e^2}{2m} = - \sum_i \frac{\hbar^2\nabla_i^2}{2m}\]
+dove $ e $ enumera gli elettroni e $ i $ le coordinate di posizione elettroniche.
+
+Il secondo è simile al primo: indica l'operatore cinetico per i nuclei, che si può scrivere:
+\[ T_N = \sum_N \frac{p_N^2}{2M} = - \sum_I \frac{\hbar^2\nabla_I^2}{2M}\]
+dove $ N $ enumera i nuclei e $ I $ le coordinate di posizione nucleari.
+
+Il terzo termine rappresenta l'interazione coulombiana tra i nuclei:
+\[ V_{NN} = \frac{1}{2} \sum_{I \neq J} \frac{Z_I Z_J e^2}{\abs{R_I - R_J}}\]
+e il quarto quella fra gli elettroni:
+\[ V_{ee} = \frac{1}{2} \sum_{i \neq j} \frac{e^2}{\abs{r_i - r_j}}\]
+il quinto termine l'attrazione tra elettroni e nuclei:
+\[ V_{NN} = - \sum_{i,I} \frac{Z_I e^2}{\abs{r_i - R_I}}\]
+
+Il sesto termine indica le correzioni relativistiche sugli elettroni (la struttura fine):
+\[ C_e^{Rel} = \sum_e - \frac{p_e^2}{2 m^3 c^2} + \frac{\hbar^2\nabla_e^2 V_e}{8 m^2 c^2} + \frac{\hbar}{4 m^2 c^2}(\div{\vec{V}_e} \times \vec{p}_e)\cdot \vec{\sigma}_e\]
+dove il primo termine è la prima correzione relativistica all'energia cinetica, il secondo è il termine di Darwin e il terzo l'interazione spin-orbita\footnote{Si rimanda al corso di meccanica quantistica la spiegazione di questi termini.}.
+Il modo più semplice per trattare le correzioni relativistiche è trascurarle in un primo momento e reintrodurle come effetti perturbativi.
+
 \subsection{Approssimazione di Born-Oppenheimer}
+
+Questa approssimazione corrisponde, a livello intuitivo, a considerare gli elettroni che si muovono infinitamente più veloci dei nuclei, che nel tempo di moto degli elettroni stanno fermi e generano il potenziale in cui essi si muovono, mentre per i nuclei è l'energia totale degli elettroni in funzione delle posizioni dei nuclei a determinare il potenziale.
+
+Per cui gli autostati degli elettroni determinano il legame chimico e la stabilità delle strutture cristallline, mentre i moti nucleari che da tali legami dipendono sono responsabili delle proprietà meccaniche, elastiche e anelastiche.
+\newline
+
+La funzione d'onda del sistema è quindi una funzione d'onda di tutte le coordinate elettroniche e nucleari insieme (ad essere rigorosi si dovrebbe considerare uno spinore).
+Si può però semplificare questa forma applicando il metodo adiabatico: si fattorizza la funzione d'onda nel prodotto di due funzioni, di cui una dipende solo dalle variabili nucleari.
+\[ \Psi_{nv} (\textbf{r,R}) = F_{nv}(\textbf{R}) \psi_{n}(\textbf{R,\textbf{r}}) \]
+con $ \textbf{R} $ le coordinate nucleari e $ \textbf{r} $ quelle elettroniche; la funzione $ F_{nv} $ sarà quella coinvolta nella dinamica "lenta", mentre $ \psi_{n} $ in quella "veloce".
+
+L'equazione di Schrödinger diventa quindi:
+\begin{align*}
+-\frac{\hbar^2}{2m} F_{nv}(\textbf{R}) \nabla_r^2  \psi_{n}(\textbf{R},\textbf{r}) &+ (V_{ee} + V_{eN} + C_e^{Rel})F_{nv}(\textbf{R})\psi_{n}(\textbf{R,r}) - \frac{\hbar^2}{2M} \psi_{n}(\textbf{R,r}) \nabla_R^2 F_{nv}(\textbf{R}) + V_{NN} F_{nv}(\textbf{R})\psi_{n}(\textbf{R,r}) =\\
+&= E F_{nv}(\textbf{R}) \psi_{n}(\textbf{R,r})
+\end{align*}
+in cui $ E $ è l'energia e sono stati trascurati due termini nell'energia cinetica dei nuclei (quello in cui viene derivata $ \psi_{n} $ due volte rispetto a $ R $ e il "doppio prodotto"), poiché la dipendenza da $ R $ è inclusa in massima parte in $ F_{nv} $, per cui i termini in cui $ \psi_{n} $ rispetto a $ \textbf{R} $ sono piccoli\footnote{Si noti che questi termini qui trascurati rappresentano i termini di interazine residua fra gli elettroni e i moti dei nuclei (interazione tra elettroni e fononi) e non sno sempre trascurabili. Tali termini sono necessari per la comprensione dei fenomeni di trasporto, e sono alla base dei processi di transizione di fase e di instabilità strutturale-}.
+
+Dividendo per $ F_{nv}(\textbf{R}) \psi_{n}(\textbf{R,r}) $ si vede che l'equazione è separabile:
+\[ -\frac{\hbar^2}{2m} \frac{\nabla_r^2  \psi_{n}(\textbf{R},\textbf{r})}{\psi_{n}(\textbf{R},\textbf{r})} + V_{ee} + V_{eN} + C_e^{Rel} - \frac{\hbar^2}{2M} \frac{\nabla_R^2 F_{nv}(\textbf{R})}{F_{nv}(\textbf{R})} + V_{NN} = E  \]
+i primi quattro termini devono essere pari a una funzione indipendente da $ r $, perché gli altri non hanno alcun tipo di dipendenza da queste variabili:
+\[ -\frac{\hbar^2}{2m} \frac{\nabla_r^2  \psi_{n}(\textbf{R},\textbf{r})}{\psi_{n}(\textbf{R},\textbf{r})} + V_{ee} + V_{eN} + C_e^{Rel} = E_n(\textbf{R}) \]
+da cui si ricava l'equazione per i termini rimanenti:
+\[ - \frac{\hbar^2}{2M} \frac{\nabla_R^2 F_{nv}(\textbf{R})}{F_{nv}(\textbf{R})} + V_{NN} + E_n(\textbf{R}) = E  \]
+
+La prima equazione è quella per gli stati elettronici, e determini gli autostati in funzione della posizione dei nuclei. La seconda equazione, per ogni stato elettronico $ n $, determina gli autostati dei moti dei nuclei (vibrazioni).
+
+L'energia $ E_n(\textbf{R}) $ compare come contributo al potenziale per il moto dei nuclei; aggiunta alla repulsione internucleare essa costituisce infatti il potenziale per la seconda equazione.
+
+Lo stato fondamentale del cristallo sarà quello a più bassa energia, per cui il potenziale
+\[ V_n(\textbf{R}) = E_n(\textbf{R}) + \sum_{I \neq J} \frac{Z_I Z_J e^2}{\abs{R_I - R_J}} \]
+è costituito da curve che hanno un minimo in corrispondenza alle posizioni di equilibrio dei nuclei.
 
 \subsection{Hartree-Fock}
 
 \section{Il teorema di Bloch}
 
 \subsection{Il concetto di banda}
+
+\section{Bibliografia}

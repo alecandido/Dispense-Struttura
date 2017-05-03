@@ -1,7 +1,7 @@
-% Pantieri lo chiama colophon, va bene per scrivere qualcosa in seconda pagina.
 \cleardoublepage
 
-%\maketitle
+% --- TITLE ---
+
 \begin{titlepage}
 	\makeatletter
 	\centering
@@ -16,6 +16,8 @@
 	
 	\vfill
 \end{titlepage}
+
+% --- COLOPHON ---
 
 \phantomsection
 \thispagestyle{empty}
@@ -43,10 +45,7 @@
 
 Quest'opera è stata rilasciata con licenza Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale. Per leggere una copia della licenza visita il sito web \href{http://creativecommons.org/licenses/by-sa/4.0/}{http://creativecommons.org/licenses/by-sa/4.0/}.
 
-\pdfbookmark{\contentsname}{tableofcontents}
-\setcounter{tocdepth}{2}
-\tableofcontents
-\markboth{\scshape{\contentsname}}{\scshape{\contentsname}}
+% --- DEDICATION ---
 
 \clearpage
 \phantomsection
@@ -66,6 +65,15 @@ Quest'opera è stata rilasciata con licenza Creative Commons Attribuzione - Cond
 \begin{center}
 	Se mi viene in mente qualche idea migliore cambio dedica, ma proprio non mi andava di dedicare delle dispense a qualche mio congiunto, per cui credo di fare la cosa più sensata \textbf{dedicando} queste dispense agli \textbf{studenti di fisica}, gentaccia per lo più... ma in fondo la maggior parte mi stanno simpatici.
 \end{center}
+
+% --- INDEX ---
+
+\pdfbookmark{\contentsname}{tableofcontents}
+\setcounter{tocdepth}{2}
+\tableofcontents
+\markboth{\scshape{\contentsname}}{\scshape{\contentsname}}
+
+% --- INTRODUCTION ---
 
 \makeatletter\@openrightfalse\makeatother
 

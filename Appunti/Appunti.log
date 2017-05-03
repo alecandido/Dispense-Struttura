@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.2.20)  3 MAY 2017 19:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.2.20)  4 MAY 2017 00:32
 entering extended mode
 **./Appunti.tex
 (Appunti.tex
@@ -2330,24 +2330,24 @@ l.18 \end{titlepage}
 
 ]
 LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <10> not available
-(Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 28.
-LaTeX Font Info:    Try loading font information for TS1+cmbr on input line 30.
+(Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 30.
+LaTeX Font Info:    Try loading font information for TS1+cmbr on input line 32.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\cmbright\ts1cmbr.fd"
 File: ts1cmbr.fd 2005/04/13 v8.1 (WaS)
 )
-Underfull \hbox (badness 10000) in paragraph at lines 28--32
+Underfull \hbox (badness 10000) in paragraph at lines 30--34
 
  []
 
 <Licenza/by-sa.pdf, id=298, 96.36pt x 33.726pt>
 File: Licenza/by-sa.pdf Graphic file (type pdf)
  <use Licenza/by-sa.pdf>
-Package pdftex.def Info: Licenza/by-sa.pdf used on input line 39.
+Package pdftex.def Info: Licenza/by-sa.pdf used on input line 41.
 (pdftex.def)             Requested size: 96.73788pt x 33.85815pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--43
+Underfull \hbox (badness 10000) in paragraph at lines 43--45
 
  []
 
@@ -2355,8 +2355,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.48 \tableofcontents
-                      [2 <./Licenza/by-sa.pdf>] (Appunti.toc
+l.50 \clearpage
+                [2 <./Licenza/by-sa.pdf>] [3
+
+] [4
+
+] (Appunti.toc
 Package cleveref Info: loaded `italian' language definitions on input line 1.
 Package cleveref Info: loaded `italian' language definitions on input line 2.
 LaTeX Font Info:    Try loading font information for OT1+cmbr on input line 4.
@@ -2380,36 +2384,33 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 4.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [3
-
-])
+) [5])
 \tf@toc=\write4
 \openout4 = `Appunti.toc'.
 
-Package cleveref Info: loaded `italian' language definitions on input line 51.
+Package cleveref Info: loaded `italian' language definitions on input line 82.
 
 
 LaTeX Font Warning: Font shape `T1/cmbr/m/sc' undefined
-(Font)              using `T1/cmbr/m/n' instead on input line 51.
+(Font)              using `T1/cmbr/m/n' instead on input line 82.
 
-[4] [5
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 76--78
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 84--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--81
+Underfull \hbox (badness 10000) in paragraph at lines 87--89
 
  []
 
-) [6
+) [7
+
+] [8
 
 ]
 Capitolo 1.
 (Capitoli/TermStat.tex [1
-
 
 ]
 Package cleveref Info: loaded `italian' language definitions on input line 107.
@@ -2436,7 +2437,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 295--297
 Package cleveref Info: loaded `italian' language definitions on input line 297.
 
 [5] (Immagini/MaxRel.pdf_tex
-<Immagini/MaxRel.pdf, id=464, page=1, 221.33646pt x 162.22636pt>
+<Immagini/MaxRel.pdf, id=472, page=1, 221.33646pt x 162.22636pt>
 File: Immagini/MaxRel.pdf Graphic file (type pdf)
 
 <use Immagini/MaxRel.pdf, page 1>
@@ -2466,7 +2467,7 @@ Package cleveref Info: loaded `italian' language definitions on input line 553.
 Package cleveref Info: loaded `italian' language definitions on input line 606.
 
  [10]
-<Immagini/PhaseDiagram.png, id=523, 411.03563pt x 220.57407pt>
+<Immagini/PhaseDiagram.png, id=532, 411.03563pt x 220.57407pt>
 File: Immagini/PhaseDiagram.png Graphic file (type png)
 
 <use Immagini/PhaseDiagram.png>
@@ -2475,7 +2476,7 @@ Package pdftex.def Info: Immagini/PhaseDiagram.png used on input line 635.
 Package cleveref Info: loaded `italian' language definitions on input line 650.
 
  [11 <./Immagini/PhaseDiagram.png>]
-<Immagini/PhasePV.png, id=536, 566.115pt x 295.1025pt>
+<Immagini/PhasePV.png, id=544, 566.115pt x 295.1025pt>
 File: Immagini/PhasePV.png Graphic file (type png)
 
 <use Immagini/PhasePV.png>
@@ -2580,7 +2581,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1294--1296
 
 Package cleveref Info: loaded `italian' language definitions on input line 1322
 .
-[23] <Immagini/Edistr1.png, id=665, 545.03625pt x 222.8325pt>
+[23] <Immagini/Edistr1.png, id=673, 545.03625pt x 222.8325pt>
 File: Immagini/Edistr1.png Graphic file (type png)
 
 <use Immagini/Edistr1.png>
@@ -2593,7 +2594,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1376--1378
 
 Package cleveref Info: loaded `italian' language definitions on input line 1383
 .
-[24] <Immagini/EdistrN.png, id=672, 374.14781pt x 152.82094pt>
+[24] <Immagini/EdistrN.png, id=680, 374.14781pt x 152.82094pt>
 File: Immagini/EdistrN.png Graphic file (type png)
 
 <use Immagini/EdistrN.png>
@@ -2678,7 +2679,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 272--274
 
 Package cleveref Info: loaded `italian' language definitions on input line 274.
 
-[37] <Immagini/FermiStep.png, id=778, 523.20468pt x 287.57437pt>
+[37] <Immagini/FermiStep.png, id=786, 523.20468pt x 287.57437pt>
 File: Immagini/FermiStep.png Graphic file (type png)
 
 <use Immagini/FermiStep.png>
@@ -2696,7 +2697,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 348--350
 
  []
 
-<Immagini/FStepT.png, id=791, 475.7775pt x 284.56313pt>
+<Immagini/FStepT.png, id=799, 475.7775pt x 284.56313pt>
 File: Immagini/FStepT.png Graphic file (type png)
 
 <use Immagini/FStepT.png>
@@ -2713,7 +2714,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 362--365
 
 Package cleveref Info: loaded `italian' language definitions on input line 369.
 
-[39] <Immagini/ElectronsDispersion.png, id=801, 590.95781pt x 394.47375pt>
+[39] <Immagini/ElectronsDispersion.png, id=810, 590.95781pt x 394.47375pt>
 File: Immagini/ElectronsDispersion.png Graphic file (type png)
 
 <use Immagini/ElectronsDispersion.png>
@@ -2723,7 +2724,7 @@ Package pdftex.def Info: Immagini/ElectronsDispersion.png used on input line 38
 Package cleveref Info: loaded `italian' language definitions on input line 401.
 
  [40 <./Immagini/FStepT.png>]
-<Immagini/SmoothStep.png, id=808, 501.37312pt x 283.81032pt>
+<Immagini/SmoothStep.png, id=817, 501.37312pt x 283.81032pt>
 File: Immagini/SmoothStep.png Graphic file (type png)
 
 <use Immagini/SmoothStep.png>
@@ -2737,7 +2738,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 423--425
 Package cleveref Info: loaded `italian' language definitions on input line 432.
 
 [41 <./Immagini/ElectronsDispersion.png> <./Immagini/SmoothStep.png>]
-<Immagini/SmoothStepDifferences.png, id=820, 582.67688pt x 185.19188pt>
+<Immagini/SmoothStepDifferences.png, id=828, 582.67688pt x 185.19188pt>
 File: Immagini/SmoothStepDifferences.png Graphic file (type png)
 
 <use Immagini/SmoothStepDifferences.png>
@@ -2770,7 +2771,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 572--575
 
 Package cleveref Info: loaded `italian' language definitions on input line 579.
 
-[44] <Immagini/GasToLiquid.png, id=839, 387.69844pt x 254.45062pt>
+[44] <Immagini/GasToLiquid.png, id=847, 387.69844pt x 254.45062pt>
 File: Immagini/GasToLiquid.png Graphic file (type png)
 
 <use Immagini/GasToLiquid.png>
@@ -2779,7 +2780,7 @@ Package pdftex.def Info: Immagini/GasToLiquid.png used on input line 582.
 Package cleveref Info: loaded `italian' language definitions on input line 625.
 
  [45 <./Immagini/GasToLiquid.png>]
-<Immagini/BoseThermalCapacity.png, id=848, 402.00188pt x 188.20313pt>
+<Immagini/BoseThermalCapacity.png, id=857, 402.00188pt x 188.20313pt>
 File: Immagini/BoseThermalCapacity.png Graphic file (type png)
 
 <use Immagini/BoseThermalCapacity.png>
@@ -2816,14 +2817,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 903--906
 
 Package cleveref Info: loaded `italian' language definitions on input line 910.
 
-[50] <Immagini/IsingCl.png, id=890, 560.0925pt x 326.72063pt>
+[50] <Immagini/IsingCl.png, id=898, 560.0925pt x 326.72063pt>
 File: Immagini/IsingCl.png Graphic file (type png)
 
 <use Immagini/IsingCl.png>
 Package pdftex.def Info: Immagini/IsingCl.png used on input line 923.
 (pdftex.def)             Requested size: 290.22107pt x 169.30244pt.
 
-<Immagini/IsingEntropy.png, id=893, 567.62062pt x 297.36093pt>
+<Immagini/IsingEntropy.png, id=901, 567.62062pt x 297.36093pt>
 File: Immagini/IsingEntropy.png Graphic file (type png)
 
 <use Immagini/IsingEntropy.png>
@@ -2836,7 +2837,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 966--968
 
  []
 
-<Immagini/DemagnAdiabatica.png, id=903, 673.76718pt x 356.83313pt>
+<Immagini/DemagnAdiabatica.png, id=912, 673.76718pt x 356.83313pt>
 File: Immagini/DemagnAdiabatica.png Graphic file (type png)
 
 <use Immagini/DemagnAdiabatica.png>
@@ -2845,7 +2846,7 @@ Package pdftex.def Info: Immagini/DemagnAdiabatica.png used on input line 981.
 Package cleveref Info: loaded `italian' language definitions on input line 996.
 
  [52 <./Immagini/IsingEntropy.png> <./Immagini/DemagnAdiabatica.png>]
-<Immagini/FermiMagnSusc.png, id=913, 714.41907pt x 438.13687pt>
+<Immagini/FermiMagnSusc.png, id=922, 714.41907pt x 438.13687pt>
 File: Immagini/FermiMagnSusc.png Graphic file (type png)
 
 <use Immagini/FermiMagnSusc.png>
@@ -2887,7 +2888,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--78
  []
 
 Package cleveref Info: loaded `italian' language definitions on input line 78.
-[58] <Immagini/Young.png, id=962, 557.08125pt x 406.51875pt>
+[58] <Immagini/Young.png, id=971, 557.08125pt x 406.51875pt>
 File: Immagini/Young.png Graphic file (type png)
 
 <use Immagini/Young.png>
@@ -2896,7 +2897,7 @@ Package pdftex.def Info: Immagini/Young.png used on input line 115.
 Package cleveref Info: loaded `italian' language definitions on input line 127.
 
  [59]
-<Immagini/Spatialcoh.png, id=971, 294.34969pt x 224.33812pt>
+<Immagini/Spatialcoh.png, id=979, 294.34969pt x 224.33812pt>
 File: Immagini/Spatialcoh.png Graphic file (type png)
 
 <use Immagini/Spatialcoh.png>
@@ -2912,7 +2913,7 @@ Package cleveref Info: loaded `italian' language definitions on input line 153.
 Package cleveref Info: loaded `italian' language definitions on input line 191.
 
  [61 <./Immagini/Spatialcoh.png>]
-<Immagini/StellarMichelson.png, id=992, 566.115pt x 272.51813pt>
+<Immagini/StellarMichelson.png, id=1000, 566.115pt x 272.51813pt>
 File: Immagini/StellarMichelson.png Graphic file (type png)
 
 <use Immagini/StellarMichelson.png>
@@ -2921,7 +2922,7 @@ Package pdftex.def Info: Immagini/StellarMichelson.png used on input line 220.
 Package cleveref Info: loaded `italian' language definitions on input line 230.
 
  [62 <./Immagini/StellarMichelson.png>]
-<Immagini/HanburyBrownTwiss.png, id=1003, 391.4625pt x 423.08063pt>
+<Immagini/HanburyBrownTwiss.png, id=1011, 391.4625pt x 423.08063pt>
 File: Immagini/HanburyBrownTwiss.png Graphic file (type png)
 
 <use Immagini/HanburyBrownTwiss.png>
@@ -2942,14 +2943,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 299--302
 
 Package cleveref Info: loaded `italian' language definitions on input line 309.
 
-[64] <Immagini/NyquistLine.png, id=1020, 386.94562pt x 185.94469pt>
+[64] <Immagini/NyquistLine.png, id=1029, 386.94562pt x 185.94469pt>
 File: Immagini/NyquistLine.png Graphic file (type png)
 
 <use Immagini/NyquistLine.png>
 Package pdftex.def Info: Immagini/NyquistLine.png used on input line 321.
 (pdftex.def)             Requested size: 290.22107pt x 139.46666pt.
 
-<Immagini/NyquistNoiseGenerator.png, id=1021, 392.96812pt x 208.52907pt>
+<Immagini/NyquistNoiseGenerator.png, id=1030, 392.96812pt x 208.52907pt>
 File: Immagini/NyquistNoiseGenerator.png Graphic file (type png)
 
 <use Immagini/NyquistNoiseGenerator.png>
@@ -2986,7 +2987,7 @@ Package cleveref Info: loaded `italian' language definitions on input line 79.
  [72]
 Capitolo 4.
 (Capitoli/Crystals.tex
-<Immagini/HeatCapacity.png, id=1087, 458.46281pt x 246.9225pt>
+<Immagini/HeatCapacity.png, id=1095, 458.46281pt x 246.9225pt>
 File: Immagini/HeatCapacity.png Graphic file (type png)
 
 <use Immagini/HeatCapacity.png>
@@ -3050,7 +3051,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 376--379
 
  []
 
-<Immagini/HeatCapacityDebye.png, id=1140, 403.5075pt x 219.06844pt>
+<Immagini/HeatCapacityDebye.png, id=1148, 403.5075pt x 219.06844pt>
 File: Immagini/HeatCapacityDebye.png Graphic file (type png)
 
 <use Immagini/HeatCapacityDebye.png>
@@ -3071,7 +3072,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 439--441
 
  []
 
-<Immagini/CorpoNero.png, id=1153, 509.65407pt x 287.57437pt>
+<Immagini/CorpoNero.png, id=1161, 509.65407pt x 287.57437pt>
 File: Immagini/CorpoNero.png Graphic file (type png)
 
 <use Immagini/CorpoNero.png>
@@ -3095,7 +3096,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 527--529
 
  []
 
-<Immagini/BodyCenteredCubic.png, id=1168, 341.02406pt x 428.35031pt>
+<Immagini/BodyCenteredCubic.png, id=1177, 341.02406pt x 428.35031pt>
 File: Immagini/BodyCenteredCubic.png Graphic file (type png)
 
 <use Immagini/BodyCenteredCubic.png>
@@ -3105,7 +3106,7 @@ Package pdftex.def Info: Immagini/BodyCenteredCubic.png used on input line 535.
 Package cleveref Info: loaded `italian' language definitions on input line 571.
 
  [82 <./Immagini/BodyCenteredCubic.png>]
-<Immagini/ElementaryCell.png, id=1181, 539.76656pt x 149.8097pt>
+<Immagini/ElementaryCell.png, id=1190, 539.76656pt x 149.8097pt>
 File: Immagini/ElementaryCell.png Graphic file (type png)
 
 <use Immagini/ElementaryCell.png>
@@ -3119,7 +3120,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 607--609
 Package cleveref Info: loaded `italian' language definitions on input line 622.
 
 [83 <./Immagini/ElementaryCell.png>]
-<Immagini/HoneycombLattice.png, id=1201, 686.565pt x 415.5525pt>
+<Immagini/HoneycombLattice.png, id=1209, 686.565pt x 415.5525pt>
 File: Immagini/HoneycombLattice.png Graphic file (type png)
 
 <use Immagini/HoneycombLattice.png>
@@ -3127,18 +3128,31 @@ Package pdftex.def Info: Immagini/HoneycombLattice.png used on input line 646.
 (pdftex.def)             Requested size: 290.22107pt x 175.65952pt.
 Package cleveref Info: loaded `italian' language definitions on input line 676.
 
- [84 <./Immagini/HoneycombLattice.png>])
+ [84 <./Immagini/HoneycombLattice.png>]
+Package cleveref Info: loaded `italian' language definitions on input line 729.
+
+
+[85]
+Package cleveref Info: loaded `italian' language definitions on input line 777.
+
+ [86]
+Underfull \hbox (badness 10000) in paragraph at lines 781--783
+
+ []
+
+)
 Package cleveref Info: loaded `italian' language definitions on input line 86.
-
-[85] [86
-
-]
+ [87]
+Package cleveref Info: loaded `italian' language definitions on input line 86.
+ [88]
 Appendice A.
-(Capitoli/Missing.tex) [87] [88
+(Capitoli/Missing.tex) [89
+
+] [90
 
 ]
 Appendice B.
-(Capitoli/Thanks.tex) [89]
+(Capitoli/Thanks.tex) [91]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 98.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 98.
  (Appunti.aux
@@ -3148,7 +3162,7 @@ Package cleveref Info: loaded `italian' language definitions on input line 23.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 98.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 98.
 Package rerunfilecheck Info: File `Appunti.out' has not changed.
-(rerunfilecheck)             Checksum: F9200074ACA968CDAC5CA9BCB45B8416;5115.
+(rerunfilecheck)             Checksum: 24643300EDCB11FE6F20E28900493163;5103.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -3158,69 +3172,70 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 25535 strings out of 493333
- 454013 string characters out of 3139194
+ 25549 strings out of 493333
+ 454145 string characters out of 3139194
  670753 words of memory out of 3000000
- 28245 multiletter control sequences out of 15000+200000
- 50990 words of font info for 127 fonts, out of 3000000 for 9000
+ 28246 multiletter control sequences out of 15000+200000
+ 51331 words of font info for 128 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,16n,77p,10485b,798s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\bbold\dpi600
-\bbold10.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cm
-bright\dpi600\ebtl10.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
-ur\public\cmbright\dpi600\cmbrmb10.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9
-\fonts\pk\ljfour\public\cmbright\dpi600\ebsr8.pk> <C:\Users\candi\AppData\Local
-\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi600\cmbrbs10.pk> <C:\Users\candi
-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi450\cmbrsy8.pk> <C
-:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi375\e
-bsr8.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbrig
-ht\dpi600\ebmo8.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\pu
-blic\cmbright\dpi525\ebsr8.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\p
-k\ljfour\public\cmbright\dpi720\cmbrsy10.pk> <C:\Users\candi\AppData\Local\MiKT
-eX\2.9\fonts\pk\ljfour\public\cmbright\dpi720\cmbrmi10.pk> <C:\Users\candi\AppD
-ata\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi375\cmbrmi8.pk> <C:\Use
-rs\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi375\cmbrsy
-8.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\
-dpi375\cmbr8.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\publi
-c\cmbright\dpi600\cmbrsy8.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk
-\ljfour\public\cmbright\dpi600\cmbr8.pk> <C:\Users\candi\AppData\Local\MiKTeX\2
-.9\fonts\pk\ljfour\public\cmbright\dpi450\cmbrmi8.pk> <C:\Users\candi\AppData\L
-ocal\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi600\cmbrmi8.pk> <C:\Users\ca
-ndi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi450\cmbr8.pk> <
-C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\bbold\dpi600\bbo
-ld8.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbrigh
-t\dpi1493\cmbrmi10.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
-\public\cmbright\dpi1037\cmbrmi10.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9\
-fonts\pk\ljfour\public\cmbright\dpi525\cmbrsy8.pk> <C:\Users\candi\AppData\Loca
-l\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi525\cmbr8.pk> <C:\Users\candi\A
-ppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi525\cmbrmi8.pk> <C:\
-Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi600\cmb
-r10.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbrigh
-t\dpi720\ebbx10.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\pu
-blic\cmbright\dpi864\ebbx10.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\
-pk\ljfour\public\cmbright\dpi600\ebmr8.pk> <C:\Users\candi\AppData\Local\MiKTeX
-\2.9\fonts\pk\ljfour\public\cmbright\dpi450\ebmr8.pk> <C:\Users\candi\AppData\L
-ocal\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi525\ebmr8.pk> <C:\Users\cand
-i\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi600\cmbrsy10.pk> 
-<C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi600
-\cmbrmi10.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\c
-mbright\dpi600\ebbx10.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
+ <C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi
+600\tbbx10.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\
+bbold\dpi600\bbold10.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
+ur\public\cmbright\dpi600\ebtl10.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9\f
+onts\pk\ljfour\public\cmbright\dpi600\cmbrmb10.pk> <C:\Users\candi\AppData\Loca
+l\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi600\ebsr8.pk> <C:\Users\candi\A
+ppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi600\cmbrbs10.pk> <C:
+\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi450\cm
+brsy8.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbri
+ght\dpi375\ebsr8.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\p
+ublic\cmbright\dpi600\ebmo8.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\
+pk\ljfour\public\cmbright\dpi525\ebsr8.pk> <C:\Users\candi\AppData\Local\MiKTeX
+\2.9\fonts\pk\ljfour\public\cmbright\dpi720\cmbrsy10.pk> <C:\Users\candi\AppDat
+a\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi720\cmbrmi10.pk> <C:\User
+s\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi375\cmbrmi8
+.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\d
+pi375\cmbrsy8.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\publ
+ic\cmbright\dpi375\cmbr8.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\
+ljfour\public\cmbright\dpi600\cmbrsy8.pk> <C:\Users\candi\AppData\Local\MiKTeX\
+2.9\fonts\pk\ljfour\public\cmbright\dpi600\cmbr8.pk> <C:\Users\candi\AppData\Lo
+cal\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi450\cmbrmi8.pk> <C:\Users\can
+di\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi600\cmbrmi8.pk> 
+<C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi450
+\cmbr8.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\bbol
+d\dpi600\bbold8.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\pu
+blic\cmbright\dpi1493\cmbrmi10.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9\fon
+ts\pk\ljfour\public\cmbright\dpi1037\cmbrmi10.pk> <C:\Users\candi\AppData\Local
+\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi525\cmbrsy8.pk> <C:\Users\candi\
+AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi525\cmbr8.pk> <C:\U
+sers\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi525\cmbr
+mi8.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbrigh
+t\dpi600\cmbr10.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\pu
+blic\cmbright\dpi720\ebbx10.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\
+pk\ljfour\public\cmbright\dpi864\ebbx10.pk> <C:\Users\candi\AppData\Local\MiKTe
+X\2.9\fonts\pk\ljfour\public\cmbright\dpi600\ebmr8.pk> <C:\Users\candi\AppData\
+Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi450\ebmr8.pk> <C:\Users\can
+di\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi525\ebmr8.pk> <C
+:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi600\c
+mbrsy10.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmb
+right\dpi600\cmbrmi10.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
 our\public\cmbright\dpi1493\ebbx10.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9
-\fonts\pk\ljfour\public\cmbright\dpi600\tbmr10.pk> <C:\Users\candi\AppData\Loca
-l\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi600\ebmo10.pk> <C:\Users\candi\
-AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi600\ebmr10.pk> <C:\
-Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi864\ebm
-o10.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbrigh
-t\dpi1244\ebbx10.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/euler/eurm10.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/rsfs/
-rsfs10.pfb>
-Output written on Appunti.pdf (97 pages, 3410378 bytes).
+\fonts\pk\ljfour\public\cmbright\dpi600\ebbx10.pk> <C:\Users\candi\AppData\Loca
+l\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi600\tbmr10.pk> <C:\Users\candi\
+AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi600\ebmo10.pk> <C:\
+Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi600\ebm
+r10.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbrigh
+t\dpi864\ebmo10.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\pu
+blic\cmbright\dpi1244\ebbx10.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm
+/lm-ec.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/euler/eurm10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/rsfs/rsfs10.pfb>
+Output written on Appunti.pdf (101 pages, 3417712 bytes).
 PDF statistics:
- 2323 PDF objects out of 2487 (max. 8388607)
- 395 named destinations out of 1000 (max. 500000)
+ 2364 PDF objects out of 2487 (max. 8388607)
+ 407 named destinations out of 1000 (max. 500000)
  703 words of extra memory for PDF output out of 10000 (max. 10000000)
 
