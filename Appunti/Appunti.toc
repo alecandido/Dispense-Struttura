@@ -146,3 +146,5 @@
 \contentsline {section}{\numberline {4.4}Il teorema di Bloch}{83}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}Zone di Brillouin}{83}{subsection.4.4.1}
 \contentsline {subsection}{\numberline {4.4.2}Il concetto di banda}{83}{subsection.4.4.2}
+\contentsline {chapter}{\numberline {A}Lacune}{85}{appendix.Alph1}
+\contentsline {chapter}{\numberline {B}Ringraziamenti}{87}{appendix.Alph2}
