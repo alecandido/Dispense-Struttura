@@ -17,5 +17,5 @@ https://drive.google.com/open?id=0B17eEekVzRixRlo5UG5CSGpYQTg
 
 Elenco delle cose da fare:
 
-- Ashcroft 73-75, 86-91, 96-100, 132-136
-- Bassani 31-36, 44-47, 80-88
+- Ashcroft 91, 96-100, 132-136
+- Bassani 44-47, 80-88

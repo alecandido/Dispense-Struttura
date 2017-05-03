@@ -137,14 +137,22 @@
 \contentsline {paragraph}{Potenziale chimico}{81}{section*.112}
 \contentsline {paragraph}{Legge di dispersione}{81}{section*.113}
 \contentsline {section}{\numberline {4.2}Propriet\IeC {\`a} geometriche dei cristalli}{82}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Simmetrie spaziali}{82}{subsection.4.2.1}
-\contentsline {paragraph}{Gruppi di simmetria}{82}{section*.116}
-\contentsline {subsection}{\numberline {4.2.2}Diffrazione dei raggi X}{83}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Hamiltoniana dei Cristalli}{83}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Approssimazione di Born-Oppenheimer}{83}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Hartree-Fock}{83}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}Il teorema di Bloch}{83}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Zone di Brillouin}{83}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Il concetto di banda}{83}{subsection.4.4.2}
-\contentsline {chapter}{\numberline {A}Lacune}{85}{appendix.Alph1}
-\contentsline {chapter}{\numberline {B}Ringraziamenti}{87}{appendix.Alph2}
+\contentsline {subsection}{\numberline {4.2.1}Reticoli di Bravais}{82}{subsection.4.2.1}
+\contentsline {subsubsection}{Propriet\IeC {\`a} dei reticoli}{82}{section*.115}
+\contentsline {subsubsection}{Cella primitiva}{83}{section*.117}
+\contentsline {subparagraph}{Cella unitaria}{83}{section*.119}
+\contentsline {subparagraph}{Cella di Wigner-Seitz}{84}{section*.120}
+\contentsline {subsubsection}{Reticoli con una base}{84}{section*.121}
+\contentsline {subsection}{\numberline {4.2.2}Reticolo reciproco}{84}{subsection.4.2.2}
+\contentsline {subsubsection}{Reticolo di Bravais}{85}{section*.123}
+\contentsline {paragraph}{Il reciproco del reciproco}{85}{section*.124}
+\contentsline {paragraph}{Volume della cella}{85}{section*.125}
+\contentsline {subsection}{\numberline {4.2.3}Zone di Brillouin}{85}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Diffrazione dei raggi X}{85}{subsection.4.2.4}
+\contentsline {section}{\numberline {4.3}Hamiltoniana dei Cristalli}{85}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Approssimazione di Born-Oppenheimer}{85}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Hartree-Fock}{85}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Il teorema di Bloch}{85}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Il concetto di banda}{85}{subsection.4.4.1}
+\contentsline {chapter}{\numberline {A}Lacune}{87}{appendix.Alph1}
+\contentsline {chapter}{\numberline {B}Ringraziamenti}{89}{appendix.Alph2}

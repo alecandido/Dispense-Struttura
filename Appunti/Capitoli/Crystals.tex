@@ -508,7 +508,7 @@ Nella precedente sezione si è discusso della capacità termica dei cristalli, m
 
 Non si è quindi fatto uso di specifiche proprietà geometriche dei cristalli, ma solo del fatto che gli atomi siano spazialmente vincolati al sito che occupano. Si procede dunque in questa sezione a prenderà in esame più in dettaglio quali siano le proprietà geometriche dei cristalli.
 
-\subsection{Simmetrie spaziali}
+\subsection{Reticoli di Bravais}
 
 I cristalli sono caratterizzati da una periodicità discreta, che si realizza in una proprietà fondamentale. Per definirla si consideri un punto $ \textbf{r} $, tutti i punti associati da specifici vettori di traslazione $ \bm{\tau}_n $ sono ad esso equivalenti, cioè indistiguibili.
 
@@ -518,20 +518,72 @@ tutte le osservabili fisiche assumono lo stesso valore in $ \textbf{r} $ e $ \te
 
 La proprietà fondamentale è quindi la seguente: la struttura dei vettori di traslazione introdotti è
 \[ \bm{\tau}_{\textbf{n}} = n_1 \bm{\tau}_1 + n_2 \bm{\tau}_2 + n_3 \bm{\tau}_3  \]
-dove $ n_1, n_2, n_3 \in \mathbb{N} $ e $ \bm{\tau}_1, \bm{\tau}_2, \bm{\tau}3 $ sono vettori indipendenti che definiscono una cella primitiva.
+dove $ n_1, n_2, n_3 \in \mathbb{N} $ e $ \bm{\tau}_1, \bm{\tau}_2, \bm{\tau}_3 $ sono vettori indipendenti (detti \textit{vettori primitivi}) che definiscono una cella primitiva.
+
+\subsubsection{Proprietà dei reticoli}
 
 L'insieme dei vettori di traslazione $ \bm{\tau}_n $ costituisce il reticolo cristallino, e poiché la somma di due traslazione è ancora una traslazione, e ad ogni traslazione ne corrispone una inversa, tale insieme costituisce un gruppo, chiamato \textit{gruppo delle operazioni di traslazione.}
 
-Lo stesso reticolo traslazionale può essere ottenuto scegliendo celle primitive diverse, come mostrato in . Il nuovo insieme di vettori non sarà indipendente dal precedente, ma sono ottenibili l'uno dall'altro con combinazioni lineari a coefficienti interi.
+Un reticolo definito in tal modo è detto \textit{reticolo di Bravais}.
+\newline
 
-Proprio per quest'ultimo motivo il volume della cella elementare sarà indipendente dalla scelta dei vettori di base, infatti il volume di un parallelepipedo è un'applicazione multilineare alternante sui vettori che ne definiscono gli spigoli.
-\`E quindi possibile definire la cella elementare proprio come una qualunque cella di volume minimo (un altro modo potrebbe essere che non contenga punti del reticolo nella parte interna del suo volume).
+Una definizione equivalente è che un reticolo di Bravais è un insieme infinito di punti isolati (cioè un insieme discreto) che appare \textit{esattamente} lo stesso da ogni punto dell'insieme\footnote{Questa definizione è meno formale, ma forse più intuitiva. \`E stata inserita per rendre conto della nota sull'orientamento, che può chiarire a livello intuitivo cosa \textit{non} sia un reticolo di Bravais.}
+
+\begin{wrapfigure}{R}{0.3\textwidth}
+\vspace{-25pt}
+\centering
+\includegraphics[width=0.3\textwidth]{Immagini/BodyCenteredCubic.png}
+\caption{}
+\label{fig:bcc}
+\vspace{-30pt}
+\end{wrapfigure}
+
+La definizione alternativa data è una caratterizzazione intuitiva delle proprietà che definiscon un reticolo di Bravais. \`E però necessario ribadire cosa significhi "esattamente":
 
 \begin{note}[Orientamento]
-	Si specifica che, perché i punti siano equivalenti, non solo la disposizione deve essere la stessa (cioè la struttura dei vettori di base), ma anche l'orientamento. Ad esempio la piastrellatura esagonale del piano rispetta il requisito sulla disposizione, ma non quello sull'orientamento.
+	Si specifica che, perché i punti siano equivalenti, non solo la disposizione deve essere la stessa (cioè la struttura dei vettori primitivi), ma anche l'orientamento.
+	
+	Ad esempio la piastrellatura esagonale del piano rispetta il requisito sulla disposizione, ma non quello sull'orientamento.
 \end{note}
 
-Un reticolo definito in tal modo è detto \textit{reticolo di Bravais}.
+Per giustificare l'opportunità della definizione alternativa si consideri il seguente esempio.
+
+\begin{es}[Reticolo cubico a corpo centrato]
+	\label{es:bcc}
+	Nel caso mostrato in \cref{fig:bcc} si ha che gli elementi del reticolo sono i punti appartenenti ai due sistemi di reticoli cubici.
+	
+	Questo è intuitivo secondo la definizione alternativa, ma non lo è affatto se si tratta di individuare i vettori primitivi: in tal caso appare come se i reticoli fossero due (due reticoli cubici sovrapposti), ma è possibile trovare dei vettori che soddisfino anche questa definizione.
+	
+	Un esempio di tali vettori sono due spigoli adiacenti di un cubo e il vettore che congiunge il vertice in esame con il centro del cubo. Si verifichi che essi generano entrambi i sottoreticoli cubici.
+	
+	
+	Un altro esempio semplice è il reticolo cubico a facce centrate.
+\end{es}
+
+\begin{note}[Reticolo di Bravais]
+	Si noti che si è indicato con il termine \textit{reticolo di Bravais} l'insieme dei vettori di traslazione, quindi un sottoinsieme di uno spazio vettoriale.
+	
+	La denominazione \textit{reticolo di Bravais} viene però usata indifferentemente per indicare tre cose distinte:
+	\begin{itemize}
+		\item l'insieme dei punti dello spazio (cioè un sottoinsieme di uno spazio affine);
+		\item l'insieme dei vettori che li congiunge (cioè un sottoinsieme di uno spazio vettoriale);
+		\item l'insieme delle traslazioni che definite dai vettori (cioè un gruppo).
+	\end{itemize}
+	Insiemisticamente (e intuitivamente) questi tre insiemi sono la stessa cosa, perché in bigezione fra loro, sono distinti solo dalla struttura che li caratterizza.
+\end{note}
+
+Si ha inoltre la seguente proprietà per i reticoli:
+
+\begin{defn}[Numero di coordinazione]
+Poiché il numero di \textit{primi vicini} non dipende dal punto, a causa della periodicità del reticolo, allora esso è una proprietà del reticolo, ed è chiamato \textit{numero di coordinazione}.
+\end{defn}
+
+\subsubsection{Cella primitiva}
+
+Lo stesso reticolo traslazionale può essere ottenuto scegliendo celle primitive diverse, come mostrato in \cref{fig:elcell}. Il nuovo insieme di vettori (quello che definisce la nuova cella) non sarà indipendente dal precedente, ma sono ottenibili l'uno dall'altro con combinazioni lineari a coefficienti interi.
+
+Proprio per quest'ultimo motivo il volume della cella elementare sarà indipendente dalla scelta dei vettori primitivi, infatti il volume di un parallelepipedo è un'applicazione multilineare alternante sui vettori che ne definiscono gli spigoli.
+\`E quindi possibile definire la cella elementare proprio come una qualunque cella\footnote{\label{note:cell} Cioè un parallelepipedo definito da vettori del reticolo.} di volume minimo (un altro modo potrebbe essere che non contenga punti del reticolo nella parte interna del suo volume).
 
 \begin{figure}[h]
 	\centering
@@ -539,17 +591,120 @@ Un reticolo definito in tal modo è detto \textit{reticolo di Bravais}.
 	\vspace{-5pt}
 	\caption{}
 	\label{fig:elcell}
-	\vspace{-20pt}
+	\vspace{-5pt}
 \end{figure}
 
-\paragraph{Gruppi di simmetria} \`E possibile ottenere tutti i gruppi di simmetria realizzabili da un cristallo tridimensionale: essi sono $ 230 $ (ottenuti da $ 14 $ reticoli di traslazione e $ 32 $ gruppi puntuali, di cui $ 7 $ oloedrici).
-Non si vuole studiare in dettaglio questa affermazione, né è importante chiarire il significato dei termini usati, ma è importante sapere che i gruppi cristallini sono completamente classificati e in numero limitato.
+L'osservazione precedente talvolta viene estesa, per includere nella definizione precedente anche volumi genericim che non sono propriamente "celle" come definite in \cref{note:cell}.
 
-\begin{defn}[Numero di coordinazione]
-	Poiché il numero di \textit{primi vicini} non dipende dal punto, a causa della periodicità del reticolo, allora esso è una proprietà del reticolo, ed è chiamato \textit{numero di coordinazione}.
+\begin{defn}[Cella primitiva generalizzata]
+	La cella primitiva può essere un qualunque volume che se traslato con tutti i vettori del reticolo ha le seguenti proprietà:
+	\begin{itemize}
+		\item non genera mai due volumi parzialmente sovrapposti\footnote{Totalmente è impossibile per qualunque volume.};
+		\item ricopre tutto lo spazio con le copie generate (cioè ogni punto dello spazio apparterrà a una delle copie traslate).
+	\end{itemize}
 \end{defn}
 
+Dalla definizione precedente risulta che, considerando il caso in cui i punti del reticolo non appartengano al bordo della cella, ogni cella primitiva contiene uno e un solo punto. \`E quindi intuitivo che il volume di una cella sia pari all'inverso della densità dei punti del reticolo di Bravais, per cui anche nel caso generale il volume della cella è indipendente dalla scelta di questa.
+\newline
 
+Tornando alla cella primitiva inizialmente considerata, quella definita dai vettori primitivi del reticolo, si ha che essa spesso non rappresenta bene le proprietà di simmetria del reticolo, proprio a causa del numero di modi equivalenti in cui è possibile scegliere i vettori primitivi.
+ 
+Si pensi ad esempio a un reticolo cubico a corpo centrato (vedi \cref{es:bcc}), oppure un reticolo cubico a facce centrate.
+
+Ci sono due soluzioni usate questo tipo di problema:
+
+\subparagraph{Cella unitaria} Si può considerare una cella non primitiva, più grande di una primitiva, che abbia le stesse proprietà di quest'ultima, ma limitando le traslazioni solo a quelle generate da un sottoreticolo del reticolo di Bravais in esame (nel caso cubico a corpo centrato si può considerare la cella cubica e il sottoreticolo cubico).
+Essa quindi può essere scelta con le proprietà di simmetria desiderate.
+
+I numeri che specificano le dimensioni della cella unitaria sono detti \textit{costanti reticolari}.
+
+\subparagraph{Cella di Wigner-Seitz} \`E comunque sempre possibile considerare una cella primitiva generalizzata con le proprietà di simmetria del reticolo. Un modo per definire una cella con queste proprietà è quello di associare ogni punto dello spazio al punto del reticolo cui è più vicino\footnote{\label{note:wigseitz} I punti equidistanti da due o più elementi del reticolo si possono anche scartare, essi costituiscono un insieme a misura nulla, di dimensione più bassa rispetto alla dimensione del reticolo, a causa dei vincoli imposti dalla relazione di equidistanza.}.
+
+L'insieme di tutti i punti così associati ad un elemento del reticolo costituisce una cella primitiva, detta \textit{cella di Wigner-Seitz}.
+Poiché non c'è nessun riferimento in questa definizione ai vettori primitivi del reticolo questa cella avrà le stesse proprietà di simmetria del reticolo di Bravais.
+
+\begin{oss}[Costruzione geometrica]
+	La cella di Wigner-Seitz associata a un dato elemento del reticolo di Bravais può essere costruita connettendo tale elemento ai suoi primi vicini, e bisecando i segmenti congiungenti con iperpiani perpendicolari ad essi (rette per reticoli in 2D, piani in 3D, \dots).
+	La cella è ottenuta considerando tali iperpiani come bordi di essa.
+	
+	I punti degli iperpiani sono proprio quelli che realizzano la relazione di equidistanza citata in \cref{note:wigseitz}. 
+\end{oss}
+
+\subsubsection{Reticoli con una base} 
+
+Un cristallo è spesso organizzato in modo più complesso di quello che può essere descritto dal solo reticolo di Bravais associato. 
+Si può infatti considerare un cristallo in cui gli elementi del reticolo non siano semplici atomi, ma molecole, o altre strutture.
+
+In questo caso si parla di \textit{struttura cristallina}, cioè un reticolo di Bravais i cui elementi sono strutture fisiche non elementari.
+
+Più in generale si parla di \textit{reticoli con una base}, in cui al singolo elemento del reticolo di Bravais non è necessariamente associata un unica struttura fisica, ma anche una struttura geometrica costituita da più unità fisiche separate.
+
+Quest'ultimo caso è esemplificato in \cref{fig:honey}, dove è mostrata una piastrellatura esagonale del piano.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.6\textwidth]{Immagini/HoneycombLattice.png}
+	\vspace{-5pt}
+	\caption{}
+	\label{fig:honey}
+	\vspace{-5pt}
+\end{figure}
+
+Anche nel caso di reticoli di Bravais puri è possibile considerarli come reticoli con una base, ad esempio nel caso del reticolo cubico a corpo centrato, scegliendo come cella una cella unitaria non primitiva, e fissando gli elementi interni alla cella come \textit{base}.
+
+%\paragraph{Gruppi di simmetria} \`E possibile ottenere tutti i gruppi di simmetria realizzabili da un cristallo tridimensionale: essi sono $ 230 $ (ottenuti da $ 14 $ reticoli di traslazione e $ 32 $ gruppi puntuali, di cui $ 7 $ oloedrici).
+%Non si vuole studiare in dettaglio questa affermazione, né è importante chiarire il significato dei termini usati, ma è importante sapere che i gruppi cristallini sono completamente classificati e in numero limitato.
+
+\subsection{Reticolo reciproco}
+
+\begin{defn}[Reticolo reciproco]
+	Si definisce reticolo reciproco di un reticolo di Bravais l'insieme dei vettori $ \textbf{K} $ che definiscono onde piane con la periodicità del reticolo di Bravais associato. Cioè:
+	\[ e^{i\textbf{K}\cdot (\textbf{r} + \textbf{R})} = e^{i\textbf{K}\cdot \textbf{r}} \]
+	per ogni $ R $ appartenente al reticolo di Bravais.
+	
+	O, più semplicemente, $ K $ appartiene al reticolo reciproco se:
+	\[ e^{i\textbf{K}\cdot \textbf{R}} = 1 \]
+	per ogni $ R $ appartenente al reticolo di Bravais.
+\end{defn}
+
+Il reticolo di Bravais associato al reticolo reciproco è detto di solito \textit{reticolo diretto}.
+
+\subsubsection{Reticolo di Bravais}
+
+Anche il reticolo reciproco è un reticolo di Bravais, infatti se due vettori appartengono al reticolo reciproco anche qualunque loro combinazione lineare a coefficienti interi appartiene al reticolo reciproco.
+
+Inoltre è facile trovare i vettori primitivi del reticolo reciproco tridimensionale, essi saranno:
+\begin{align*}
+\textbf{b}_1 = 2\pi \frac{\textbf{a}_2 \times \textbf{a}_3}{\textbf{a}_1 \cdot (\textbf{a}_2 \times a_3)}\\
+\textbf{b}_2 = 2\pi \frac{\textbf{a}_3 \times \textbf{a}_1}{\textbf{a}_1 \cdot (\textbf{a}_2 \times a_3)}\\
+\textbf{b}_3 = 2\pi \frac{\textbf{a}_1 \times \textbf{a}_2}{\textbf{a}_1 \cdot (\textbf{a}_2 \times a_3)}
+\end{align*}
+dove $ \textbf{b}_i $ sono i vettori primitivi del reticolo reciproco e $ \textbf{a}_j $ quelli del reticolo diretto.
+Per provarlo è sufficiente verificare che sia soddisfatta:
+\[ \textbf{b}_i \cdot \textbf{a}_j = 2\pi \delta_{ij} \]
+dove $ \delta_{ij} $ è la delta di Kronecker.
+
+Per cui ogni vettore del reticolo reciproco può essere scritto come:
+\[ \textbf{k} = k_1 \textbf{b}_1 + k_2 \textbf{b}_2 + k_3 \textbf{b}_3\]
+e ogni elemento del reticolo diretto:
+\[ \textbf{R} = n_1 \textbf{a}_1 + n_2 \textbf{a}_2 + n_3 \textbf{a}_3\]
+e dalla relazione $ e^{i\textbf{k}\cdot\textbf{R}} = 1 $ deriva che i $ k_i $ devono essere interi, poiché gli $ n_j $ lo sono.
+
+\paragraph{Il reciproco del reciproco} Poiché il reticolo reciproco è anch'esso un reticolo di Bravais si può esaminare chi sia il \textit{suo} reciproco.
+Esso risulta essere il reticolo diretto, e un modo per provarlo è applicare due volte la formula per i vettori primitivi.
+
+Un modo più facile è accorgersi che la condizione che devono soddisfare i vettori del reciproco del reciproco è $ e^{i\textbf{K}\cdot\textbf{G}} = 1$, ma poiché tale condizione è simmetrica in $ \textbf{G},\textbf{K} $ è soddisfatta dagli elementi del reticolo diretto. Non ci possono essere ulteriori elementi non appartenenti al reticolo diretto per la definizione dei $ \textbf{b}_i $, se infatti si associano agli $ \textbf{a}_j $ coefficienti non interi il prodotto scalare sarà non intero per alcuni vettori del reciproco.
+
+\begin{es}
+	Il reticolo reciproco di un reticolo cubico semplice è ancora un reticolo cubico semplice.
+	
+	I reticoli cubici a facce centrate e a corpo centrato sono uno il reciproco dell'altro.
+\end{es}
+
+\paragraph{Volume della cella} Il volume della cella primitiva del reticolo reciproco si trova facilmente a partire dalle espressioni esplicite per i $ \textbf{b}_i $, esso è $ (2\pi)^3/v $, dove $ v $ è il volume della cella primitiva del reticolo diretto.
+
+
+\subsection{Zone di Brillouin}
 
 \subsection{Diffrazione dei raggi X}
 
@@ -560,7 +715,5 @@ Non si vuole studiare in dettaglio questa affermazione, né è importante chiari
 \subsection{Hartree-Fock}
 
 \section{Il teorema di Bloch}
-
-\subsection{Zone di Brillouin}
 
 \subsection{Il concetto di banda}
