@@ -810,7 +810,138 @@ Lo stato fondamentale del cristallo sarà quello a più bassa energia, per cui i
 
 \subsection{Hartree-Fock}
 
+La soluzione esatta dell'equazione di Schrödinger, anche nell'approssimazione di Born-Oppenheimer, è evidentemente un compito inattuabile. Si deve quindi trovare un'altra approssimazione ragionevole con significato fisico.
+
+La proposta è la seguente: si considerino gli elettroni indipendenti, per cui 
+\begin{itemize}
+	\item sarà possibile trovare gli stati di singola particella;
+	\item si otterrà lo stato a molti corpi come il prodotto degli stati di singola particella;
+	\item sarà necessario inoltre antisimmetrizzare lo stato a molti corpi, perché sia in accordo con la statistica di Fermi.
+\end{itemize}
+Lo stato antisimmetrico sarà in forma di determinante di Slater, e le funzioni d'onda di singola particella saranno in generale spinoriali.
+
+Questa approssimazione sarebbe rigorasamente giustificata se non ci fosse il termine di interazione interelettronico $ V_{ee} $.
+Tuttavia, anche applicando questa approssimazione e cercando una soluzione di questo tipo per l'equazione di Schrödinger stazionaria si sta tenendo conto, almeno al primo ordine, di questo termine.
+
+Si otterranno quindi le equazioni indipendenti per gli stati di singola particella:
+\[ H_{HF}(r_i) \psi_i(r_I) = E_i \psi_i(r_i) \]
+nelle quali il termine di interazione coulombiana fra eletroni è mediato sulle funzioni diverse da $ \psi_i $, e compare un termine di scambio.
+Sostituendo la $ \psi $ nelle equazioni ricavate nell'approssimazione Born-Oppenheimer con il determinante di Slater e applicando il principio variazionale (cioè che l'autovalore dell'energia sia minimo per una variazione di $ \delta \psi^\ast $) si ottiene la forma esplicita di tali equazioni indipendenti:
+\begin{align*}
+-\frac{\hbar^2}{2M}\grad^2{\psi_i(r)} - \sum_I \frac{Z_I e^2}{\abs{r- R_I}} \psi_i(r) &+ \left[\sum_{j\neq i} e^2 \int \frac{\psi_j^\ast (r')\psi_j (r') \dd^3 r'}{\abs{r-r'}} \right] \psi_i(r) -\\
+&- \left[\sum_{j\neq i} e^2 \int \frac{\psi_j^\ast (r')\psi_i (r') \dd^3 r'}{\abs{r-r'}} \right] \psi_j(r) = E_i \psi_i(r)
+\end{align*}
+dove:
+\begin{itemize}
+	\item il primo termine è l'energia cinetica dell'elettrone in esame;
+	\item il secondo termine è l'interazione con i nuclei del reticolo;
+	\item il terzo termine è il potenziale coulombiano tra l'elettrone in esame, $ i $, e tutti gli altri;
+	\item il quarto termine è il potenziale di scambio tra l'elettrone in esame, $ i $, e tutti gli altri;
+	\item le due somme possono anche essere formalmente estese a tutti gli elettroni, perché per $ i = j $ il terzo e quarto termine sono uguali, ma hanno segno opposto.
+\end{itemize}
+
+Queste equazioni sono dette di \textit{Hartree-Fock} per sistemi solidi a più particelle, e sono simili a quelle che permettono di ottenere i livelli elettronici negli atomi e nelle molecole.
+
+Queste equazioni sono ancora irrisolubili esattamente, si ottengono però degli ottimi risultati facendo un'ultima assunzione: che l'operatore Hamiltoniano non dipenda dal particolare stato in esame, ma sia uguale per tutte le funzioni.
+In tal modo il sistema di equazioni mostrate sopra (indicizzate da $ i $) si riduce ad un'unica equazione:
+\[ H(\textbf{r}) \psi(\textbf{r}) = E \psi(\textbf{r}) \]
+con
+\[ H(\textbf{r}) = \frac{p^2}{2m} + U_C(\textbf{r}) \]
+dove $ U_c(\textbf{r}) $ è un potenziale medio del cristallo su ogni elettrone.
+
 \section{Il teorema di Bloch}
+
+Dalla discussione della sezione precedente si è ottenuto che è possibile, compiendo una certa approssimazione, considerare gli elettroni come indipendenti, e risolvere una singola equazione per trovare tutti gli stati possibili di singola particella. 
+
+Le proprietà del cristallo saranno quindi racchiuse nel potenziale medio $ U_c(\textbf{r}) $ che agisce su ogni elettrone. Si avrà dunque che:
+\[ U_c(\textbf{r} + \textbf{R}) = U_c(\textbf{r}) \]
+per ogni vettore $ R $ appartenente al reticolo di Bravais del cristallo.
+
+Si da inoltre la seguente definizione, in contrasto con il concetto di \textit{elettroni liberi}.
+\begin{defn}[Elettroni di Bloch]
+	Si definiscono \textit{elettroni di Bloch} un insieme di elettroni indipendenti, ognuno dei quali obbedisce a un equazione di Schrödinger di singola particella con un potenziale periodico.
+\end{defn}
+Gli stati stazionari degli elettroni di Bloch soddisfano un importante teorema da cui prendono il nome, che è una conseguenza della periodicità del potenziale.
+
+\subsection{Teorema di Bloch}
+
+\begin{thm}[di Bloch]
+	Gli autostati $ \psi $ dell'Hamiltoniano singola particella $ H = - \hbar^2\bm{\nabla}^2/2m + U_c(\textbf{r}) $ possono essere scelti in modo che siano il prodotto di onde piane e funzioni che abbiano la periodicità del reticolo di Bravais:
+	\[ \psi_{n\textbf{k}}(\textbf{r}) = e^{i\textbf{k}\cdot\textbf{r}} u_{n\textbf{k}}(\textbf{r}) \]
+	\footnote{L'indice $ n $ è a volte chiamato indice \textit{di banda}, poiché per ogni \textbf{k} ci saranno più autostati indipendenti.}dove:
+	\[ u_{n\textbf{k}}(\textbf{r} + \textbf{R}) = u_{n\textbf{k}}(\textbf{r}) \]
+	per tutti gli $ \textbf{R} $ del reticolo di Bravais.
+\end{thm}
+
+Il teorema di Bloch implica che:
+\[  \psi_{n\textbf{k}}(\textbf{r} + \textbf{R}) = e^{i\textbf{k}\cdot\textbf{R}} \psi_{n\textbf{k}}(\textbf{r})\]
+
+\subsection{Prova del teorema di Bloch}
+
+Per ogni vettore del reticolo di Bravais $ \textbf{R} $ si definisce un operatore di traslazione $ T_{\textbf{R}} $ che, quando applicato a una qualunque funzione $ f(\textbf{r}) $, sposta l'argomento di $ \textbf{R} $:
+\[ T_{\textbf{R}} f(\textbf{r}) = f(\textbf{r} + \textbf{R}) \]
+poiché l'Hamiltoniana è periodica commuta con questi operatori:
+\[ T_{\textbf{R}} H \psi = H(\textbf{r} + \textbf{R})\psi(\textbf{r} + \textbf{R}) = H(\textbf{r})\psi(\textbf{r} + \textbf{R}) = H T_{\textbf{R}} \psi \qquad \forall \psi\]
+
+Inoltre il gruppo delle traslazioni è un gruppo abeliano, per cui questi operatori commutano anche tra loro:
+\[ T_{\textbf{R}}T_{\textbf{R}'} = T_{\textbf{R}'}T_{\textbf{R}} = T_{\textbf{R} + \textbf{R}'} \]
+
+Quindi si ha che tutti gli operatori di traslazione definiti e l'Hamiltoniano possono essere diagonalizzati simultaneamente:
+\begin{align*}
+H\psi &= E\psi\\
+T_{\textbf{R}}\psi &= c(\textbf{R})\psi
+\end{align*}
+e gli autovalori $ c(\textbf{R}) $ degli operatori di traslazione possono essere correlati dalle proprietà del gruppo di traslazioni:
+\[ c(\textbf{R} + \textbf{R}')\psi = T_{\textbf{R} + \textbf{R}'}\psi = T_{\textbf{R}'}T_{\textbf{R}}\psi = c(\textbf{R})T_{\textbf{R}'}\psi = c(\textbf{R})c(\textbf{R}')\psi \]
+da cui:
+\[ c(\textbf{R})c(\textbf{R}') = c(\textbf{R} + \textbf{R}') \]
+
+Si considerino ora i vettori primitivi del reticolo $ \textbf{a}_i $, si può sempre scrivere:
+\[ c(\textbf{a}_i) = e^{2\pi i x_i} \]
+per una adeguata scelta di $ x_i $\footnote{In generale anche complesso, ma per adeguate condizioni al contorno saranno reali.}. Segue allora per ogni vettore del reticolo:
+\[ \textbf{R} = n_1 \textbf{a}_1 + n_2 \textbf{a}_2 + n_3 \textbf{a}_3 \]
+che:
+\[ c(\textbf{R}) = c(\textbf{a}_1)^{n_1} c(\textbf{a}_2)^{n_2} c(\textbf{a}_3)^{n_3}\]
+che è esattamente equivalente:
+\[ c(\textbf{R}) = e^{i\textbf{k}\cdot\textbf{R}} \]
+dove:
+\[ \textbf{k} = x_1 \textbf{b}_1 + x_2 \textbf{b}_2 + x_3 \textbf{b}_3 \]
+e $ \textbf{b}_i $ sono i vettori del reticolo reciproco tale che: $ \textbf{b}_i \cdot \textbf{a}_j = 2\pi \delta_{ij} $
+
+Si è quindi dimostrato che:
+\[ T_{\textbf{R}} \psi = \psi(\textbf{r} + \textbf{R}) = c(\textbf{R})\psi = e^{i\textbf{k}\cdot\textbf{R}}\psi(\textbf{r}) \]
+che è equivalente al teorema di Bloch, poiché, considerando $ u(\textbf{r}) = e^{-i\textbf{k}\cdot\textbf{r}}\psi(\textbf{r}) $ si ottiene:
+\[ u(\textbf{r} + \textbf{R}) = e^{-i\textbf{k}\cdot(\textbf{r} + \textbf{R})}\psi(\textbf{r} + \textbf{R}) = u(\textbf{r}) \]
+cioè quanto affermato nell'enunciato del teorema.
+
+\subsection{Le condizioni al contorno di Born-von Karman}
+
+Imponendo le condizioni al contorno appropriate sulle funzioni d'onda si può dimostrare che i vettori d'onda $ \textbf{k} $ siano reali, e si possono porre delle condizioni che limitano i valori possibili di $ \textbf{k} $.
+
+Si impongono perciò condizioni al contorno periodiche, scegliendo come direzioni di periodicità quelle fissate da $ \textbf{a}_i $, i vettori primitivi del reticolo:
+\[ \psi(\textbf{r} + N_i \textbf{a}_i) = \psi(\textbf{r})	\qquad	\qquad	i = 1,2,3 \]
+dove $ N_i \sim N^{1/3} $ e $ N = N_1 N_2 N_3 $ è il numero di celle primitive del reticolo.
+
+Le condizioni al contorno sono fissate sotto l'ipotesi che qualunque condizione al contorno sia fisicamente equivalente per le proprietà del corpo del cristallo, perciò si sceglie quella analiticamente più conveniente.
+
+Applicando il teorema di Bloch si ottiene:
+\[ \psi_{n\textbf{k}}(\textbf{r} + N_i \textbf{a}_i) = e^{iN_i\textbf{k}\cdot\textbf{a}_i}\psi_{n\textbf{k}}(\textbf{r})	\qquad	\qquad i=1,2,3\]
+che impone:
+\[ e^{iN_i\textbf{k}\cdot\textbf{a}_i} = 1	\qquad	\qquad i=1,2,3 \]
+e sostituendo la forma esplicita per $ \textbf{k} $ si ottiene:
+\[ e^{2\pi i N_i x_i} = 1 \]
+per cui si ha:
+\[ x_i = \frac{m_i}{N_i} \]
+con $ m_i $ intero. Perciò la forma generale per i vettori d'onda di Bloch consentiti è:
+\[ \textbf{k} = \sum_{i = 1}^{3} \frac{m_i}{N_i} \textbf{b}_i \]
+
+Segue da questa espressione per $ \textbf{k} $ che il volume di spazio-$ k $ per ogni valore del numero d'onda permesso è il volume del parallelepipedo di lati $ \textbf{b}_i/N_i $:
+\[ \Delta\textbf{k} = \frac{\textbf{b}_1}{N_1} \cdot (\frac{\textbf{b}_2}{N_2} \times \frac{\textbf{b}_3}{N_3}) = \frac{1}{N} \textbf{b}_1 \cdot (\textbf{b}_2 \times \textbf{b}_3) \]
+e poiché $ \textbf{b}_1 \cdot (\textbf{b}_2 \times \textbf{b}_3) $ è il volume della cella primitiva del reticolo reciproco, perciò \textit{il numero di vettori d'onda consentiti in una cella primitiva del reticolo reciproco è pari a numero di siti del cristallo}.
+
+Inoltre, poiché il volume della cella primitiva è $ (2\pi)^3/v = (2\pi)^3N/V $, con $ v $ il volume della cella primitiva del reticolo diretto, allora si può scrivere:
+\[ \Delta \textbf{k} = \frac{(2\pi)^3}{V} \]
+che è esattamente lo stesso risultato che si ottiene per elettroni liberi.
 
 \subsection{Il concetto di banda}
 
