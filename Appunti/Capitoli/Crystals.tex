@@ -725,6 +725,7 @@ Inoltre a ogni piano saranno associati infiniti altri piani, paralleli ad esso e
 Evidentemente esisteranno più di una famiglia di piani reticolari: infinite. Un modo molto semplice per classificarle è dato dal reticolo reciproco:
 
 \begin{thm}[Classificazione delle famiglie di piani reticolari]
+	\label{thm:retkvec}
 	Per ogni famiglia di piani reticolari separati da una distanza $ d $, esiste una retta di vettori del reticolo reciproco, il più corto dei quali è lungo $ 2\pi/d $.
 	
 	\`E vero anche il viceversa: per ogni vettore del reticolo reciproco esiste una famiglia di piani reticolari del reticolo diretto ortogonali ad esso. Se si considera la retta di vettori del reticolo reciproco vale anche la stessa relazione per le distanze, considerando la separazione tra i piani e la lunghezza del più corto vettore della retta.
@@ -748,6 +749,98 @@ Il teorema è una diretta conseguenza di:
 \end{proof}
 
 \subsection{Diffrazione dei raggi X}
+
+La spaziatura tipica nei cristalli fra i vari siti è dell'ordine dell'Angstrom ($ 1\angstrom = 10^{-8} \centi\meter $).
+Per indagare quindi la loro struttura attraverso la radiazione elettromagnetica serviranno onde che hanno una lunghezza d'onda comparabile con quella tipica appena descritta: i raggi X sono quelli che soddisfano tale requisito.
+
+Il cristallo che diffonde la radiazione è qui considerato come rigido e perfettamente periodico.
+
+\subsubsection{Formulazione di Bragg}
+
+\begin{wrapfigure}{R}{0.4\textwidth}
+	\vspace{-20pt}
+	\centering
+	\includegraphics[width=0.4\textwidth]{Immagini/BraggXRay.png}
+	\caption{}
+	\label{fig:braggX}
+	\vspace{-10pt}
+\end{wrapfigure}
+
+Bragg considerò il cristallo come se fosse fatto da tanti piani paralleli fatti di ioni (che possono essere identificati con i piani reticolari della sezine precedente), equispaziati, con distanza $ d $.
+Egli impose due condizioni per individuare i picchi di intensità della radiazione diffusa:
+\begin{enumerate}
+	\item che i raggi X fossero riflessi specularmente sui piani degli ioni;
+	\item che i raggi riflessi da piani successivi (primi vicini) facessero interferenza costruttiva.
+\end{enumerate}
+
+Si trova immediatamente che la condizione per l'interferenza costruttiva è:
+\[ n\lambda = 2 d \sin\theta \]
+dove $ n $ deve essere un numero intero, ed è noto come \textit{l'ordine di riflessione}. La derivazione è immediata considerando la \cref{fig:braggX}.
+
+Inoltre, non solo sono disponibili più ordini di riflessione, ma è anche possibile scegliere i piani in modo diverso
+
+\subsubsection{Formulazione di von Laue}
+
+\begin{wrapfigure}{L}{0.4\textwidth}
+	\vspace{-20pt}
+	\centering
+	\includegraphics[width=0.4\textwidth]{Immagini/vonLaueXRay.png}
+	\caption{}
+	\label{fig:laueX}
+	\vspace{-10pt}
+\end{wrapfigure}
+
+Anziché introdurre i piani reticolari e postulare la riflessione speculare su di essi nella formulazione di von Laue si immagina il cristallo composto da oggetti microscopici identici disposti sui punti $ \textbf{R} $ del reticolo di Bravais, ognuno dei quali riemette la radiazione incidente in tutte le direzioni.
+Si consideranno quindi solo le direzioni in cui la radiazione emessa dai punti del reticolo interferisce costruttivamente.
+
+Per trovare la condizione di interferenza costruttiva si considerano inizialmente solo due oggetti, a distanza $ \textbf{d} $ (come in \cref{fig:laueX}), Si consideri inoltre della radiazione incidente con vettore d'onda $ \textbf{k} = 2\pi \hat{\textbf{n}}/\lambda $ mentre per quella uscente, in direzione $ \hat{\textbf{n}'} $, ha vettore d'onda $ \textbf{k}' = 2\pi\hat{\textbf{n}'}/\lambda $.
+
+Dalla \cref{fig:laueX} risulta che la condizione per l'interferenza sia:
+\[  \textbf{d}\cdot(\hat{\textbf{n}} - \hat{\textbf{n}'}) = m\lambda \]
+e moltiplicando tutto per $ 2\pi/\lambda $ si ottiene:
+\[  \textbf{d}\cdot(\textbf{k} - \textbf{k}') = m\lambda \]
+con $ m $ intero in entrambi i casi.
+
+Se si considera ora tutto il reticolo di punti si ottiene che:
+\[ \textbf{R}\cdot(\textbf{k} - \textbf{k}') = 2\pi m \qquad \qquad \forall~\textbf{R}~\text{~nel reticolo}\]
+con $ m $ interi, che può essre scritto in forma equivalente:
+\[ e^{i \textbf{R}\cdot(\textbf{k} - \textbf{k}')} = 1 \qquad \qquad \forall~\textbf{R}~\text{~nel reticolo}  \]
+e confrontando questa condizione con la definizione di reticolo recipreco si ottiene che la condizione di von Laue impone che \textit{l'interferrenza costruttiva appare per quelle direzioni tali che $ \textbf{K} = \textbf{k} - \textbf{k}' $(impulso trasferito) sia un elemento del reticolo reciproco.}
+
+\paragraph{Espressione alternativa} \`E a volte conveniente esprimere la condizione di von Laue in termini del solo vettore incidente $ \textbf{k} $.
+In primo luogo, poiché $ \textbf{K} $ dev'essere un elemento del reticolo di Bravais, allora lo è anche $ -\textbf{K} $, la condizione che impulso entrante e uscente abbiano lo stesso modulo si ha:
+\[ k=\abs{\textbf{k} - \textbf{K}} \]
+e facendo i quadrati di entrambi i membri si ottiene:
+\[ \textbf{k}\cdot\hat{\textbf{K}} = \frac{1}{2} K \]
+che si traduce nel fatto che il vettore incidente $ \textbf{k} $ soddisfa la condizione di von Laue se e solo se la punta del vettore $ \textbf{k} $ giace in un piano che biseca il segmento congiungente due punti del reticolo reciproco, come in \cref{fig:laueB}. Tali piani sono detti \textit{piani di Bragg}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.4\textwidth]{Immagini/vonLaueB.png}
+	\vspace{-5pt}
+	\caption{}
+	\label{fig:laueB}
+	\vspace{-5pt}
+\end{figure}
+
+Una conseguenza dell'equivalenza delle due formulazioni è che il piano di Bragg nello spazio $ k $, appena definito, associato a un certo picco nella figura di diffrazione, è parallelo ai piani del reticolo diretto che danno origine allo stesso picco nella formulazione di Bragg.
+
+\subsubsection{Equivalenza delle due formulazioni}
+
+L'equivalenza annunciata fra i due criteri segue dalla relazione fra famiglie di piani reticolari e vettori del reticolo reciproco, \cref{thm:retkvec}.
+
+\paragraph{von Laue $ \rightarrow $ Bragg} Siano $ \textbf{k}, \textbf{k}' $ e $ \textbf{K} $ gli stessi della sezione precedente, che soddisfino il criterio di von Laue. Si ha allora che $ k' = k $, e ne segue che i vettori incidenti e diffuso formano lo stesso angolo con $ \textbf{K} $ (è un triangolo isoscele), e quindi anche con i piani ad esso perpendicolari. Si è quindi recuperata la riflessione di Bragg, sulla famiglia di piani perpendicolari a $ \textbf{K} $.
+
+Per dimostrare che questa riflessione soddisfi la condizione di Bragg si considera che $ \textbf{K} $ è un multiplo intero del più corto vettore del reticolo reciproco a lui parallelo, $ \textbf{K}_0 $.
+Sempre secondo il \cref{thm:retkvec} si ha che $ \abs{\textbf{K}_0} = 2\pi/d $, dove $ d $ è la distanza tra i piani appartenenti alla famiglia perpendicolare a $ \textbf{K} $; si ha dunque:
+\[ K = \frac{2\pi n}{d} \]
+dall'altra parte segue per costruzione $ K = 2k \sin\theta $, dove $ \theta $ è sempre l'angolo di incidenza, e si trova quindi:
+\[ k\sin\theta = \frac{\pi n}{d} \]
+e ricordando infine che $ k = 2\pi/\lambda $ si ottiene che la condizione di Bragg è soddisfatta.
+
+Allora \textit{i picchi di diffrazione di von Laue corrispondenti a un "impulso trasferito" pari a $ \textbf{K} $ corrispondono alla riflessione di Bragg su una famiglia di piani reticolari, nel reticolo diretto, ortogonale a $ \textbf{K} $. L'ordine di riflessione di Bragg, $ n $, è dato dal rapporto fra il modulo di $ \textbf{K} $ e il più corto vettore del reticolo reciproco ad esso parallelo}.
+
+\paragraph{Bragg $ \rightarrow $ von Laue} La dimostrazione è simile alla precedente, per cui l'unico punto di interesse è sfruttare l'associazione fra vettore del reticolo reciproco e famiglia di piani.
 
 \section{Hamiltoniana dei Cristalli}
 

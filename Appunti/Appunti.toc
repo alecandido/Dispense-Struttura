@@ -150,14 +150,19 @@
 \contentsline {paragraph}{Zone di Brillouin}{85}{section*.126}
 \contentsline {subsubsection}{Piani reticolari}{85}{section*.127}
 \contentsline {subsection}{\numberline {4.2.3}Diffrazione dei raggi X}{86}{subsection.4.2.3}
-\contentsline {section}{\numberline {4.3}Hamiltoniana dei Cristalli}{86}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Approssimazione di Born-Oppenheimer}{87}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Hartree-Fock}{88}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}Il teorema di Bloch}{89}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Teorema di Bloch}{89}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Prova del teorema di Bloch}{89}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Le condizioni al contorno di Born-von Karman}{90}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}Il concetto di banda}{91}{subsection.4.4.4}
-\contentsline {section}{\numberline {4.5}Bibliografia}{91}{section.4.5}
+\contentsline {subsubsection}{Formulazione di Bragg}{86}{section*.128}
+\contentsline {subsubsection}{Formulazione di von Laue}{86}{section*.130}
+\contentsline {paragraph}{Espressione alternativa}{87}{section*.132}
+\contentsline {subsubsection}{Equivalenza delle due formulazioni}{87}{section*.134}
+\contentsline {paragraph}{von Laue $ \rightarrow $ Bragg}{88}{section*.135}
+\contentsline {paragraph}{Bragg $ \rightarrow $ von Laue}{88}{section*.136}
+\contentsline {section}{\numberline {4.3}Hamiltoniana dei Cristalli}{88}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Approssimazione di Born-Oppenheimer}{89}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Hartree-Fock}{89}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Il teorema di Bloch}{90}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Teorema di Bloch}{91}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Prova del teorema di Bloch}{91}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Le condizioni al contorno di Born-von Karman}{92}{subsection.4.4.3}
+\contentsline {section}{\numberline {4.5}Bibliografia}{92}{section.4.5}
 \contentsline {chapter}{\numberline {A}Lacune}{93}{appendix.Alph1}
 \contentsline {chapter}{\numberline {B}Ringraziamenti}{95}{appendix.Alph2}

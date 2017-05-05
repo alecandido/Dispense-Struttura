@@ -12,10 +12,3 @@ A breve però altri due meritevoli contributori prenderanno parte al progetto:
 Per i più pigri potete trovare una copia in già compilata in PDF all'indirizzo:
 
 https://drive.google.com/open?id=0B17eEekVzRixRlo5UG5CSGpYQTg
-
-## Lezione 3 Aprile
-
-Elenco delle cose da fare:
-
-- Ashcroft 96-100, 132-136
-- Bassani 80-88

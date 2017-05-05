@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.2.20)  4 MAY 2017 18:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.2.20)  5 MAY 2017 01:58
 entering extended mode
 **./Appunti.tex
 (Appunti.tex
@@ -2291,7 +2291,7 @@ Option `squaren' provided!
  Command \squaren defined by SIunits package!
 
 ABD: EveryShipout initializing macros (Copertina.tex
-<Immagini/MotherNaturecompress.png, id=291, 783.92876pt x 1927.2pt>
+<Immagini/MotherNaturecompress.png, id=287, 783.92876pt x 1927.2pt>
 File: Immagini/MotherNaturecompress.png Graphic file (type png)
 
 <use Immagini/MotherNaturecompress.png>
@@ -2341,7 +2341,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--34
 
  []
 
-<Licenza/by-sa.pdf, id=310, 96.36pt x 33.726pt>
+<Licenza/by-sa.pdf, id=306, 96.36pt x 33.726pt>
 File: Licenza/by-sa.pdf Graphic file (type pdf)
  <use Licenza/by-sa.pdf>
 Package pdftex.def Info: Licenza/by-sa.pdf used on input line 41.
@@ -2437,7 +2437,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 295--297
 Package cleveref Info: loaded `italian' language definitions on input line 297.
 
 [5] (Immagini/MaxRel.pdf_tex
-<Immagini/MaxRel.pdf, id=487, page=1, 221.33646pt x 162.22636pt>
+<Immagini/MaxRel.pdf, id=482, page=1, 221.33646pt x 162.22636pt>
 File: Immagini/MaxRel.pdf Graphic file (type pdf)
 
 <use Immagini/MaxRel.pdf, page 1>
@@ -2467,7 +2467,7 @@ Package cleveref Info: loaded `italian' language definitions on input line 553.
 Package cleveref Info: loaded `italian' language definitions on input line 606.
 
  [10]
-<Immagini/PhaseDiagram.png, id=547, 411.03563pt x 220.57407pt>
+<Immagini/PhaseDiagram.png, id=542, 411.03563pt x 220.57407pt>
 File: Immagini/PhaseDiagram.png Graphic file (type png)
 
 <use Immagini/PhaseDiagram.png>
@@ -2476,7 +2476,7 @@ Package pdftex.def Info: Immagini/PhaseDiagram.png used on input line 635.
 Package cleveref Info: loaded `italian' language definitions on input line 650.
 
  [11 <./Immagini/PhaseDiagram.png>]
-<Immagini/PhasePV.png, id=559, 566.115pt x 295.1025pt>
+<Immagini/PhasePV.png, id=554, 566.115pt x 295.1025pt>
 File: Immagini/PhasePV.png Graphic file (type png)
 
 <use Immagini/PhasePV.png>
@@ -2581,7 +2581,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1294--1296
 
 Package cleveref Info: loaded `italian' language definitions on input line 1322
 .
-[23] <Immagini/Edistr1.png, id=688, 545.03625pt x 222.8325pt>
+[23] <Immagini/Edistr1.png, id=683, 545.03625pt x 222.8325pt>
 File: Immagini/Edistr1.png Graphic file (type png)
 
 <use Immagini/Edistr1.png>
@@ -2594,7 +2594,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1376--1378
 
 Package cleveref Info: loaded `italian' language definitions on input line 1383
 .
-[24] <Immagini/EdistrN.png, id=695, 374.14781pt x 152.82094pt>
+[24] <Immagini/EdistrN.png, id=690, 374.14781pt x 152.82094pt>
 File: Immagini/EdistrN.png Graphic file (type png)
 
 <use Immagini/EdistrN.png>
@@ -2679,7 +2679,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 272--274
 
 Package cleveref Info: loaded `italian' language definitions on input line 274.
 
-[37] <Immagini/FermiStep.png, id=801, 523.20468pt x 287.57437pt>
+[37] <Immagini/FermiStep.png, id=796, 523.20468pt x 287.57437pt>
 File: Immagini/FermiStep.png Graphic file (type png)
 
 <use Immagini/FermiStep.png>
@@ -2697,7 +2697,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 348--350
 
  []
 
-<Immagini/FStepT.png, id=814, 475.7775pt x 284.56313pt>
+<Immagini/FStepT.png, id=809, 475.7775pt x 284.56313pt>
 File: Immagini/FStepT.png Graphic file (type png)
 
 <use Immagini/FStepT.png>
@@ -2714,7 +2714,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 362--365
 
 Package cleveref Info: loaded `italian' language definitions on input line 369.
 
-[39] <Immagini/ElectronsDispersion.png, id=825, 590.95781pt x 394.47375pt>
+[39] <Immagini/ElectronsDispersion.png, id=820, 590.95781pt x 394.47375pt>
 File: Immagini/ElectronsDispersion.png Graphic file (type png)
 
 <use Immagini/ElectronsDispersion.png>
@@ -2724,7 +2724,7 @@ Package pdftex.def Info: Immagini/ElectronsDispersion.png used on input line 38
 Package cleveref Info: loaded `italian' language definitions on input line 401.
 
  [40 <./Immagini/FStepT.png>]
-<Immagini/SmoothStep.png, id=832, 501.37312pt x 283.81032pt>
+<Immagini/SmoothStep.png, id=827, 501.37312pt x 283.81032pt>
 File: Immagini/SmoothStep.png Graphic file (type png)
 
 <use Immagini/SmoothStep.png>
@@ -2738,7 +2738,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 423--425
 Package cleveref Info: loaded `italian' language definitions on input line 432.
 
 [41 <./Immagini/ElectronsDispersion.png> <./Immagini/SmoothStep.png>]
-<Immagini/SmoothStepDifferences.png, id=843, 582.67688pt x 185.19188pt>
+<Immagini/SmoothStepDifferences.png, id=838, 582.67688pt x 185.19188pt>
 File: Immagini/SmoothStepDifferences.png Graphic file (type png)
 
 <use Immagini/SmoothStepDifferences.png>
@@ -2771,7 +2771,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 572--575
 
 Package cleveref Info: loaded `italian' language definitions on input line 579.
 
-[44] <Immagini/GasToLiquid.png, id=862, 387.69844pt x 254.45062pt>
+[44] <Immagini/GasToLiquid.png, id=857, 387.69844pt x 254.45062pt>
 File: Immagini/GasToLiquid.png Graphic file (type png)
 
 <use Immagini/GasToLiquid.png>
@@ -2780,7 +2780,7 @@ Package pdftex.def Info: Immagini/GasToLiquid.png used on input line 582.
 Package cleveref Info: loaded `italian' language definitions on input line 625.
 
  [45 <./Immagini/GasToLiquid.png>]
-<Immagini/BoseThermalCapacity.png, id=872, 402.00188pt x 188.20313pt>
+<Immagini/BoseThermalCapacity.png, id=867, 402.00188pt x 188.20313pt>
 File: Immagini/BoseThermalCapacity.png Graphic file (type png)
 
 <use Immagini/BoseThermalCapacity.png>
@@ -2817,14 +2817,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 903--906
 
 Package cleveref Info: loaded `italian' language definitions on input line 910.
 
-[50] <Immagini/IsingCl.png, id=913, 560.0925pt x 326.72063pt>
+[50] <Immagini/IsingCl.png, id=908, 560.0925pt x 326.72063pt>
 File: Immagini/IsingCl.png Graphic file (type png)
 
 <use Immagini/IsingCl.png>
 Package pdftex.def Info: Immagini/IsingCl.png used on input line 923.
 (pdftex.def)             Requested size: 290.22107pt x 169.30244pt.
 
-<Immagini/IsingEntropy.png, id=916, 567.62062pt x 297.36093pt>
+<Immagini/IsingEntropy.png, id=911, 567.62062pt x 297.36093pt>
 File: Immagini/IsingEntropy.png Graphic file (type png)
 
 <use Immagini/IsingEntropy.png>
@@ -2837,7 +2837,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 966--968
 
  []
 
-<Immagini/DemagnAdiabatica.png, id=927, 673.76718pt x 356.83313pt>
+<Immagini/DemagnAdiabatica.png, id=922, 673.76718pt x 356.83313pt>
 File: Immagini/DemagnAdiabatica.png Graphic file (type png)
 
 <use Immagini/DemagnAdiabatica.png>
@@ -2846,7 +2846,7 @@ Package pdftex.def Info: Immagini/DemagnAdiabatica.png used on input line 981.
 Package cleveref Info: loaded `italian' language definitions on input line 996.
 
  [52 <./Immagini/IsingEntropy.png> <./Immagini/DemagnAdiabatica.png>]
-<Immagini/FermiMagnSusc.png, id=937, 714.41907pt x 438.13687pt>
+<Immagini/FermiMagnSusc.png, id=932, 714.41907pt x 438.13687pt>
 File: Immagini/FermiMagnSusc.png Graphic file (type png)
 
 <use Immagini/FermiMagnSusc.png>
@@ -2888,7 +2888,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--78
  []
 
 Package cleveref Info: loaded `italian' language definitions on input line 78.
-[58] <Immagini/Young.png, id=986, 557.08125pt x 406.51875pt>
+[58] <Immagini/Young.png, id=981, 557.08125pt x 406.51875pt>
 File: Immagini/Young.png Graphic file (type png)
 
 <use Immagini/Young.png>
@@ -2897,7 +2897,7 @@ Package pdftex.def Info: Immagini/Young.png used on input line 115.
 Package cleveref Info: loaded `italian' language definitions on input line 127.
 
  [59]
-<Immagini/Spatialcoh.png, id=994, 294.34969pt x 224.33812pt>
+<Immagini/Spatialcoh.png, id=989, 294.34969pt x 224.33812pt>
 File: Immagini/Spatialcoh.png Graphic file (type png)
 
 <use Immagini/Spatialcoh.png>
@@ -2913,7 +2913,7 @@ Package cleveref Info: loaded `italian' language definitions on input line 153.
 Package cleveref Info: loaded `italian' language definitions on input line 191.
 
  [61 <./Immagini/Spatialcoh.png>]
-<Immagini/StellarMichelson.png, id=1015, 566.115pt x 272.51813pt>
+<Immagini/StellarMichelson.png, id=1010, 566.115pt x 272.51813pt>
 File: Immagini/StellarMichelson.png Graphic file (type png)
 
 <use Immagini/StellarMichelson.png>
@@ -2922,7 +2922,7 @@ Package pdftex.def Info: Immagini/StellarMichelson.png used on input line 220.
 Package cleveref Info: loaded `italian' language definitions on input line 230.
 
  [62 <./Immagini/StellarMichelson.png>]
-<Immagini/HanburyBrownTwiss.png, id=1026, 391.4625pt x 423.08063pt>
+<Immagini/HanburyBrownTwiss.png, id=1021, 391.4625pt x 423.08063pt>
 File: Immagini/HanburyBrownTwiss.png Graphic file (type png)
 
 <use Immagini/HanburyBrownTwiss.png>
@@ -2943,14 +2943,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 299--302
 
 Package cleveref Info: loaded `italian' language definitions on input line 309.
 
-[64] <Immagini/NyquistLine.png, id=1044, 386.94562pt x 185.94469pt>
+[64] <Immagini/NyquistLine.png, id=1039, 386.94562pt x 185.94469pt>
 File: Immagini/NyquistLine.png Graphic file (type png)
 
 <use Immagini/NyquistLine.png>
 Package pdftex.def Info: Immagini/NyquistLine.png used on input line 321.
 (pdftex.def)             Requested size: 290.22107pt x 139.46666pt.
 
-<Immagini/NyquistNoiseGenerator.png, id=1045, 392.96812pt x 208.52907pt>
+<Immagini/NyquistNoiseGenerator.png, id=1040, 392.96812pt x 208.52907pt>
 File: Immagini/NyquistNoiseGenerator.png Graphic file (type png)
 
 <use Immagini/NyquistNoiseGenerator.png>
@@ -2987,7 +2987,7 @@ Package cleveref Info: loaded `italian' language definitions on input line 79.
  [72]
 Capitolo 4.
 (Capitoli/Crystals.tex
-<Immagini/HeatCapacity.png, id=1110, 458.46281pt x 246.9225pt>
+<Immagini/HeatCapacity.png, id=1105, 458.46281pt x 246.9225pt>
 File: Immagini/HeatCapacity.png Graphic file (type png)
 
 <use Immagini/HeatCapacity.png>
@@ -3051,7 +3051,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 376--379
 
  []
 
-<Immagini/HeatCapacityDebye.png, id=1163, 403.5075pt x 219.06844pt>
+<Immagini/HeatCapacityDebye.png, id=1158, 403.5075pt x 219.06844pt>
 File: Immagini/HeatCapacityDebye.png Graphic file (type png)
 
 <use Immagini/HeatCapacityDebye.png>
@@ -3072,7 +3072,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 439--441
 
  []
 
-<Immagini/CorpoNero.png, id=1176, 509.65407pt x 287.57437pt>
+<Immagini/CorpoNero.png, id=1171, 509.65407pt x 287.57437pt>
 File: Immagini/CorpoNero.png Graphic file (type png)
 
 <use Immagini/CorpoNero.png>
@@ -3096,7 +3096,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 527--529
 
  []
 
-<Immagini/BodyCenteredCubic.png, id=1192, 341.02406pt x 428.35031pt>
+<Immagini/BodyCenteredCubic.png, id=1187, 341.02406pt x 428.35031pt>
 File: Immagini/BodyCenteredCubic.png Graphic file (type png)
 
 <use Immagini/BodyCenteredCubic.png>
@@ -3106,7 +3106,7 @@ Package pdftex.def Info: Immagini/BodyCenteredCubic.png used on input line 535.
 Package cleveref Info: loaded `italian' language definitions on input line 571.
 
  [82 <./Immagini/BodyCenteredCubic.png>]
-<Immagini/ElementaryCell.png, id=1205, 539.76656pt x 149.8097pt>
+<Immagini/ElementaryCell.png, id=1200, 539.76656pt x 149.8097pt>
 File: Immagini/ElementaryCell.png Graphic file (type png)
 
 <use Immagini/ElementaryCell.png>
@@ -3120,7 +3120,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 607--609
 Package cleveref Info: loaded `italian' language definitions on input line 622.
 
 [83 <./Immagini/ElementaryCell.png>]
-<Immagini/HoneycombLattice.png, id=1224, 686.565pt x 415.5525pt>
+<Immagini/HoneycombLattice.png, id=1219, 686.565pt x 415.5525pt>
 File: Immagini/HoneycombLattice.png Graphic file (type png)
 
 <use Immagini/HoneycombLattice.png>
@@ -3129,41 +3129,64 @@ Package pdftex.def Info: Immagini/HoneycombLattice.png used on input line 646.
 Package cleveref Info: loaded `italian' language definitions on input line 676.
 
  [84 <./Immagini/HoneycombLattice.png>]
-Package cleveref Info: loaded `italian' language definitions on input line 729.
+Package cleveref Info: loaded `italian' language definitions on input line 730.
 
 
-[85]
-Package cleveref Info: loaded `italian' language definitions on input line 777.
+[85] <Immagini/BraggXRay.png, id=1245, 416.30531pt x 371.88937pt>
+File: Immagini/BraggXRay.png Graphic file (type png)
 
- [86]
-Underfull \hbox (badness 10000) in paragraph at lines 781--783
+<use Immagini/BraggXRay.png>
+Package pdftex.def Info: Immagini/BraggXRay.png used on input line 763.
+(pdftex.def)             Requested size: 193.47578pt x 172.83597pt.
+
+<Immagini/vonLaueXRay.png, id=1247, 545.78906pt x 335.00156pt>
+File: Immagini/vonLaueXRay.png Graphic file (type png)
+
+<use Immagini/vonLaueXRay.png>
+Package pdftex.def Info: Immagini/vonLaueXRay.png used on input line 787.
+(pdftex.def)             Requested size: 193.47578pt x 118.75514pt.
+Package cleveref Info: loaded `italian' language definitions on input line 796.
+
+ [86 <./Immagini/BraggXRay.png>]
+LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <7> not available
+(Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 808.
+LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <5> not available
+(Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 808.
+
+<Immagini/vonLaueB.png, id=1261, 572.1375pt x 371.88937pt>
+File: Immagini/vonLaueB.png Graphic file (type png)
+
+<use Immagini/vonLaueB.png>
+Package pdftex.def Info: Immagini/vonLaueB.png used on input line 819.
+(pdftex.def)             Requested size: 193.47578pt x 125.75977pt.
+Package cleveref Info: loaded `italian' language definitions on input line 836.
+
+ [87 <./Immagini/vonLaueXRay.png> <./Immagini/vonLaueB.png>]
+Package cleveref Info: loaded `italian' language definitions on input line 873.
+
+ [88]
+Underfull \hbox (badness 10000) in paragraph at lines 874--876
 
  []
 
-Package cleveref Info: loaded `italian' language definitions on input line 817.
+Package cleveref Info: loaded `italian' language definitions on input line 913.
 
-[87]
-Package cleveref Info: loaded `italian' language definitions on input line 857.
+[89]
+Package cleveref Info: loaded `italian' language definitions on input line 958.
 
- [88]
-LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <7> not available
-(Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 869.
-LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <5> not available
-(Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 869.
-LaTeX Font Info:    Font shape `TS1/cmbr/m/it' in size <10> not available
-(Font)              Font shape `TS1/cmbr/m/sl' tried instead on input line 870.
-
-Package cleveref Info: loaded `italian' language definitions on input line 904.
-
- [89])
-Package cleveref Info: loaded `italian' language definitions on input line 86.
  [90]
-Package cleveref Info: loaded `italian' language definitions on input line 86.
- [91] [92
+LaTeX Font Info:    Font shape `TS1/cmbr/m/it' in size <10> not available
+(Font)              Font shape `TS1/cmbr/m/sl' tried instead on input line 963.
 
-]
+Package cleveref Info: loaded `italian' language definitions on input line 1007
+.
+ [91])
+Package cleveref Info: loaded `italian' language definitions on input line 86.
+ [92]
 Appendice A.
-(Capitoli/Missing.tex) [93] [94
+(Capitoli/Missing.tex) [93
+
+] [94
 
 ]
 Appendice B.
@@ -3177,7 +3200,7 @@ Package cleveref Info: loaded `italian' language definitions on input line 23.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 98.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 98.
 Package rerunfilecheck Info: File `Appunti.out' has not changed.
-(rerunfilecheck)             Checksum: B0A5BCF731AA367DE8830B2C3B5BA870;5354.
+(rerunfilecheck)             Checksum: 47D63E62FA5D4602136EF9AACCFEC7A0;5279.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -3187,10 +3210,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 25572 strings out of 493333
- 454442 string characters out of 3139194
+ 25604 strings out of 493333
+ 455025 string characters out of 3139194
  670753 words of memory out of 3000000
- 28257 multiletter control sequences out of 15000+200000
+ 28276 multiletter control sequences out of 15000+200000
  53318 words of font info for 131 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,16n,77p,10485b,798s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3249,9 +3272,9 @@ enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
 0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on Appunti.pdf (105 pages, 3436079 bytes).
+Output written on Appunti.pdf (105 pages, 3494467 bytes).
 PDF statistics:
- 2416 PDF objects out of 2487 (max. 8388607)
- 418 named destinations out of 1000 (max. 500000)
- 727 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2441 PDF objects out of 2487 (max. 8388607)
+ 428 named destinations out of 1000 (max. 500000)
+ 734 words of extra memory for PDF output out of 10000 (max. 10000000)
 
