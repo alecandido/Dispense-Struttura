@@ -11,8 +11,8 @@
 *.fls
 *.loe
 *.ai
-Makefile
-__pycache__/
-!notignore/*.*
+#Makefile
+#__pycache__/
+#!notignore/*.*
 !Appunti/Immagini/*
 !Appunti/Licenza/*
