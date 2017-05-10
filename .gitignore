@@ -4,3 +4,5 @@
 *.toc
 *.out
 *.synctex.gz
+!Appunti/Immagini/*
+!Appunti/Licenza/*
