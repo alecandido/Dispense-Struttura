@@ -11,3 +11,5 @@
 *.fls
 *.loe
 *.ai
+!Appunti/Immagini/*
+!Appunti/Licenza/*
