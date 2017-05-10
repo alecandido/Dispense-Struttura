@@ -1,1 +1,13 @@
 *.pdf
+*.log
+*.aux
+*.toc
+*.out
+*.synctex.gz
+.DS_Store
+*.lb
+*.watcher_pid
+*.fdb_latexmk
+*.fls
+*.loe
+*.ai
