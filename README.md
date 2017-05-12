@@ -2,13 +2,17 @@
 
 Le dispense sono per chiunque le voglia, ad oggi sono interamente a cura di Alessandro Candido.
 
-A breve perÚ altri due meritevoli contributori prenderanno parte al progetto:
+A breve per√≤ altri due meritevoli contributori prenderanno parte al progetto:
 
 - Roberto Ribatti
 - Andrea Luzio
 
+Inoltre un altro contributore prender√† parte, che a differenza dei precedenti si √® offerto spontaneamente per l'impresa:
+
+- Valerio Lomanto
+
 ## PDF
 
-Per i pi˘ pigri potete trovare una copia in gi‡ compilata in PDF all'indirizzo:
+Per i pi√π pigri potete trovare una copia in gi√† compilata in PDF all'indirizzo:
 
 https://drive.google.com/open?id=0B17eEekVzRixRlo5UG5CSGpYQTg
