@@ -4,17 +4,22 @@ Le dispense sono per chiunque le voglia, ad oggi sono interamente a cura di Ales
 
 A breve però altri due meritevoli contributori prenderanno parte al progetto:
 
-- Roberto Ribatti (bande elettroniche)
-- Andrea Luzio (fononi)
+- Roberto Ribatti 
+    - bande elettroniche
+- Andrea Luzio
+    - fononi
 
 Inoltre un altro contributore prenderà parte, che a differenza dei precedenti si è offerto spontaneamente per l'impresa:
 
-- Valerio Lomanto (interazione radiazione-materia)
+- Valerio Lomanto
+    - interazione radiazione-materia
 
 e non solo, gli ultimi due acquisti del team sono:
 
-- Federico Belliardo (struttura dei liquidi)
-- Marco Costa (tecniche di condensazione)
+- Federico Belliardo 
+    - struttura dei liquidi
+- Marco Costa
+    - tecniche di condensazione
 
 ## PDF
 
