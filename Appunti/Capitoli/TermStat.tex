@@ -13,9 +13,9 @@ In seguito si considera un modello di \textit{gas perfetto} per illustrare alcun
 
 Per rendere il sistema \textit{non integrabile}, e quindi \textit{ergodico}, si deve però assumere che ci sia qualche modo per far scambiare impulso fra le particelle, e quindi farle interagire. Si può pensare ad un interazione mediata dalle pareti della scatola che contiene il gas.
 
-\paragraph{Osservabili macroscopiche} A livello microscopico il sistema è quindi caratterizzato dall'Hamiltoniano di singola particella, e non c'è altro da aggiungere. Si vuole però caratterizzare il sistema nel suo insieme attraverso delle \textit{osservabili macroscopiche} e trovare le relazioni fra esse: si vuole trovare \textit{l'equazione di stato} del sistema complessivo.
+\paragraph{Osservabili macroscopiche} A livello microscopico il sistema è quindi caratterizzato dall'Hamiltoniano di singola particella, e non c'è altro da aggiungere. Si vuole però caratterizzare il sistema nel suo insieme attraverso delle \textit{osservabili macroscopiche} e trovare le relazioni fra esse: ciò che si cerca è dunque \textit{l'equazione di stato} del sistema complessivo.
 
-Si vuole quindi indagare a livello microscopico l'origine di concetti macroscopici quali: \textit{entropia}, \textit{irreversibilità} e \textit{equilibrio}.
+Si indagherà perciò a livello microscopico l'origine di concetti macroscopici quali: \textit{entropia}, \textit{irreversibilità} e \textit{equilibrio}.
 
 \subsection{Principi della Meccanica Statistica}
 \label{sec:principles}
@@ -23,7 +23,7 @@ Per colmare il salto che separa la descrizione \textit{microscopica} dalle propr
 
 \begin{description}
 	\item[Perdita di memoria:] all'equilibrio, che si suppone sempre raggiunto da un sistema dopo un tempo sufficientemente lungo (rispetto alle scale temporali delle interazioni microscopiche), il \textit{macrostato} del sistema è indipendente dalle condizioni iniziali.
-	\item[Equiprobabilità a priori:] all'equilibrio ogni possibile \textit{microstato} è equiprobabile. La disponibilità di un data microstato dipende dai vincoli che deve soddisfare il sistema (es.: conservazione dell'energia).
+	\item[Equiprobabilità a priori:] per un sistema isolato all'equilibrio ogni possibile \textit{microstato} è equiprobabile. L'accessibilità di un dato microstato dipende dai vincoli che deve soddisfare il sistema (es.: conservazione dell'energia).
 \end{description}
 
 \subsubsection{Equilibrio}
@@ -36,7 +36,7 @@ Si è parlato di \textit{equilibrio}, senza specificare cosa si intenda per esso
 \end{defn}
 
 La \cref{def:eq} è approssimativa in quanto si considereranno in seguito trasformazioni fra stati di equilibrio.
-\`E però una buona definizione se si specifica che la scala temporale su cui va valutata la stazionarietà è \textit{mesoscopica}: per tempo \textit{microscopici} il sistema evolve secondo la dinamica data dalle singole interazioni, mentre a livello \textit{macroscopico} l'evoluzione è data dalla trasformazione considerata.
+\`E però una buona definizione se si specifica che la scala temporale su cui va valutata la stazionarietà è \textit{mesoscopica}: per tempi \textit{microscopici} il sistema evolve secondo la dinamica data dalle singole interazioni, mentre a livello \textit{macroscopico} l'evoluzione è data dalla trasformazione considerata.
 
 Infatti per mantenere la condizione di equilibrio la scala microscopica e quella macroscopica sono separate da diversi ordini di grandezza, per cui è possibile la verifica della stazionarietà delle osservabili su scale intermedie, che vanno però considerate come nettamente distinte dalle altre (si può pensare a tre stati diversi, analogamente all'elettronica digitale in confronto alla natura analogica dei segnali).
 
@@ -54,7 +54,7 @@ Si supponga che il sistema abbia $\Gamma$ possibili microstati, con $\Gamma \equ
 \begin{defn}[Entropia, microscopica]
 	L'\textit{entropia} di un sistema è definita in base alle proprietà microscopiche di un sistema come:
 	\begin{equation*}
-	S = k \log\Gamma
+	S = k_B \log\Gamma
 	\end{equation*}
 \end{defn}
 
@@ -103,7 +103,7 @@ Le definizioni che si sono date sono del tutto \textit{formali}, a priori senza 
 Quando due sistemi, con numero di microstati $\Gamma_1$ e $\Gamma_2$, sono separati, il numero di microstati totale sarà $\Gamma_1\Gamma_2$.
 Quando i sistemi sono posti in contatto, a $V$ e $N$ fissati per ciascuno, tutto ciò che può succedere macroscopicamente è che una parte dell'energia di uno fluisca nell'altro, e per la monotonicità dell'entropia quindi se aumenta $S_1$ allora diminuirà $S_2$ e viceversa.
 
-Se i sistemi sono all'equilibrio l'entropia totale è allora in un massimo, altrimenti aumenterebbe tramite scambio di energia. Inoltre anche l'energia totale è conservata, per cui:
+Se i sistemi sono all'equilibrio l'entropia totale è allora in un massimo, altrimenti aumenterebbe tramite scambio di energia. Oltre a ciò anche l'energia totale è conservata, per cui:
 
 \begin{align*}
 &\begin{rcases*}
@@ -116,26 +116,30 @@ Se i sistemi sono all'equilibrio l'entropia totale è allora in un massimo, altr
 
 \noindent Da cui si ottiene facilmente $T_1 = T_2$.
 
-Si può verificare anche l'affermazione sul verso del flusso di energia (calore): sia $T_1 < T_2$, l'energia è sempre conservata, inoltre si considera che l'entropia totale può solo aumentare:
+Si può verificare anche l'affermazione sul verso del flusso di energia (calore): sia $T_1 < T_2$,  e tenendo conto che l'energia totale è conservata e che l'entropia complessiva può solo aumentare:
 
 \begin{align*}
 &\begin{rcases*}
 \delta(E_1 + E_2) = 0 \\
 \delta E_i = T_i \delta S_i
 \end{rcases*}
-\implies T_1 \delta S_1 + T_2 \delta S_2 = 0 \implies \implies \delta S_1 = - \frac{T_2}{T_1} \delta S_2\\
+\implies T_1 \delta S_1 + T_2 \delta S_2 = 0 \implies \delta S_1 = - \frac{T_2}{T_1} \delta S_2\\
 & \delta(S_1 + S_2) \geq 0 \implies \delta S_1 \geq - \delta S_2
 \end{align*}
 
 Da cui si ottiene:
 
 \begin{equation*}
-- \frac{T_2}{T_1} \delta S_2 \geq - \delta S_2 \implies (1 - \frac{T_2}{T_1}) \delta S_2 \geq 0 \implies \delta S_2 \leq 0
+\begin{rcases*}
+- \frac{T_2}{T_1} \delta S_2 \geq - \delta S_2 \implies (1 - \frac{T_2}{T_1}) \delta S_2 \geq 0 \\
+(1 - \frac{T_2}{T_1}) < 0
+\end{rcases*}
+\implies \delta S_2 \leq 0
 \end{equation*}
 
 E per la monotonicità dell'entropia si ha anche $\delta E_2 \leq 0$, che corrisponde a quanto atteso.
 
-\paragraph{Equazione di stato} A questo punto si è in grado di calcolare, astrattamente, l'\textit{l'equazione di stato}, eliminando l'entropia dalle due equazioni:
+\paragraph{Equazione di stato} A questo punto si è in grado di calcolare, astrattamente, l'\textit{equazione di stato}, eliminando l'entropia dalle due equazioni:
 
 \begin{align*}
 	&T(S,V,N) = \left(\frac{\partial E}{\partial S}\right)_{N,V} \\
@@ -177,7 +181,11 @@ L'energia del sistema quindi sarà libera di fluttuare, ma la descrizione si spo
 \subparagraph{Fluttuazioni} \`E importante distinguere fra due tipi di fluttuazioni:
 \begin{description}
 	\item[fluttuazioni microscopiche:] si è detto che un sistema in equilibrio esplora tutti i microstati accessibili \textit{ergodicamente}, ma questo tipo di fluttuazioni fra microstati non sono fluttuazioni dell'equilibrio: l'equilibrio ha origine proprio da una media su queste transizioni;
-	\item[fluttuazioni macroscopiche:] quando si è introdotto l'approccio \textit{canonico} si è inserita la possibilità che l'energia non fosse fissata, ma fluttuasse; queste fluttuazioni sono di tipo macroscopico, perché al livello microscopico descritto prima tanto il microcanonico quanto il canonico fluttuano.
+	\item[fluttuazioni macroscopiche:] quando si è introdotto l'approccio \textit{canonico} si è inserita la possibilità che l'energia non fosse fissata, ma fluttuasse; queste fluttuazioni di cui si tratta sono di tipo macroscopico, perché a livello microscopico tanto il microcanonico quanto il canonico fluttuano, in più, all'interno della descrizione canonica, è permesso che il sistema in esame:
+	\begin{itemize}
+		\item modifichi la sua energia di equilibrio su tempi scala macroscopici, nella descrizione temporale che si è fatta fin qui;
+		\item nella descrizione in termini di ensemble, che verrà introdotta nella \cref{sec:princremark}, saranno possibili più energie di equilibrio, con una certa distribuzione di probabilità.
+	\end{itemize}
 \end{description}
 
 % quest'ultima parte sulle fluttuazioni va rivista graficamente e dal punto di vista dell'italiano.
@@ -192,7 +200,7 @@ La \textit{termodinamica} è fondamentalmente un sistema logico basato su quattr
 \paragraph{Principio zero} Il principio zero è stato già citato e discusso nella \cref{sec:teorpipterm}, esso caratterizza la relazione di equilibrio termico fra sistemi. Si riporta lo stesso un enunciato conciso:
 
 \begin{defn}[Principio zero della termodinamica]
-	La relazione di equilibrio termico è transitivi, quindi è una relazione di equivalenza.
+	La relazione di equilibrio termico è transitiva, quindi è una relazione di equivalenza.
 	
 	Più esplicitamente: se A è in equilibrio con B e con C, allora B è in equilibrio con C.
 \end{defn}
@@ -221,7 +229,8 @@ La \textit{termodinamica} è fondamentalmente un sistema logico basato su quattr
 
 \noindent Si noti che il lavoro meccanico corrisponde ad un trasporto di energia \textit{macroscopico}, mentre il calore è essenzialmente un trasporto di energia \textit{microscopico}. Questa è la principale differenza tra i due.
 
-Per il \textit{gas perfetto} si può legare il lavoro alla variazione delle osservabili macroscopiche:
+Per il \textit{gas perfetto} si può legare il lavoro alla variazione delle osservabili macroscopiche\footnotemark:
+\footnotetext{$ \mathcal{F} $ è la forza \textit{sul} sistema, $ P $ è la pressione del sistema: l'equazione scritta è dovuta al fatto che si impone l'equilibrio delle forze, da cui il segno.}
 
 \begin{equation*}
 \dd W = \mathcal{F} \dd x = \frac{\mathcal{F}}{A} (A\dd x) = - P \dd V
@@ -237,9 +246,9 @@ Si ottiene quindi che:
 
 \noindent Che può essere confrontato con la definizione data nella \cref{sec:entro}.
 
-Questo è legato al fatto che una trasformazione \textit{isoentropica} avviene senza scambio di calore, infatti variando in modo sufficientemente lento il volume per il \textit{teorema adiabatico} i microstati cambieranno, ma ci sarà una corrispondenza uno a uno fra vecchi e nuovi, quindi il loro numero è fissato.
+\noindent Questo è legato al fatto che una trasformazione \textit{isoentropica} avviene senza scambio di calore, infatti variando in modo sufficientemente lento il volume per il \textit{teorema adiabatico} i microstati cambieranno, ma ci sarà una corrispondenza uno a uno fra vecchi e nuovi, quindi il loro numero è fissato.
 
-Queste ultime affermazioni in realtà sono tutte nell'ottica della meccanica statistica, perché a livello termodinamico l'entropia è definita nell'ambito del \textit{secondo principio}, che non è stato ancora esposto.
+Quest'ultima affermazione in realtà è nell'ottica della meccanica statistica, perché a livello termodinamico l'entropia è definita nell'ambito del \textit{secondo principio}, che viene ora esposto.
 
 \paragraph{Secondo principio} Il secondo principio è enunciato nel modo più termodinamicamente corretto nelle forme di \textit{Kelvin} e di \textit{Clausius}, ben note e reperibili. Esse consentono la dimostrazione del teorema di \textit{Carnot}, e conseguentemente di quello di \textit{Clausius}, che consente di definire l'entropia.
 
@@ -375,7 +384,7 @@ Si riporta solo il caso dell'energia libera a titolo di esempio:
 \end{figure}
 
 \subsubsection{Numero di particelle}
-Fino ad adesso si è considerato costante il numero di particelle, ma in base alla scelta che si fa del sottosistema anche esso può essere variabile: non è necessario che un sottosistema sia identificato dalla scelta di alcune particelle, che in generale è impossibile da effettuare (vedi \cref{secidpart}), ma potrebbe essere descritto da altre proprietà (es: il volume che occupa, un certo insieme di stati, \dots).
+Fino ad adesso si è considerato costante il numero di particelle, ma in base alla scelta che si fa del sottosistema anche esso può essere variabile: non è necessario che un sottosistema sia identificato dalla scelta di alcune particelle, che in generale è impossibile da effettuare (vedi \cref{sec:idpart}), ma potrebbe essere descritto da altre proprietà (es: il volume che occupa, un certo insieme di stati, \dots).
 
 Perciò, coerentemente con la \cref{def:ossint}, si può scrivere:
 \begin{equation*}
@@ -403,7 +412,7 @@ Raccogliendo $\lambda$ e $\dd lambda$, e considerando che poiché $\lambda$ è a
 E = TS - PV + \mu N
 \end{equation*}
 
-Da cui si ottiene l'espressione per la variazione del potenziale chimico:
+Da cui si ottiene l'espressione per la variazione del potenziale chimico, nota come equazione di \textit{Duhem-Gibbs}:
 
 \begin{equation*}
 \dd \mu = - \frac{S}{N} \dd T + \frac{V}{N} \dd P
@@ -446,12 +455,12 @@ Il principio variazionale fondamentale in termodinamica è quello fissato dal \t
 Questo si riflette in una serie di principi variazionali ausiliari, dettati dalla possibilità di raggiungere l'equilibrio tenendo costanti alcune delle variabili termodinamiche.
 
 \begin{align*}
-	T, V, N = cost. \qquad \implies \qquad F = \text{minimum}\\
-	T, P, N = cost. \qquad \implies \qquad G = \text{minimum}\\
-	T, V, \mu = cost. \qquad \implies \qquad \Omega = \text{minimum}\\
+	T, V, N = cost. \qquad \implies \qquad F = \text{min}\\
+	T, P, N = cost. \qquad \implies \qquad G = \text{min}\\
+	T, V, \mu = cost. \qquad \implies \qquad \Omega = \text{min}\\
 \end{align*}
 
-Si posson ottenere considerando il sottosistema che fluttua alla ricerca dell'equilibrio e il bagno termico, il cui stato di equilibrio non è influenzato dalle fluttuazioni del sottosistema. Perciò si ha:
+Si possono ottenere considerando il sottosistema che fluttua alla ricerca dell'equilibrio e il bagno termico, il cui stato di equilibrio non è influenzato dalle fluttuazioni del sottosistema. Perciò si ha:
 
 \begin{equation*}
 \begin{rcases*}
@@ -461,8 +470,9 @@ Si posson ottenere considerando il sottosistema che fluttua alla ricerca dell'eq
 \end{rcases*} \dd E + T \dd S' - \dd W' = 0\\
 \delta (S + S') \geq 0
 \end{rcases*}
-\delta E \leq T \delta S + p \delta V
+\delta E \leq T \delta S + P \delta V
 \end{equation*}
+\noindent Si noti che $ \dd W' = P \dd V$ perché è il lavoro che il sottosistema fa \textit{sul} bagno.
 
 Dall'ultima espressione si ottiene facilmente l'enunciato per $F$, ponendo $\delta V = 0$ e $T \delta S = \delta (T S)$. Analogamente si può fare per gli altri due casi.
 
@@ -497,8 +507,8 @@ C_V = \left(\frac{\partial E}{\partial T}\right)_V
 
 Per entrambe le capacità termiche si può esprimere però propriamente in funzione dei potenziali termodinamici con le variabili proprie adeguate:
 \begin{align*}
-C_V = T \left(\frac{\partial^2 F}{\partial T^2}\right)_V\\
-C_P = T \left(\frac{\partial^2 G}{\partial T^2}\right)_P
+C_V = - T \left(\frac{\partial^2 F}{\partial T^2}\right)_V\\
+C_P = - T \left(\frac{\partial^2 G}{\partial T^2}\right)_P
 \end{align*}
 
 \noindent che giustifica il fatto che esse siano grandezze del \textit{secondo ordine} (d'ora in poi è omesso che si tratti di derivate).
@@ -547,11 +557,11 @@ C_P - C_V = T V K_T \left[\left(\frac{\partial P}{\partial T}\right)_V\right]^2 
 \paragraph{Variabili magnetiche} Anche nel caso di variabili magnetiche le quantità definite dalle derivate seconde non miste sono rilevanti, e vengono chiamate \textit{suscettività.}
 
 \begin{defn}[Suscettività]
-	Si definisce \textit{suscettività isoterma} la quantità $K_T$:
+	Si definisce \textit{suscettività isoterma} la quantità $X_T$:
 	\begin{equation*}
 	X_T = \left(\frac{\partial M}{\partial H}\right)_T
 	\end{equation*}
-	Si definisce \textit{suscettività adiabatica} la quantità $K_S$:
+	Si definisce \textit{suscettività adiabatica} la quantità $X_S$:
 	\begin{equation*}
 	X_S = \left(\frac{\partial M}{\partial H}\right)_S
 	\end{equation*}
@@ -581,7 +591,7 @@ C_H - C_M = \frac{T V}{X_T} \left[\left(\frac{\partial M}{\partial T}\right)_H\r
 	\end{align*}
 	dove si è usato solo che $F$ è in un punto stazionario, e si è trovato infine $P_1 = P_2$, che è intuitivo caratterizzi l'equilibrio meccanico (deriva dall'\textit{equilibrio delle forze}).
 	
-	Il fatto che $F$ sia in un minimo da un informazione ulteriore sulle derivate seconde:
+	Il fatto che $F$ sia in un minimo da un'informazione ulteriore sulle derivate seconde:
 	\begin{equation*}
 	 \frac{\partial^2 F}{\partial V_1^2} =  \frac{\partial}{\partial V_1} (P_2 - P_1) =  -\frac{\partial P_1}{\partial V_1} -\frac{\partial P_2}{\partial V_2} \geq 0 \implies \frac{1}{V_1 K_{T_1}} + \frac{1}{V_2 K_{T_2}} \geq 0
 	\end{equation*}
@@ -606,7 +616,7 @@ L'intuitività del secondo è minata dal fatto che il concetto di temperatura no
 \subsection{Diagrammi di fase}
 
 \subsubsection{Digressione sul concetto di fase}
-La materia che stiamo considerando è composta da particelle, la cui struttura interna è fissata, ma la struttura che assume l'insieme di questi corpi può dipendere fortemente dalle osservabili macroscopiche. La possibilità di distinguere proprio a livello macroscopico queste tipologie di organizzazione determina il concetto di \textit{fase}.
+La materia che stiamo considerando è composta da particelle, la cui struttura interna (delle particelle) è fissata, ma la struttura che assume l'insieme di questi corpi può dipendere fortemente dalle osservabili macroscopiche. La possibilità di distinguere proprio a livello macroscopico queste tipologie di organizzazione determina il concetto di \textit{fase}.
 
 La definizione del concetto di \textit{fase} non è affato banale, per cui si cita quella data dalla \href{http://www.treccani.it/enciclopedia/fase/#chimica-1}{Treccani}:
 
@@ -614,39 +624,44 @@ La definizione del concetto di \textit{fase} non è affato banale, per cui si ci
 	In un sistema eterogeneo si definiscono f. le parti omogenee, di uguale composizione chimica e di uguale stato fisico, separabili meccanicamente. Così, i gas che sono sempre completamente miscibili formano un’unica f.; i liquidi formano più f. quando sono fra loro non completamente miscibili; i solidi possono dare un illimitato numero di fasi. Più in generale, si chiama f. una qualsiasi porzione di un sistema fisico-chimico per la quale siano costanti tutti i parametri che la individuano chimicamente e fisicamente (pressione, temperatura, densità, entropia, costituzione chimica ecc.).
 \end{defn}
 
-Questa è una buona definizione a livello enciclopedico, forse un po' povera se confrontata col livello di formalità generale. La cosa importante è chiarire esplicitamente a livello concettuale cosa implica la nozione di fase, per cui si prova a caratterizzarla:
+Questa è una buona definizione a livello enciclopedico, forse un po' povera se confrontata col livello di formalità adottato fin qui. La cosa importante è chiarire esplicitamente a livello concettuale cosa implica la nozione di fase, per cui si prova a caratterizzarla:
 
 \begin{itemize}
 	\item essa è chiaramente riferita ad una porzione estesa di materia, per cui è richiesta una certa coerenza fra le proprietà \textit{mesoscopiche} all'interno della regione spaziale considerata, al punto da poterle considerare uniformi; è importante considerare le proprietà mesoscopiche, perché:
 	\begin{itemize}
 		\item si vogliono considerare punti spazialmente diversi (le proprietà macroscopiche riguardano l'intero sistema, per cui non possono dipendere dal punto);
-		\item non si stanno considerando le proprietà microscopiche, che invece variano drasticamente sulle scale tipiche delle singole particelle (si pensi agli atomi e i campi elettrici).
+		\item non si stanno considerando le proprietà microscopiche, che invece variano drasticamente sulle scale tipiche delle singole particelle (si pensi agli atomi e i campi elettrici da essi generati).
 	\end{itemize}
 	\item proprio per l'uniformità richiesta tale nozione implica un certo ordine, un certo tipo di organizzazione (o la sua assenza) che si ripete nei vari punti dello spazio; a posteriori, pensando ai vari tipi di fase noti, è chiaro il senso di questa affermazione. 
 \end{itemize}
 
 \subsubsection{Piano $P-T$}
 
-La presenza delle varie fasi è ben visualizzabile nel piano $P-T$. La \cref{fig:phdiagr} illustra il caso tipico di un diagramma delle fasi.
+\begin{figure}[H]
+	\begin{minipage}{0.49\textwidth}
+		La presenza delle varie fasi è ben visualizzabile nel piano $P-T$. La \cref{fig:phdiagr} illustra il caso tipico di un diagramma delle fasi.
+		
+		
+		Ci sono varie osservazioni da fare:
+		\begin{itemize}
+			\item la più importante è la scelta delle variabili $P-T$, esse sono variabili intensive, e il motivo è chiaro: se la \textit{fase} è caratterizzata dall'uniformità essa non potrà direttamente dipendere da proprietà estensive quali il volume, infatti raddoppiando il sistema (numero di particelle compreso) esso manterrà lo stesso tipo di ordine: sarà solo più grande;
+		\end{itemize}
+	\end{minipage}
+	\begin{minipage}{0.49\textwidth}
+		\vspace{-30pt}
+		\centering
+		\includegraphics[width=\textwidth]{Immagini/PhaseDiagram.png}
+		\caption{}
+		\label{fig:phdiagr}
+		\vspace{-30pt}
+	\end{minipage}
+\end{figure}
 
-\begin{wrapfigure}{R}{0.5\textwidth}
-	\vspace{-30pt}
-	\centering
-	\includegraphics[width=0.5\textwidth]{Immagini/PhaseDiagram.png}
-	\caption{}
-	\label{fig:phdiagr}
-	\vspace{-30pt}
-\end{wrapfigure}
 
-Ci sono varie osservazioni da fare:
 \begin{itemize}
-	\item la più importante è la scelta delle variabili $P-T$, esse sono variabili intensive, e il motivo è chiaro: se la \textit{fase} è caratterizzata dall'uniformità essa non potrà direttamente dipendere da proprietà estensive quali il volume, infatti raddoppiando il sistema (numero di particelle compreso) esso manterrà lo stesso tipo di ordine, sarà solo più grande;
 	\item le linee marcate nel diagramma sono note come \textit{linee di coesistenza}, e in quei punti nel sistema sono presenti le due fasi contemporaneamente; essendo oggetti $1$-D sono individuati da una sola variabile, infatti fissata una fra pressione e temperatura l'altra è determinata dalla condizione di coesistenza;
-\end{itemize}
-
-\begin{itemize}
 	\item il punto di intersezione fra le due linee di coesistenza è detto \textit{punto triplo}, in esso coesistono le tre fasi, ed è individuato da una esatta pressione e temperatura;
-	\item la linea di coesistenza tra \textit{liquido} e \textit{gas} termina in un punto critico: questo implica che non si può realmente distinguere fra l'uno e l'altro, perché è possibile cambiare fase in modo continuo, aggirando tale punto\footnote{\`E però evidente che se il punto critico è piuttosto distante è abbastanza facile distinguere tra liquido e gas, perché potreste non essere praticamente possibile realizzare un percorso che aggiri il punto critico.}.
+	\item la linea di coesistenza tra \textit{liquido} e \textit{gas} termina in un punto critico: questo implica che non si può realmente distinguere fra l'uno e l'altro, perché è possibile cambiare fase in modo continuo, aggirando tale punto\footnote{\`E però evidente che se il punto critico è piuttosto distante è abbastanza facile distinguere tra liquido e gas, perché potrebbe non essere praticamente possibile realizzare un percorso che aggiri il punto critico.}.
 \end{itemize}
 
 Si riporta inoltre un altro diagramma, relativo al piano $P-V$:
@@ -663,7 +678,7 @@ Le variabili $P$ e $T$ non sono quindi sufficienti in questa regione a descriver
 
 Quello che sta accadendo è che $V$ descrive quanta parte del sistema è in una o in un'altra fase, poiché nella varie fasi cambia il \textit{volume specifico} $V/N$; per cui nella regione ad alto $V$ il sistema sarà prevalentemente nella fase ad alto volume specifico, e viceversa nella regione a basso $V$.
 
-Ci sono altre cose interessanti da notare in questo grafico: la posizione del punto critico e quella del punto triplo, la \textit{separazione} tra solido e liquido, la transizione "diretta" da gas a solido. Si lascia al lettore lo studio di questa proprietà sul diagramma.
+Ci sono altre cose interessanti da notare in questo grafico: la posizione del punto critico e quella del punto triplo, la \textit{separazione} tra solido e liquido, la transizione "diretta" da gas a solido. Si lascia al lettore lo studio di queste proprietà sul diagramma.
 
 \subsubsection{Equazione di Clausius-Clapeyron}
 
@@ -674,15 +689,15 @@ Il motivo è il seguente, e verrà verificato a posteriori: se l'entropia specif
 Intuitivamente ciò che succede è che ad alta temperatura sarà privilegiata la fase più entropica (ha un peso maggiore nell'energia libera di Gibbs) mentre ad alta pressione quella a più alta densità, quindi più basso volume specifico. Se una stessa fase soddisfa entrambi i requisiti allora la pendenza della curva sarà negativa, e la variazione discorde, viceversa nell'altro caso. 
 \newline
 
-Per ricavare il risultato precedente si consideri un sistema isolata, costituito da due sottosistemi, che condividono lo stesso volume e lo stesso insieme di particelle, e sono distinti dallo stato: ciascuno rappresenta una diversa fase.
+Per ricavare il risultato precedente si consideri un sistema isolato, costituito da due sottosistemi, che condividono lo stesso volume e lo stesso insieme di particelle, e sono distinti dallo stato: ciascuno rappresenta una diversa fase.
 
 Dalle condizioni di equilibrio ricavate precedentemente si ha $T_1 = T_2$ e $P_1 = P_2$. Un ulteriore condizione si ottiene considerando:
 \begin{align*}
 \begin{rcases*}
-\dd N_1 + \dd N_2 = \dd V = 0\\
-\delta F \geq 0
+\dd N_1 + \dd N_2 = \dd N = 0\\
+\delta G = 0
 \end{rcases*}
-\frac{\partial F}{\partial N_1} = \frac{\partial F_1}{\partial N_1} + \frac{\partial F_2}{\partial N_1} = \frac{\partial F_1}{\partial N_1} - \frac{\partial F_2}{\partial N_2} = 0
+\frac{\partial G}{\partial N_1} = \frac{\partial G_1}{\partial N_1} + \frac{\partial G_2}{\partial N_1} = \frac{\partial G_1}{\partial N_1} - \frac{\partial G_2}{\partial N_2} = 0
 \end{align*}
 
 \noindent Perciò $\mu_1 = \mu_2$.
@@ -693,11 +708,11 @@ Da questa uguaglianza si può ricavare un'equazione per $P$ e $T$:
 \mu_1 (P,T) = \mu_2 (P,T)
 \end{equation*}
 
-Per cui si può risolvere per una delle due variabili e ottenere l'equazione esplicita della curva (si noti che se le fasi che coesistono fossero tre ci sarebbe un'altra equazione da soddisfare, cioè l'uguaglianza con $\mu_3$, questo porterebbe ad individuare un unico punto, il punto triplo).
+Per cui si può risolvere per una delle due variabili e ottenere l'equazione esplicita della curva (si noti che se le fasi che coesistono fossero tre ci sarebbe un'altra equazione da soddisfare, cioè l'uguaglianza con $\mu_3$, e questo porterebbe ad individuare un unico punto: il punto triplo).
 
-Per ricavarsi l'equazione della curva è quindi necessaria l'espressione esplicita del potenziale chimico in funzione delle due variabili indicate. Questa può essere ricavata da una teoria microscopica delle fasi.
+Per ricavare l'equazione della curva è quindi necessaria l'espressione esplicita del potenziale chimico in funzione delle due variabili indicate. Questa può essere ottenuta da una teoria microscopica delle fasi.
 
-Si può comunque ricavare un utile risultato dalla relazione di Gibbs-Duhem:
+Si può comunque trovare un utile risultato dalla relazione di Duhem-Gibbs:
 
 \begin{align*}
 &\dd \mu_1 = \dd \mu_2 \implies -s_1 \dd T + v_1 \dd P = -s_2 \dd T + v_2 \dd P \implies \\
@@ -731,20 +746,20 @@ Da esso infatti sarà possibile trovare l'espressione per l'entropia, e inverten
 In reltà non è conveniente cercare di ottenere $E(S,V,N)$, perché l'entropia non è una variabile così naturale, specie dal punto di vista sperimentale. Si cercherà invece di ottenere la funzione $ F(T,V,N) $, oppure $ \Omega(T,V,\mu) $, le cui variabili proprie risultano molto più intuitive (si ribadisce che l'equazione per la pressione a partire da $ F $ è direttamente l'equazione di stato).
 
 \subsubsection{Derivazione}
-Poiché si è interessati a un sistema in cui è fissata la sola temperatura $ T $, o essa e il potenziale chimico $ \mu $, anziché l'energia, si ricorrerà alla descrizione \textit{canonica} introdotta nella \cref{sec:teorpipterm}, nel primo caso; nel caso in cui sia variabile anche il numero di particelle occorre passare alla descrizione \textit{grancanonica}: essa non è una sostanziale novità, infatti è sufficiente partire dal caso canonico, e ammettere che il sistema possa scambiare \textit{particelle} col bagno termico, oltre che energia (in questo contesto infatti il bagno termico viene anche detto \textit{riserva}).
+Poiché si è interessati a un sistema in cui è fissata la sola temperatura $ T $ e il numero di particelle $ N $, o la temperatura e il potenziale chimico $ \mu $, anziché l'energia, si ricorrerà alla descrizione \textit{canonica} introdotta nella \cref{sec:teorpipterm}, nel primo caso; nel caso in cui sia variabile anche il numero di particelle occorre passare alla descrizione \textit{grancanonica}: essa non è una sostanziale novità, infatti è sufficiente partire dal caso canonico, e ammettere che il sistema possa scambiare \textit{particelle} col bagno termico, oltre che energia (in questo contesto infatti il bagno termico viene anche detto \textit{riserva}).
 \newline
 
 Si consideri quindi un sistema isolato\footnote{Le cui variabili di equilibrio saranno indicate da uno $0$ a pedice, mentre quelle fuori equilibrio da una $t$ a pedice.}, composto da un piccolo sottosistema\footnote{Le cui variabili saranno disadorne.}, che è ciò che si vuole descrivere, e un bagno termico, detto anche \textit{mezzo}\footnote{Le cui variabili saranno primate.}.
 \newline
 
-Il mezzo sarà all'equilibrio, e questo suo stato non è affatto influenzato dalle variazioni nel sottosistema, che risulta troppo piccolo per poterlo perturbare abbastanza da portarlo fuori equilibrio.
+Il mezzo sarà all'equilibrio, e questa caratteristica del suo stato non è affatto influenzato dalle variazioni nel sottosistema, che risulta troppo piccolo per poterlo perturbare abbastanza da portarlo fuori equilibrio.
 Si avrà quindi:
 \begin{align*}
 &S_t \leq S_0	\qquad \iff \qquad	\Gamma_t \leq \Gamma_0\\
 &\dd E' = T \dd S' - P \dd V' + \mu 	\dd N'
 \end{align*}
 
-\noindent La prima è data dal secondo principio e la seconda dalla condizione di equilibrio del mezzo (e il primo principio naturalmente). Le variabili del sistema isolato $E_0, V_0, N_0$ sono costanti e esattamente conservate a causa dell'isolamento, perciò le variabili che descrivono lo stato del mezzo dovranno dipendere dallo stato del sottosistema.
+\noindent La prima equazione è data dal secondo principio della termodinamica e la seconda dalla condizione di equilibrio del mezzo (e il primo principio naturalmente). Le variabili del sistema isolato $E_0, V_0, N_0$ sono costanti e esattamente conservate a causa dell'isolamento, perciò le variabili che descrivono lo stato del mezzo dovranno dipendere dallo stato del sottosistema.
 
 Si può considerare il sottosistema contenuto in un volume fissato (qualcosa deve essere fissato per definire in cosa consista il sottosistema). Si userà l'approssimazione che per ogni microstato $\alpha$:
 \begin{align*}
@@ -778,7 +793,8 @@ Se si fissa invece il microstato del sottosistema a essere $\alpha$, si avrà:
 w_\alpha = \frac{\Gamma'_{\alpha}}{\Gamma_0}
 \end{equation*}
 
-\noindent e il mezzo avrà un'entropia $S'_\alpha \equiv S'(E_0 - E_\alpha, N_0 - N_\alpha)$:
+\noindent e il mezzo avrà un'entropia $S'_\alpha \equiv S'(E_0 - E_\alpha, N_0 - N_\alpha)$\footnotemark:
+\footnotetext{Si vuole enfatizzare che l'entropia dipenda solo dal macrostato del sistema, quindi dall'energia e il numero di particelle del sottosistema, non dalla particolare configurazione.}
 \begin{align*}
 &S'_\alpha = k_B \log \Gamma'_\alpha \implies \\
 & \qquad \implies S_0 - S'_\alpha = - k_B \log \frac{\Gamma'_{\alpha}}{\Gamma_0} = - k_B \log w_\alpha
@@ -789,21 +805,21 @@ Non è possibile identificare $S_0 - S'_\alpha$ con l'entropia del sottosistema 
 Si può ottenere però l'entropia del sottosistema all'equilibrio sottraendo a quella totale quella del mezzo, mediata su tutti i possibili microstati\footnote{Che coincide con mediare la quantità trovata nell'espressione precedente}.
 \begin{align*}
 S &= \overline{S_0 - S'_\alpha} = S_0 - \overline{S'_\alpha} = \overline{- k_B \log w_\alpha} = \\
-&= - \sum_{\alpha} w_\alpha \log w_\alpha
+&= - k_B \sum_{\alpha} w_\alpha \log w_\alpha
 \end{align*}
 
 Quest'ultima espressione è definibile per ogni distribuzione di probabilità discreta, e nel contesto della teoria dell'informazione è chiamata \textit{entropia di Shannon}.
 Tornando un passo indietro si era ottenuto:
 \begin{align*}
-	&w_\alpha = \exp \left(- \frac{S_0 - S_\alpha}{k_B}\right) = A \exp \left(\frac{S_\alpha}{k_B}\right) \qquad \qquad \qquad A = cost.\\
+	&w_\alpha = \exp \left(- \frac{S_0 - S'_\alpha}{k_B}\right) = A \exp \left(\frac{S_\alpha}{k_B}\right) \qquad \qquad \qquad A = cost.\\
 	&\qquad \qquad S'_\alpha = S'(E_0 - E_\alpha, N_0 - N_\alpha) \simeq S'(E_0, N_0) - \partfix{S'}{E'}{V',N'} E_\alpha - \partfix{S'}{N'}{V',E'} N_\alpha =\\
-	&\qquad \qquad \qquad = cost. - \frac{E_\alpha}{T} + \frac{\mu N_\alpha}{T} \implies\\
+	&\qquad \qquad \qquad = S_0 - \frac{E_\alpha}{T} + \frac{\mu N_\alpha}{T} \implies\\
 	&\implies w_\alpha = \frac{1}{\mathcal{Z}} \exp \left(- \frac{E_\alpha - \mu N_\alpha}{k_BT}\right)
 \end{align*}
 
 \noindent Nell'espressione precedente si è sfruttata l'approssimazione prima discussa per calcolare l'entropia del mezzo al prim'ordine, e si è infine trovata un'espressione per le probabilità $w_\alpha$ in funzioni delle variabili macroscopiche del sottosistema.
 
-La quantità $\mathcal{Z}$ è molto importante, e viene chiamata \textit{funzione di granpartizione}.
+La quantità $\mathcal{Z}$ è molto importante, e viene chiamata \textit{funzione di granpartizione} (dalla derivazione precedente può sembrare che essa sia pari a $ 1 $, ma si ricordi che il valore di $ S'_\alpha $ usato è solo un approssimazione, quindi è possibile che esso faccia saltare la normalizzazione).
 
 \begin{defn}[Funzione di granpartizione]
 	La \textit{funzione di granpartizione} è la quantità:
@@ -828,7 +844,7 @@ Si definisce analogamente la \textit{funzione di partizione}, nel caso in cui il
 Si ricava infine una proprietà fondamentale delle quantità ora definite:
 
 \begin{align*}
-S &= - \sum_{\alpha} w_\alpha \log w_\alpha =\\
+S &= - k_B \sum_{\alpha} w_\alpha \log w_\alpha =\\
 &= k_B \log \mathcal{Z} \sum_{\alpha} w_\alpha + \frac{1}{T} \sum_{\alpha} w_\alpha E_\alpha - \frac{\mu}{T} \sum_{\alpha} w_\alpha N_\alpha =\\
 &= k_B \log \mathcal{Z} + \frac{E - \mu N}{T} \implies\\
 \implies & - k_B T \log \mathcal{Z} = E - T S - \mu N = F - \mu N = \Omega
@@ -845,7 +861,7 @@ Questo si risolve nel fatto che:
 \begin{equation*}
 \Gamma'_{E_\alpha} = \Gamma'_\alpha
 \end{equation*}
-\noindent cioè l'entropia del mezzo è la stessa anche nel caso in cui si specifichi solo l'energia. Ciò che cambia è l'entropia del sottosistema, per cui:
+\noindent cioè l'entropia del mezzo è la stessa anche nel caso in cui si specifichi solo l'energia. Ciò che cambia è l'entropia del sottosistema (infatti se si specifica la sola energia anche il sottosistema avrà una molteplicità di stati a disposizione, non più solo uno), per cui:
 \begin{align*}
 &\Gamma_{tE_\alpha} = \rho_{E_\alpha} \Gamma'_\alpha \implies \\
 \implies w&(E_\alpha) = \frac{\Gamma_{tE_\alpha}}{\Gamma_0} = \frac{\rho_{E_\alpha} \Gamma'_\alpha}{\Gamma_0} = \rho_{E_\alpha} w_\alpha
@@ -869,7 +885,7 @@ Il risultato trovato per la probabilità in funzione dell'energia è intuitivo: 
 \begin{oss}
 	La probabilità in energia è una quantità più naturale che la probabilità per i singoli microstati. Infatti è atteso che un sistema a una data temperatura $T$ abbia un'energia pari a $\sim k_B T$. La probabilità degli autostati è però esponenzialmente depressa, per cui sembrano favoriti gli stati a bassa energia a qualunque temperatura.
 	
-	Quello che accade è che la densità di stati aumenta con l'energia,  si annulla per energia nulla (in realtà va a $1$, se discreta\footnote{E per basse energie è sempre discreta, perché comincia la zona dello spettro discreto per gli atomi.}, seguendo il terzo principio) e va a $\infty$ per energie grandi\footnote{Si assume sempre che lo spettro delle particelle non è limitato dall'alto.}. 
+	Quello che accade è che la densità di stati aumenta con l'energia, si annulla per energia nulla (in realtà va a $1$, se discreta, seguendo il terzo principio) e va a $\infty$ per energie grandi\footnote{Si assume sempre che lo spettro delle particelle non è limitato dall'alto.}. 
 	
 	\`E la combinazione di questi due effetti che porta $w(E_\alpha)$ a formare un picco, centrato approssimativamente in $k_B T$, e la cui larghezza si annulla per sistemi molto grandi (si veda la \cref{sec:fluct}).
 \end{oss}
@@ -888,7 +904,7 @@ Si otterrà perciò che la media di un'osservabile $f$ è data da:
 Si è usato il simbolo $\mathcal{E}$ per evidenziare che si tratta di una variabile continua, diversamente da prima.
 
 \begin{note}
-	Integrando fino a $\infty$ non si rispetta l'approssimazione sotto cui si erano ricavate le probabilità per i singoli stati, e le altre espressioni che ne scaturivano. Questa in realtà non è una nuova approssimazione, ma è consistente con la vecchia: si era ricavato infatti che la probabilità per gli stati era soppressa esponenzialmente ad alta energia, e questo giustifica l'estensione del limite di integrazione, anzi è concettualmente più corretta.
+	Integrando fino a $\infty$ non si rispetta l'approssimazione sotto cui si erano ricavate le probabilità per i singoli stati, e le altre espressioni che ne scaturivano. Questa in realtà non è una nuova approssimazione, ma è consistente con la vecchia: si è ricavato infatti che la probabilità per gli stati è soppressa esponenzialmente ad alta energia, e questo giustifica l'estensione del limite di integrazione, anzi è concettualmente più corretta della precedente.
 	
 	Infatti gli stati che erano stati trascurati esistono, solo non contribuiscono statisticamente, che è esattamente quello che sta accadendo nell'integrazione.
 \end{note}
@@ -904,9 +920,9 @@ Per la gioia del lettore: i passi avanti che si sono fatti sono solo formali, in
 
 \subsubsection{Approssimazione di Einstein}
 
-Si ha che, anche per la probabilità in funzione dell'energia si ottiene un'espressione analoga in funzione dell'entropia.
+Si ha che anche per la probabilità in funzione dell'energia si può ottenere un'espressione analoga in funzione dell'entropia:
 \begin{align*}
-&w(E_\alpha) = \frac{\rho_{E_\alpha} \Gamma'_\alpha}{\Gamma_0} = \exp \left(- \frac{S_0 - S_t(E_\alpha)}{k_B}\right) = A \exp \left(\frac{S_t(E_\alpha)}{k_B}\right) \qquad \qquad A = cost.\\
+&w(E_\alpha) = \frac{\Gamma_{tE_\alpha}}{\Gamma_0} = \frac{\rho_{E_\alpha} \Gamma'_\alpha}{\Gamma_0} = \exp \left(- \frac{S_0 - S_t(E_\alpha)}{k_B}\right) = A \exp \left(\frac{S_t(E_\alpha)}{k_B}\right) \qquad \qquad A = cost.\\
 \end{align*}
 
 Al posto dell'energia in realtà può esserci una qualunque quantità $x$ che influenzi il bagno termico (lo si può ricavare ripercorrendo il modo in cui si era introdotta l'energia). Si avrà dunque:
@@ -933,7 +949,7 @@ L'approssimazione effettuata corrisponde a considerare una forma gaussiana per $
 Dalla funzione di partizione si può ricavare direttamente l'energia. Il modo più facile per vederlo è introdurre la variabile\footnote{Si ottiene in modo naturale come moltiplicatore di Lagrange in una derivazione alternativa dell'ensemble canonico.} $\beta = (k_B T)^{-1}$ e derivare l'espressione di $Z$:
 \begin{align*}
 Z &= \int_{0}^{\infty} \rho(\mathcal{E}) e^{-\beta \mathcal{E}}\dd \mathcal{E} \implies\\
-\implies - \partdev{Z}{\beta} &= \int_{0}^{\infty} \mathcal{E}\rho(\mathcal{E}) e^{-\beta \mathcal{E}}\dd \mathcal{E}\ = Z \mathcal{E} \implies\\
+\implies - \partdev{Z}{\beta} &= \int_{0}^{\infty} \mathcal{E}\rho(\mathcal{E}) e^{-\beta \mathcal{E}}\dd \mathcal{E}\ = Z E \implies\\
 \implies E &= - \partdev{\log Z}{\beta}
 \end{align*}
 
@@ -942,12 +958,12 @@ Che si può trasformare in un'espressione esplicita della temperatura sempliceme
 E &= - \partdev{\log Z}{T} \partdev{T}{\beta} = k_B T^2 \partfix{\log Z}{T}{V,N}
 \end{align*}
 
-\noindent Per completezza: si può ottenere la stessa espressione ricavando $F$ da $Z$, e $E$ da $F$ (dalla definizione di $F$ si ha che $E = F + T S$) e tenendo conto che anche $S$ può essere ricavata da $F$ tramite una derivata in $T$. Inoltre, si noti che la funzione trovata in entrambi i casi è $E(T,V,N)$, ma si è detto che si è come trovare anche $ S(T,V,N) $, per cui invertendo quest'ultima e compenendo si ottiene l'energia nelle sue variabili proprie.
+\noindent Per completezza: si può ottenere la stessa espressione ricavando $F$ da $Z$, e $E$ da $F$ (dalla definizione di $F$ si ha che $E = F + T S$) tenendo conto che anche $S$ può essere ricavata da $F$ tramite una derivata in $T$. Inoltre, si noti che la funzione trovata in entrambi i casi è $E(T,V,N)$, ma si è detto che si è come trovare anche $ S(T,V,N) $, per cui invertendo quest'ultima e compenendo si ottiene l'energia nelle sue variabili proprie.
 
 \begin{ex}
 	Si trovi quindi analogamente che:
 	\begin{equation*}
-	N = - \partdev{\Omega}{\mu} = k_B T \partfix{\log \mathscr{Z}}{\mu}{T,V}
+	N = - \partdev{\Omega}{\mu} = k_B T \partfix{\log \mathcal{Z}}{\mu}{T,V}
 	\end{equation*}
 \end{ex}
 
@@ -962,7 +978,7 @@ Seguendo un processo simile si può trovare qual'è il corrispondente microscopi
 	P = - \partdev{F}{V} = \frac{k_B T}{Z} \partdev{Z}{V} = - \frac{1}{Z} \sum_{\alpha} \derivative{E_\alpha}{V} \exp \left(- \frac{E_\alpha}{k_B T}\right)
 	\end{equation*}
 	
-	Per cui il corrispettivo microscopico della pressione è $-\dd E /\dd V$.
+	Per cui il corrispondente microscopico della pressione è $-\dd E /\dd V$.
 \end{es}
 
 \noindent Si osservi che l'energia e il numero di particelle di un singolo microstato non dipendono da quantità come $T$ e $\mu$: esse sono proprietà non statistiche dei particolari microstati.
@@ -983,13 +999,13 @@ Il problema di avere particelle identiche è che diventa necessario imparare a s
 
 Ci sono essenzialmente due modi per affrontare il problema, a partire dagli stati di singola particella:
 \begin{itemize}
-	\item si distinguono gli stati a molti-corpi (quelli dell'intero sistema), per lo stato di singola particella in qui si trova ogni elemento del sistema;
+	\item si distinguono gli stati a molti-corpi (quelli dell'intero sistema), dallo stato di singola particella in cui si trova ogni elemento del sistema;
 	
-	si somma quindi su tutte le alternative e si considera che, essendo il numero di stati di singola particella infinito\footnote{Nella quasi totalità dei casi ogni particella è in uno stato diverso da tutte le altre (nel continuo è a meno di un insieme a misura nulla), questa ipotesi verrà comunque discussa più avanti nella definizione del \textit{gas ideale}.}, per ogni conteggio si ottiene il valore corretto dividendo per il numero delle permutazioni, poiché tali stati del sistema contribuiscono con le stesse proprietà dinamiche, proprio a causa del fatto che le particelle sono identiche;
+	si somma quindi su tutte le alternative e si considera che, essendo il numero di stati di singola particella infinito\footnote{Nella quasi totalità dei casi ogni particella è in uno stato diverso da tutte le altre (nel continuo è a meno di un insieme a misura nulla), questa ipotesi verrà comunque discussa più avanti nella definizione del \textit{gas ideale}.}, per ogni conteggio si ottiene il valore corretto dividendo per il numero delle permutazioni, poiché tali stati del sistema contribuiscono con le stesse proprietà dinamiche, dato che le particelle sono identiche;
 	
-	questo metodo è applicabile ugualmente bene anche a sistemi interagenti, è sufficiente che sia possibile definire gli stati di singola particella (che però non saranno più autostati una parte separabile dell'Hamiltoniano complessivo).
+	questo metodo è applicabile ugualmente bene anche a sistemi interagenti, è sufficiente che sia possibile definire gli stati di singola particella (che però non saranno più autostati di una parte separabile dell'Hamiltoniano complessivo).
 	
-	\item si distiguono gli stati a molti-corpi per il numero di elementi che si trova in ogni stato di singola particella, in questo modo si ottiene direttamente il conteggio corretto (questo metodo non è altro che il formalismo della \textit{seconda quantizzazione});
+	\item si distiguono gli stati a molti-corpi per il numero di elementi (detto \textit{numero di occupazione}) che si trova in ogni stato di singola particella, in questo modo si ottiene direttamente il conteggio corretto (questo metodo non è altro che il formalismo della \textit{seconda quantizzazione});
 	
 	questo metodo è ottimo per sistemi di particelle non-interagenti (cioè il gas perfetto)\footnote{Questi sono tutti i sistemi in cui si sa diagonalizzare l'Hamiltoniano complessivo, dove le particelle sono costituite dalle eccitazioni del sistema.}, ma non può essere generalizzato ulteriormente.
 \end{itemize}
@@ -1021,22 +1037,22 @@ Z = \frac{1}{N!} (Z_1)^N &\implies F = -N k_B T \log Z_1 + k_B T \log N!
 
 \noindent dove $\textbf{q}$ sono i numeri d'onda, che vengono usati in questo contesto per distinguere gli stati di singola particella.
 
-Quindi si ottiene che l'entropia $S = - \partial F / \partial T$ è influenzata dall'identità o meno delle particelle, mentre l'equazione di stato no:
+Quindi si ottiene che l'entropia ($S = - \partial F / \partial T$) è influenzata dall'identità o meno delle particelle, mentre l'equazione di stato no:
 \begin{align*}
 P(T,V) = - &\partfix{F}{V}{T} = N k_B T \partdev{\log Z_1}{V}\\
 & \partdev{Z_1}{V} = - \frac{1}{k_B T} \sum_{\textbf{q}} \partdev{\varepsilon_{\textbf{q}}}{V}\exp \left( - \frac{\varepsilon_{\textbf{q}}}{k_B T}\right) = \frac{2/3}{V k_B T} \sum_{\textbf{q}} \exp \left( - \frac{\varepsilon_{\textbf{q}}}{k_B T}\right) \implies\\
 \implies P = &\frac{2}{3} \frac{N}{V} \bar{\varepsilon} = \frac{2}{3} \frac{E}{V}
 \end{align*}
 
-Per ricavare la derivata $\partial \varepsilon_{\textbf{q}} / \partial V$\footnote{Perché gli impulsi sono proporzionali ai numeri d'onda, che scalano con $1/L \propto V^{-1/3}$} si è usato che l'energia dei microstati dipende da $V^{-2/3}$, cioè dalle lunghezze longitudinali del volume permesso. In realtà la relazione $PV = \frac{2}{3} E$ si può ricavare direttamente a partire da questa considerazione (\textit{esercizio}\footnote{Si usi l'\cref{es:micropress}}).
+Per ricavare la derivata $\partial \varepsilon_{\textbf{q}} / \partial V$ si è usato che l'energia dei microstati dipende da $V^{-2/3}$\footnote{Perché gli impulsi sono proporzionali ai numeri d'onda, che scalano con $1/L \propto V^{-1/3}$}, cioè dalle lunghezze longitudinali del volume permesso. In realtà la relazione $PV = \frac{2}{3} E$ si può ricavare direttamente a partire da questa considerazione (\textit{esercizio}\footnote{Si usi l'\cref{es:micropress}}).
 
-L'equazione di stato non è stata ancora ricavata: bisognerebbe conoscere $E(T,V,N)$, cioè effettuare la somma. Questo è possibile farlo anche nell'ambito di questo metodo, ma con l'altro modo risulta molto più semplice e mette in evidenza la natura delle approssimazioni fatte.
+L'equazione di stato non è stata ancora ricavata: bisognerebbe conoscere $E(T,V,N)$, cioè effettuare la somma. Questo è possibile farlo anche nell'ambito di questo metodo, ma nell'altro modo risulta molto più semplice e mette in evidenza la natura delle approssimazioni fatte.
 
 \paragraph{Secondo metodo} Si applica il secondo metodo allo studio dell'occupazione degli stati, per il quale è evidentemente il più adatto. Si ricaverà infine l'equazione di stato.
 
 Si considera come sistema un singolo stato, con energia e numero di particelle variabili. Si calcola quindi la funzione di partizione per questo stato:
 \begin{equation*}
-\Omega_{\textbf{q}} = - k_B T \log \sum_{n_{\textbf{q}}} \exp \left( - \frac{n_{\textbf{q}}{(\varepsilon_{\textbf{q}} - \mu)}}{k_B T}\right) \qquad \qquad n_{\textbf{q}} = 0, 1, 2, \dots
+\Omega_{\textbf{q}} = - k_B T \log\left[\sum_{n_{\textbf{q}}} \exp \left( - \frac{n_{\textbf{q}}{(\varepsilon_{\textbf{q}} - \mu)}}{k_B T}\right)\right] \qquad \qquad n_{\textbf{q}} = 0, 1, 2, \dots
 \end{equation*}
 
 Dalla separabilità di $\mathcal{Z}$, in termini di funzioni di granpartizione di singola particella, si ottien $\Omega = \sum_{\textbf{q}} \Omega_{\textbf{q}}$. In questo modo si è effettuato il conteggio senza contare più volte alcuno stato.
@@ -1061,7 +1077,7 @@ cioè se $\mu/k_B T \ll -1$. Questa può essere anche usata come definizione di 
 	
 	Per chiarire il concetto fisico di potenziale chimico si osservi come esso entra nel differenziale dell'energia. Questo è esattamente ciò che è stato fatto nella \cref{def:ossint}, e in accordo con essa il potenziale chimico corrisponde alla \textit{variazione di energia} quando viene aggiunta una particella al sistema.
 	
-	Allora come è possibile che l'energia del gas ideale diminuisca molto quando si aggiunge una particella che può avere energia solo positiva al sistema?
+	Allora come è possibile che l'energia del gas ideale diminuisca molto quando si aggiunge al sistema una particella che può avere energia solo positiva?
 	
 	\noindent La risposta sta nel tipo di trasformazione: il potenziale chimico è la variazione di energia a \textit{volume e entropia fissati}. Ma se si aggiunge una particella, anche solo a energia nulla, a un sistema la sua entropia aumenta, perché acquisisce più modi per dividere l'energia che già possiede.
 	
@@ -1075,7 +1091,7 @@ Si avrà quindi per il numero di occupazione medio:
 	\overline{n_{\textbf{q}}} = \frac{\sum_{n_{\textbf{q}}} n_{\textbf{q}}\exp [ - {n_{\textbf{q}}{(\varepsilon_{\textbf{q}} - \mu)}}/{k_B T}]}{\sum_{n_{\textbf{q}}} \exp [ - {n_{\textbf{q}}{(\varepsilon_{\textbf{q}} - \mu)}}/{k_B T}]} \simeq \exp \left( - \frac{{\varepsilon_{\textbf{q}} - \mu}}{k_B T}\right)
 \end{equation*}
 
-\noindent si sono considerate solamente gli ordini dominanti (primo sopra, zero sotto).
+\noindent dove si sono considerati solamente gli ordini dominanti (primo sopra, zero sotto).
 
 Si ha quindi per le funzioni di granpartizione di singolo stato e complessiva, sempre al primo ordine non banale:
 \begin{align*}
@@ -1115,7 +1131,7 @@ Il secondo caso è quello più semplice: per la meccanica quantistica uno stato 
 Per la meccanica classica è più complesso: le proprietà delle particelle (posizioni, impulsi, \dots) possono assumere un insieme continuo di valori, se ognuno di questi costituisse un singolo stato divergerebbero, si definisce quindi la densità di stati (\cref{def:statdens}, in quel caso era definita nell'energia, ma si può procedere analogamente per ogni altra variabile), essa deve però rispettare il principio di equiprobabilità a priori, e quindi essere piatta sul suo supporto (stati accessibili) per sistemi isolati. Ma piatta \textit{in che misura?}\footnote{Infatti una distribuzione di probabilità che è costante in una certa variabile non rimane costante se si decide di cambiare variabile in modo non lineare (in generale in una trasformazione che non conservi i rapporti tra le aree, indipendentemente dalla struttura dello spazio).}
 \newline
 
-La risposta alla domanda posta è la seguente: \textit{piatta nello spazio delle fasi}. Questa risposta è legata al teorema di Liouville, che assicura che l'evoluzione temporale conservi i volumi dello spazio delle fasi.\footnote{Inoltre è evidente che un punto nello spazio delle fasi identifichi univocamene lo stato classico del sistema.} 
+La risposta alla domanda posta è la seguente: \textit{piatta nello spazio delle fasi}. Questa risposta è legata al teorema di Liouville, il quale assicura che l'evoluzione temporale conservi i volumi dello spazio delle fasi.\footnote{Inoltre è evidente che un punto nello spazio delle fasi identifichi univocamene lo stato classico del sistema.} 
 
 Infatti poiché le proprietà di un sistema all'equilibrio devono essere stazionarie, densità degli stati inclusa, se i rapporti tra i volumi fossero modificati dall'evoluzione temporale allora sarebbe necessario specificare anche a che istante la densità degli stati è piatta, perché l'evoluzione temporale poi la deformerebbe. Questo è assurdo, proprio per la richiesta di stazionarietà, da cui la scelta della misura.
 \newline
@@ -1124,7 +1140,7 @@ C'è un altro problema legato alla \textit{normalizzazione}: dato un certo volum
 
 La risposta in meccanica classica è tanto arbitraria quanto fondamentale: l'unico effetto della definizione di un volume unitario è fissare la costante nell'entropia, ma una volta fissato si possono avere sistemi che occupino un volume più piccolo di quello unitario, ad esempio se si fissa l'energia lo spazio occupato dal sistema cambia dimensionalità, scendendo di $1$ a causa del vincolo, e l'entropia divergerebbe negativamente (questo caso corrisponde a fare il limite per un sistema arbitrariamente ben localizzato in energia).
 
-La risposta migliore sarebbe: per grossi volumi, cioè comprendenti un gran numero di stati, il problema è irrilevante, e anche se la costante nell'entropia rimane indeterminata questo non ha rilevanze fisica, mentre per sistemi in cui l'indeterminazione è molto piccola la meccanica classica fallisce miseramente contro il principio di Heisenberg, e quindi si deve adottare una descrizione completamente quantistica.
+La risposta migliore sarebbe: per grossi volumi, cioè comprendenti un gran numero di stati, il problema è irrilevante, e anche se la costante nell'entropia rimane indeterminata questo non ha rilevanza fisica, mentre per sistemi in cui l'indeterminazione è molto piccola la meccanica classica fallisce miseramente contro il principio di Heisenberg, e quindi si deve adottare una descrizione completamente quantistica.
 
 Nonostante ciò ci si può addentrare un minimo nella questione e trovare un valore per questa costante universale dalla meccanica quantistica, e utilizzarla in meccanica classica come una specie di \textit{raccordo}.
 
@@ -1135,7 +1151,7 @@ Si parte considerando come una somma può essere convertita in un opportuno inte
 
 \noindent dove si è chiamato $\tau$ il volumetto unitario, $f$ il numero di gradi di libertà del sistema e con $\{p_i\}$ e $\{r_i\}$ si intende l'insieme di tutti gli impulsi e delle posizioni per ogni grado di libertà.
 
-Essendo il valore di $\tau$ universale si può considerare un qualunque sistema, perciò si prende in esame il più semplice: una particella in una scatola. Il numero di stati che hanno impulso compreso tra $p$ e $p + \Delta p$ è:
+Essendo il valore di $\tau$ universale si può considerare un qualunque sistema, perciò si prende in esame il più semplice: una particella in una scatola unidimensionale. Il numero di stati che hanno impulso compreso tra $p$ e $p + \Delta p$ è:
 \begin{equation*}
 \Delta l = \frac{L}{2\pi} \Delta q = \frac{L}{2 \pi \hbar} \Delta p
 \end{equation*}
@@ -1170,7 +1186,7 @@ Per una singola particella di gas perfetto il numero di stati compresi fra $p$ e
 Si ottiene quindi la densità di stati in energia dalla legge di dispersione per una particella libera:
 \begin{align*}
 	\varepsilon &= \frac{p^2}{2m}\\
-	\rho(\varepsilon) \dd \varepsilon = &\frac{4\pi \sqrt{2}~V m^{3/2}}{(2\pi \hbar)^3}p^2 \varepsilon^{1/2}\dd \varepsilon
+	\rho(\varepsilon) \dd \varepsilon = &\frac{4\pi \sqrt{2}~V m^{3/2}}{(2\pi \hbar)^3}\varepsilon^{1/2}\dd \varepsilon
 \end{align*}
 
 \begin{es}[Uso della densità di stati]
@@ -1211,9 +1227,9 @@ Quella trovata è solo una possibile densità degli stati, ottenuta dalla legge 
 Si cerca ora di impostare il problema per sistemi interagenti. Non si intende affrontarlo, ma solo cercare un buon modo di porre la questione.
 \newline
 
-Per i tipici sistemi interagenti la questione delle particelle identiche è ancora più netta: dato che i corpi classici sono impenetrabili\footnote{\`E un assunzione: anche in meccanica classica si possono descrivere urti fra corpi che si attraversano (esempio tipico: galassie), ma i corpi con cui si è alle prese più di frequente sono impenetrabili, ad esempio gli atomi o anche particelle più grosse.} non è possibile che due particelle occupino la stessa posizione nello spazio fisico, per cui la divisione per il fattore combinatorio che conta le permutazioni restituisce un risultato esatto (l'errore lo si fa se si somma anche su quelli stati, ma considerando un potenziale che descriva l'impenetrabilità è l'interazione stessa a sopprimerli). Si avrà quindi:
+Per i tipici sistemi interagenti la questione delle particelle identiche è ancora più netta: dato che i corpi classici sono impenetrabili\footnote{\`E un assunzione: anche in meccanica classica si possono descrivere urti fra corpi che si attraversano (esempio tipico: galassie), ma i corpi con cui si è alle prese più di frequente sono impenetrabili, ad esempio gli atomi o anche particelle più grosse.} non è possibile che due particelle occupino la stessa posizione nello spazio fisico, per cui la divisione per il fattore combinatorio che conta le permutazioni restituisce un risultato esatto (l'errore lo si fa se si somma anche su quegli stati, ma considerando un potenziale che descriva l'impenetrabilità è l'interazione stessa a sopprimerli). Si avrà quindi:
 \begin{equation*}
-\rho{\mathcal{E}} \dd \mathcal{E} = \frac{1}{N!} \frac{\dd\{p_i\} \dd \{ r_i\}}{(2\pi \hbar)^f}
+\rho(\mathcal{E}) \dd \mathcal{E} = \frac{1}{N!} \frac{\dd\{p_i\} \dd \{ r_i\}}{(2\pi \hbar)^f}
 \end{equation*}
 
 \noindent con $f$ il numero di gradi di libertà del sistema.
@@ -1224,7 +1240,7 @@ Il primo passo è sempre lo studio della funzione di partizione del sistema, che
 	\text{con}\qquad\mathcal{E}(\{p_i\}, \dd \{ r_i\}) &= \sum_{i =1}^{3N} \frac{p_i^2}{2m} + U(\{r_i\})
 \end{align*}
 
-\noindent dove $U$ è l'energia potenziale del sistema, e dipende \textit{istantaneamente} dalle posizioni di \textit{tutte} le particelle\footnote{\`E chiaro che si sta trattando il limite non relativistico, altrimenti andrebbero introdotti i campi per descrivere la velocià finita di propagazione}.
+\noindent dove $U$ è l'energia potenziale del sistema, e dipende \textit{istantaneamente} dalle posizioni di \textit{tutte} le particelle\footnote{\`E chiaro che si sta trattando il limite non relativistico, altrimenti andrebbero introdotti i campi per descrivere la velocità finita di propagazione}.
 
 Si ha che $Z$ è quindi separabile:
 \begin{equation*}
@@ -1233,12 +1249,12 @@ Z = \frac{1}{(2\pi \hbar)^{3N} N!}\int \cdots \int \exp \left(- \sum \frac{p_i^2
 
 L'integrale sugli impulsi è lo stesso del gas ideale:
 \begin{align*}
-Z &= \frac{1}{(2\pi \hbar)^{3N} N!}\int \cdots \int \exp \left(- \sum \frac{p_i^2}{2 m k_B T}\right) \dd\{p_i\} =\\ 
+Z_{K} &= \frac{1}{(2\pi \hbar)^{3N} N!}\int \cdots \int \exp \left(- \sum \frac{p_i^2}{2 m k_B T}\right) \dd\{p_i\} =\\ 
 &= \frac{1}{V^N (2\pi \hbar)^{3N} N!}\int \cdots \int \exp \left(- \sum \frac{p_i^2}{2 m k_B T}\right) \dd\{p_i\} \dd\{r_i\} =\\
 &= \frac{Z_{IG}}{V^N}
 \end{align*}
 
-\noindent con $Z_{IG}$ la funzionr di partizione del gas ideale.
+\noindent con $Z_{IG}$ la funzione di partizione del gas perfetto.
 
 Quello che rimane da calcolare è quindi il cosiddetto \textit{integrale delle configurazioni}, cioè l'integrazione sulla parte spaziale:
 \begin{equation*}
@@ -1251,7 +1267,7 @@ E infine la funzione di partizione totale sarà quindi:
 \end{equation*}
 
 \subsubsection{Funzioni di partizione del gas ideale}
-Si valutano ora la funziona di partizione del gas ideale, e quella di granpartizione.
+Si valutano ora la funzione di partizione del gas ideale, e quella di granpartizione.
 
 \paragraph{Funzione di partizione} Si esegue il calcolo dell'integrale degli impulsi:
 \begin{align*}
@@ -1316,7 +1332,7 @@ Per il gas immerso in un bagno termico (approccio canonico) le probabilità in e
 
 \noindent Più in dettaglio:
 \begin{align*}
-\rho(\mathcal{E}) \delta \mathcal{E} &\propto \partdev{V^\ast}{\mathcal{E}}\\
+\rho(\mathcal{E}) \delta \mathcal{E} &\propto \partdev{V^\ast}{\mathcal{E}} \delta \mathcal{E}\\
 &\propto P^{\ast{3N-1}} \partdev{P^\ast}{\mathcal{E}} \delta \mathcal{E}\\
 &\propto (\mathcal{E}^{1/2})^{3N-1}\mathcal{E}^{-1/2} \delta \mathcal{E} = \mathcal{E}^{(3N/2) - 1}\delta \mathcal{E}
 \end{align*}
@@ -1334,7 +1350,7 @@ Si può esaminare la distribuzione di probabilità studiando alcune proprietà t
 \begin{description}
 	\item[Moda] La moda di una distribuzione è il suo valore più probabile, quindi un massimo, per cui:
 	\begin{align*}
-	&0 = \partdev{w(\mathcal{E})}{w(\mathcal{E}} \propto \partdev{}{\mathcal{E}}[\mathcal{E}^{(3N/2)-1}e^{-\mathcal{E}/k_B T}]\\
+	&0 = \partdev{w(\mathcal{E})}{\mathcal{E}} \propto \partdev{}{\mathcal{E}}[\mathcal{E}^{(3N/2)-1}e^{-\mathcal{E}/k_B T}]\\
 	&\text{cioè:} \qquad \qquad \mathcal{E}_M = \left(\frac{3N}{2} - 1\right) k_B T
 	\end{align*}
 	
@@ -1404,7 +1420,7 @@ Si possono studiare nello stesso modo le fluttuazioni della densità. Si prende 
 
 \noindent cioè:
 \begin{equation*}
-\overline{(\Delta N)^2}(\overline{N_\alpha^2} - N^2) = - k_B T \partfix{^2 \Omega}{\mu^2}{T,V} = k_B T \partfix{N}{\mu}{T,V}
+\overline{(\Delta N)^2} = (\overline{N_\alpha^2} - N^2) = - k_B T \partfix{^2 \Omega}{\mu^2}{T,V} = k_B T \partfix{N}{\mu}{T,V}
 \end{equation*}
 
 Inoltre, usando l'equazione di Gibbs-Duhem (vedi \cref{sec:thermquant}), si ottiene:
@@ -1473,8 +1489,8 @@ w(\{x\}) &\propto \exp  \left(\frac{\Delta S_t}{k_B} \right) \\
 
 Usando il fatto che il bagno termico sia sempre all'equilibrio si ottiene:
 \begin{align*}
-\Delta S' &= \frac{\Delta E' + P \Delta V'}{T} = \frac{- \Delta E + P \Delta V}{T} \implies\\
-&\implies w \propto \exp \left( - \frac{\Delta E - T \Delta S - P \Delta V}{k_B T}\right)
+\Delta S' &= \frac{\Delta E' + P \Delta V'}{T} = \frac{- \Delta E - P \Delta V}{T} \implies\\
+&\implies w \propto \exp \left( - \frac{\Delta E - T \Delta S + P \Delta V}{k_B T}\right)
 \end{align*}
 
 Poiché la variabili indipendenti sono $T$ e $V$ la fluttuazione dell'energia va espressa in funzione di queste due variabili, e coerentemente con le approsimazioni già fatte, cioè al second'ordine:
@@ -1486,7 +1502,7 @@ Poiché la variabili indipendenti sono $T$ e $V$ la fluttuazione dell'energia va
 \begin{align*}
 \Delta E - T \Delta S + P \Delta V &= \frac{1}{2} \left[\partdev{^2 E}{S^2} (\Delta S)^2 + 2 \partdev{E}{S \partial V} \Delta S \Delta V + \partdev{^2 E}{V^2} (\Delta V)^2\right] =\\
 &=\frac{1}{2} \left[\Delta S \left(\partdev{^2 E}{S^2} \Delta S + \partdev{E}{S \partial V} \Delta V\right) + \Delta V  \left(\partdev{E}{S \partial V} \Delta S + \partdev{^2 E}{V^2} (\Delta V)\right)\right] =\\
-&= \frac{1}{2} \left[\Delta S \Delta \left(\partdev{E}{S}\right) + \Delta V \Delta \left(\partdev{E}{V}\right)\right] = \frac{1}{2} \left[\Delta S \Delta T + \Delta V \Delta P\right]
+&= \frac{1}{2} \left[\Delta S \Delta \left(\partdev{E}{S}\right) + \Delta V \Delta \left(\partdev{E}{V}\right)\right] = \frac{1}{2} \left[\Delta S \Delta T - \Delta V \Delta P\right]
 \end{align*}
 
 \noindent Si ottiene quindi per la probabilità:
@@ -1503,7 +1519,7 @@ Per concludere si cerca l'espressione di $\Delta S$ e $\Delta P$ in funzione del
 
 \noindent e infine:
 \begin{equation*}
-w \propto \exp \left[- \frac{C_V (\Delta T)^2}{2 k_B T^2} + \frac{(\Delta V)^2}{2 V K_T k_B T}  \right]
+w \propto \exp \left[- \frac{C_V (\Delta T)^2}{2 k_B T^2} - \frac{(\Delta V)^2}{2 V K_T k_B T}  \right]
 \end{equation*}
 
 Si è quindi ottenuta una distribuzione di probabilità di due variabili separabile:
@@ -1515,7 +1531,7 @@ w(x,y) &= \sqrt{\frac{\beta_1}{2\pi}}  \exp (-\beta_1 x^2 /2) \sqrt{\frac{\beta_
 
 \noindent con $x = \Delta T$ e $y = \Delta V$. Ricavando quindi $\beta_1$ e $\beta_2$ dall'espressione di $w$ si ottiene:
 \begin{equation*}
-\overline{(\Delta T)^2} = \frac{k_B T^2}{C_V} + k_B T V K_T
+\overline{(\Delta T)^2} = \frac{k_B T^2}{C_V} \qquad \overline{(\Delta V)^2} = k_B T V K_T
 \end{equation*}
 
 \noindent coerente con quanto trovato precedentemente. Inoltre si può calcolare la correlazione delle due variabili:
@@ -1525,7 +1541,7 @@ w(x,y) &= \sqrt{\frac{\beta_1}{2\pi}}  \exp (-\beta_1 x^2 /2) \sqrt{\frac{\beta_
 
 \noindent per cui sono statisticamente scorrelate. Si sarebbe trovato lo stesso risultato considerando come variabili indipendenti $P$ ed $S$.
 
-\subparagraph{Grandezze dipendenti} Le fluttuazioni delle altre grandezze si possono trovare partendo da quelle di $T$ e $V$ e sommando in quadratura i due contributi, come accade per qualunque distribuzione di probabilità di due o più variabili statisticamente indipendenti.
+\subparagraph{Grandezze dipendenti} Le fluttuazioni delle altre grandezze si possono trovare partendo da quelle di $T$ e $V$ e sommando in quadratura i due contributi, come accade per qualunque distribuzione di probabilità di due o più variabili scorrelate.
 
 \begin{es}
 	Si prenda in esame il caso dell'energia:
@@ -1561,6 +1577,7 @@ w(x,y) &= \sqrt{\frac{\beta_1}{2\pi}}  \exp (-\beta_1 x^2 /2) \sqrt{\frac{\beta_
 \end{description}
 
 \section{Commenti sui principi della Meccanica Statistica}
+\label{sec:princremark}
 
 \subsection{Incertezza quantistica e termodinamica}
 Nel corso del capitolo si è mostrato come fosse necessario introdurre una certa incertezza nell'energia, per due motivi:
@@ -1667,14 +1684,14 @@ L'idea di \textit{ensemble} è dovuta a Gibbs, ed è principalmente una risposta
 
 Si è già discusso in parte di questo nella \cref{sec:principles}, quindi il problema dovrebbe essere più o meno chiaro: per sistemi integrabili ci sono ulteriori leggi di conservazione che impediscono al sistema di esplorare tutti gli stati "possibili".
 
-Questo potrebbe essere risolto ridefinendo gli stati possibili come quelli integrabili, ma a quel punto non si avrebbe un'ottima descrizione della realtà sperimentale, poiché la condizione di \textit{integrabilità} è una condizione piuttosto speciale, e i sistemi integrabili sono un sottoinsieme a misura nulla dei sistemi possibili.
+Questo potrebbe essere risolto ridefinendo gli stati possibili come quelli accessibili, ma a quel punto non si avrebbe un'ottima descrizione della realtà sperimentale, poiché la condizione di \textit{integrabilità} è una condizione piuttosto speciale, e i sistemi integrabili sono un sottoinsieme a misura nulla dei sistemi possibili.
 
 Gibbs ha quindi pensato di risolvere la cosa nel seguente modo: anziché considerare l'evoluzione temporale di un singolo sistema si prende un gran numero di sistemi, i cui stati sono distribuiti secondo la distribuzione di probabilità asintotica.
 
 Si tratta solo di una questione di formalizzazione, perché sostanzialmente da una parte si assume l'ipotesi ergodica, che impone in qualunque caso che il sistema non sia sottoposto a ulteriori vincoli, dall'altra si impone direttamente la distribuzione sui sistemi e si elimina l'evoluzione temporale imponendo condizioni stazionarie.
 
 Il primo metodo si avvicina di più alla realtà sperimentale, trattando l'evoluzione temporale e facendo un'ipotesi concreta sulla realtà sperimentale, ma il secondo consente di trattare formalmente anche casi di sistemi integrabili,
-\footnote{Diverso è il caso in cui questi vincoli sono verificati sperimentalmente, e il sistema non si avvicina affatto a uno stato termico come quello discusso, anche se isolato. A quel punto è importante includere anche nell'ensemble il tipo di vincoli che si riscontrano nell'evoluzione temporale (è il caso degli \href{https://journals.aps.org/pr/abstract/10.1103/PhysRev.106.620}{ensemble di Gibbs generalizzati}).}
+\footnote{Diverso è il caso in cui questi vincoli sono verificati sperimentalmente, e il sistema, anche se isolato, non si avvicina affatto a uno stato termico come quello discusso. A quel punto è importante includere anche nell'ensemble il tipo di vincoli che si riscontrano nell'evoluzione temporale (è il caso degli \href{https://journals.aps.org/pr/abstract/10.1103/PhysRev.106.620}{ensemble di Gibbs generalizzati}).}
 \newline
 
 Queste difficoltà nella trattazione avvengono perché, come si è già detto, la meccanica statistica deve fare da \textit{ponte} fra due branche astratte della fisica, quella microscopica e quella macroscopica, le quali si confrontano entrambe con la realtà sperimentale, e spesso lo fanno indipendentemente.
@@ -1682,3 +1699,52 @@ Queste difficoltà nella trattazione avvengono perché, come si è già detto, l
 \section{Bibliografia}
 
 Il contenuto di questo capitolo è quasi interamente ispirato al primo capitolo di \textit{D.L. Goodstein - States of Matter}. La struttura è esattamente la stessa, ciò che differisce sono per lo più le considerazioni sulle questioni legate ai fondamenti della meccanica statistica.
+
+\pagebreak
+
+\section{Schema del capitolo}
+
+\begin{itemize}
+	\item Introduzione
+	\begin{itemize}
+		\item proprietà della temperatura
+	\end{itemize}
+	\item Termodinamica
+	\begin{itemize}
+		\item Duhem-Gibbs
+		\item Principio variazionale
+		\item $ C_P - C_V $
+		\item $ K_T \geq 0 $
+		\item Clausius-Clapeyron
+	\end{itemize}
+	\item Meccanica Statistica
+	\begin{itemize}
+		\item Probabilità dei microstati
+		\begin{itemize}
+			\item $ w_\alpha $
+			\item $ w_\alpha (E_\alpha,N_\alpha) $
+			\item entropia di Shannon
+		\end{itemize}
+		\item Funzione di partizione: $ \Omega = -\kt \log\mathcal{Z} $
+		\item Approssimazione di Einstein
+		\item Particelle identiche
+		\begin{itemize}
+			\item Primo metodo
+			\item Secondo metodo
+		\end{itemize}
+		\item Densità di stati
+		\begin{itemize}
+			\item perché si sceglie lo spazio delle fasi? (Liouville)
+			\item misura nello spazio delle fasi
+		\end{itemize}
+		\item Sistemi interagenti
+		\item Gas ideale: funzione di partizione e granpartizione
+		\item Fluttuazioni energia
+		\item Fluttuazioni densità
+		\item Fluttuazioni variabile generica
+		\begin{itemize}
+			\item volume-temperatura
+			\item variabili dipendenti
+		\end{itemize}
+	\end{itemize}
+\end{itemize}
