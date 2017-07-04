@@ -40,33 +40,34 @@
 \BOOKMARK [2][-]{subsection.2.6.2}{Elettroni in un campo magnetico}{section.2.6}% 40
 \BOOKMARK [2][-]{subsection.2.6.3}{Emissione di elettroni da un metallo}{section.2.6}% 41
 \BOOKMARK [1][-]{section.2.7}{Bibliografia}{chapter.2}% 42
-\BOOKMARK [0][-]{chapter.3}{Fluttuazioni e Rumore}{}% 43
-\BOOKMARK [1][-]{section.3.1}{Fluttuazioni}{chapter.3}% 44
-\BOOKMARK [2][-]{subsection.3.1.1}{Fluttuazioni di fotoni}{section.3.1}% 45
-\BOOKMARK [2][-]{subsection.3.1.2}{Spazio delle fasi per un fascio di luce}{section.3.1}% 46
-\BOOKMARK [2][-]{subsection.3.1.3}{Interferometria stellare e di Hanbury Brown e Twiss}{section.3.1}% 47
-\BOOKMARK [1][-]{section.3.2}{Rumore}{chapter.3}% 48
-\BOOKMARK [2][-]{subsection.3.2.1}{Teorema di Nyquist}{section.3.2}% 49
-\BOOKMARK [2][-]{subsection.3.2.2}{Teorema di Wiener-Khintchine}{section.3.2}% 50
-\BOOKMARK [2][-]{subsection.3.2.3}{Derivazione microscopica del Teorema di Nyquist}{section.3.2}% 51
-\BOOKMARK [2][-]{subsection.3.2.4}{Shot noise}{section.3.2}% 52
-\BOOKMARK [1][-]{section.3.3}{Bibliografia}{chapter.3}% 53
-\BOOKMARK [0][-]{chapter.4}{Cristalli}{}% 54
-\BOOKMARK [1][-]{section.4.1}{Il dilemma della capacit\340 termica}{chapter.4}% 55
-\BOOKMARK [2][-]{subsection.4.1.1}{Teorema di equipartizione}{section.4.1}% 56
-\BOOKMARK [2][-]{subsection.4.1.2}{Modello di Einstein}{section.4.1}% 57
-\BOOKMARK [2][-]{subsection.4.1.3}{Modello di Debye}{section.4.1}% 58
-\BOOKMARK [1][-]{section.4.2}{Propriet\340 geometriche dei cristalli}{chapter.4}% 59
-\BOOKMARK [2][-]{subsection.4.2.1}{Reticoli di Bravais}{section.4.2}% 60
-\BOOKMARK [2][-]{subsection.4.2.2}{Reticolo reciproco}{section.4.2}% 61
-\BOOKMARK [2][-]{subsection.4.2.3}{Diffrazione dei raggi X}{section.4.2}% 62
-\BOOKMARK [1][-]{section.4.3}{Hamiltoniana dei Cristalli}{chapter.4}% 63
-\BOOKMARK [2][-]{subsection.4.3.1}{Approssimazione di Born-Oppenheimer}{section.4.3}% 64
-\BOOKMARK [2][-]{subsection.4.3.2}{Hartree-Fock}{section.4.3}% 65
-\BOOKMARK [1][-]{section.4.4}{Il teorema di Bloch}{chapter.4}% 66
-\BOOKMARK [2][-]{subsection.4.4.1}{Teorema di Bloch}{section.4.4}% 67
-\BOOKMARK [2][-]{subsection.4.4.2}{Prova del teorema di Bloch}{section.4.4}% 68
-\BOOKMARK [2][-]{subsection.4.4.3}{Le condizioni al contorno di Born-von Karman}{section.4.4}% 69
-\BOOKMARK [1][-]{section.4.5}{Bibliografia}{chapter.4}% 70
-\BOOKMARK [0][-]{appendix.Alph1}{Lacune}{}% 71
-\BOOKMARK [0][-]{appendix.Alph2}{Ringraziamenti}{}% 72
+\BOOKMARK [1][-]{section.2.8}{Schema del capitolo}{chapter.2}% 43
+\BOOKMARK [0][-]{chapter.3}{Fluttuazioni e Rumore}{}% 44
+\BOOKMARK [1][-]{section.3.1}{Fluttuazioni}{chapter.3}% 45
+\BOOKMARK [2][-]{subsection.3.1.1}{Fluttuazioni di fotoni}{section.3.1}% 46
+\BOOKMARK [2][-]{subsection.3.1.2}{Spazio delle fasi per un fascio di luce}{section.3.1}% 47
+\BOOKMARK [2][-]{subsection.3.1.3}{Interferometria stellare e di Hanbury Brown e Twiss}{section.3.1}% 48
+\BOOKMARK [1][-]{section.3.2}{Rumore}{chapter.3}% 49
+\BOOKMARK [2][-]{subsection.3.2.1}{Teorema di Nyquist}{section.3.2}% 50
+\BOOKMARK [2][-]{subsection.3.2.2}{Teorema di Wiener-Khintchine}{section.3.2}% 51
+\BOOKMARK [2][-]{subsection.3.2.3}{Derivazione microscopica del Teorema di Nyquist}{section.3.2}% 52
+\BOOKMARK [2][-]{subsection.3.2.4}{Shot noise}{section.3.2}% 53
+\BOOKMARK [1][-]{section.3.3}{Bibliografia}{chapter.3}% 54
+\BOOKMARK [0][-]{chapter.4}{Cristalli}{}% 55
+\BOOKMARK [1][-]{section.4.1}{Il dilemma della capacit\340 termica}{chapter.4}% 56
+\BOOKMARK [2][-]{subsection.4.1.1}{Teorema di equipartizione}{section.4.1}% 57
+\BOOKMARK [2][-]{subsection.4.1.2}{Modello di Einstein}{section.4.1}% 58
+\BOOKMARK [2][-]{subsection.4.1.3}{Modello di Debye}{section.4.1}% 59
+\BOOKMARK [1][-]{section.4.2}{Propriet\340 geometriche dei cristalli}{chapter.4}% 60
+\BOOKMARK [2][-]{subsection.4.2.1}{Reticoli di Bravais}{section.4.2}% 61
+\BOOKMARK [2][-]{subsection.4.2.2}{Reticolo reciproco}{section.4.2}% 62
+\BOOKMARK [2][-]{subsection.4.2.3}{Diffrazione dei raggi X}{section.4.2}% 63
+\BOOKMARK [1][-]{section.4.3}{Hamiltoniana dei Cristalli}{chapter.4}% 64
+\BOOKMARK [2][-]{subsection.4.3.1}{Approssimazione di Born-Oppenheimer}{section.4.3}% 65
+\BOOKMARK [2][-]{subsection.4.3.2}{Hartree-Fock}{section.4.3}% 66
+\BOOKMARK [1][-]{section.4.4}{Il teorema di Bloch}{chapter.4}% 67
+\BOOKMARK [2][-]{subsection.4.4.1}{Teorema di Bloch}{section.4.4}% 68
+\BOOKMARK [2][-]{subsection.4.4.2}{Prova del teorema di Bloch}{section.4.4}% 69
+\BOOKMARK [2][-]{subsection.4.4.3}{Le condizioni al contorno di Born-von Karman}{section.4.4}% 70
+\BOOKMARK [1][-]{section.4.5}{Bibliografia}{chapter.4}% 71
+\BOOKMARK [0][-]{appendix.Alph1}{Lacune}{}% 72
+\BOOKMARK [0][-]{appendix.Alph2}{Ringraziamenti}{}% 73

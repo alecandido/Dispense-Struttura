@@ -100,70 +100,71 @@
 \contentsline {subsubsection}{Effetto termoionico}{54}{section*.83}
 \contentsline {subsubsection}{Effetto fotoelettrico}{54}{section*.84}
 \contentsline {section}{\numberline {2.7}Bibliografia}{56}{section.2.7}
-\contentsline {chapter}{\numberline {3}Fluttuazioni e Rumore}{57}{chapter.3}
-\contentsline {section}{\numberline {3.1}Fluttuazioni}{57}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Fluttuazioni di fotoni}{57}{subsection.3.1.1}
-\contentsline {paragraph}{Interpretazione a pacchetti d'onda}{58}{section*.85}
-\contentsline {subsection}{\numberline {3.1.2}Spazio delle fasi per un fascio di luce}{59}{subsection.3.1.2}
-\contentsline {paragraph}{Esperimento di Young}{60}{section*.86}
-\contentsline {subparagraph}{Interpretazione della coerenza spaziale}{60}{section*.88}
-\contentsline {subsubsection}{Conteggio degli stati}{61}{section*.90}
-\contentsline {subsection}{\numberline {3.1.3}Interferometria stellare e di Hanbury Brown e Twiss}{62}{subsection.3.1.3}
-\contentsline {paragraph}{Interferometro stellare di Michelson}{62}{section*.92}
-\contentsline {paragraph}{Interferometro di Hanbury Brown e Twiss}{63}{section*.93}
-\contentsline {paragraph}{Misura della coerenza temporale}{64}{section*.95}
-\contentsline {section}{\numberline {3.2}Rumore}{64}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Teorema di Nyquist}{64}{subsection.3.2.1}
-\contentsline {paragraph}{Generalizzazione ad impedenze complesse}{66}{section*.98}
-\contentsline {subsection}{\numberline {3.2.2}Teorema di Wiener-Khintchine}{67}{subsection.3.2.2}
-\contentsline {subsubsection}{Serie di Fourier}{67}{section*.99}
-\contentsline {subsubsection}{Trasformata di Fourier}{67}{section*.100}
-\contentsline {subparagraph}{Modulo della trasformata}{68}{section*.101}
-\contentsline {subparagraph}{Manipolazioni algebriche}{68}{section*.102}
-\contentsline {subsection}{\numberline {3.2.3}Derivazione microscopica del Teorema di Nyquist}{69}{subsection.3.2.3}
-\contentsline {subsubsection}{Statistica di Maxwell-Boltzmann}{69}{section*.103}
-\contentsline {subsubsection}{Statistica di Fermi-Dirac}{70}{section*.104}
-\contentsline {subsection}{\numberline {3.2.4}Shot noise}{70}{subsection.3.2.4}
-\contentsline {subsubsection}{Distribuzione spettrale}{71}{section*.105}
-\contentsline {section}{\numberline {3.3}Bibliografia}{72}{section.3.3}
-\contentsline {chapter}{\numberline {4}Cristalli}{73}{chapter.4}
-\contentsline {section}{\numberline {4.1}Il dilemma della capacit\IeC {\`a} termica}{73}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Teorema di equipartizione}{73}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Modello di Einstein}{75}{subsection.4.1.2}
-\contentsline {subsubsection}{Numero di modi normali}{76}{section*.107}
-\contentsline {subsection}{\numberline {4.1.3}Modello di Debye}{77}{subsection.4.1.3}
-\contentsline {subsubsection}{Legge di dispersione per onde lunghe}{77}{section*.108}
-\contentsline {subsubsection}{Capacit\IeC {\`a} termica e propriet\IeC {\`a} termodinamiche}{78}{section*.109}
-\contentsline {subsubsection}{Fotoni}{80}{section*.111}
-\contentsline {paragraph}{Potenziale chimico}{81}{section*.112}
-\contentsline {paragraph}{Legge di dispersione}{81}{section*.113}
-\contentsline {section}{\numberline {4.2}Propriet\IeC {\`a} geometriche dei cristalli}{82}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Reticoli di Bravais}{82}{subsection.4.2.1}
-\contentsline {subsubsection}{Propriet\IeC {\`a} dei reticoli}{82}{section*.115}
-\contentsline {subsubsection}{Cella primitiva}{83}{section*.117}
-\contentsline {subparagraph}{Cella unitaria}{83}{section*.119}
-\contentsline {subparagraph}{Cella di Wigner-Seitz}{84}{section*.120}
-\contentsline {subsubsection}{Reticoli con una base}{84}{section*.121}
-\contentsline {subsection}{\numberline {4.2.2}Reticolo reciproco}{84}{subsection.4.2.2}
-\contentsline {subsubsection}{Reticolo di Bravais}{85}{section*.123}
-\contentsline {paragraph}{Il reciproco del reciproco}{85}{section*.124}
-\contentsline {paragraph}{Volume della cella}{85}{section*.125}
-\contentsline {paragraph}{Zone di Brillouin}{85}{section*.126}
-\contentsline {subsubsection}{Piani reticolari}{85}{section*.127}
-\contentsline {subsection}{\numberline {4.2.3}Diffrazione dei raggi X}{86}{subsection.4.2.3}
-\contentsline {subsubsection}{Formulazione di Bragg}{86}{section*.128}
-\contentsline {subsubsection}{Formulazione di von Laue}{86}{section*.130}
-\contentsline {paragraph}{Espressione alternativa}{87}{section*.132}
-\contentsline {subsubsection}{Equivalenza delle due formulazioni}{87}{section*.134}
-\contentsline {paragraph}{von Laue $ \rightarrow $ Bragg}{88}{section*.135}
-\contentsline {paragraph}{Bragg $ \rightarrow $ von Laue}{88}{section*.136}
-\contentsline {section}{\numberline {4.3}Hamiltoniana dei Cristalli}{88}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Approssimazione di Born-Oppenheimer}{89}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Hartree-Fock}{89}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}Il teorema di Bloch}{90}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Teorema di Bloch}{91}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Prova del teorema di Bloch}{91}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Le condizioni al contorno di Born-von Karman}{92}{subsection.4.4.3}
-\contentsline {section}{\numberline {4.5}Bibliografia}{92}{section.4.5}
-\contentsline {chapter}{\numberline {A}Lacune}{93}{appendix.Alph1}
-\contentsline {chapter}{\numberline {B}Ringraziamenti}{95}{appendix.Alph2}
+\contentsline {section}{\numberline {2.8}Schema del capitolo}{57}{section.2.8}
+\contentsline {chapter}{\numberline {3}Fluttuazioni e Rumore}{59}{chapter.3}
+\contentsline {section}{\numberline {3.1}Fluttuazioni}{59}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Fluttuazioni di fotoni}{59}{subsection.3.1.1}
+\contentsline {paragraph}{Interpretazione a pacchetti d'onda}{60}{section*.85}
+\contentsline {subsection}{\numberline {3.1.2}Spazio delle fasi per un fascio di luce}{61}{subsection.3.1.2}
+\contentsline {paragraph}{Esperimento di Young}{62}{section*.86}
+\contentsline {subparagraph}{Interpretazione della coerenza spaziale}{62}{section*.88}
+\contentsline {subsubsection}{Conteggio degli stati}{63}{section*.90}
+\contentsline {subsection}{\numberline {3.1.3}Interferometria stellare e di Hanbury Brown e Twiss}{64}{subsection.3.1.3}
+\contentsline {paragraph}{Interferometro stellare di Michelson}{64}{section*.92}
+\contentsline {paragraph}{Interferometro di Hanbury Brown e Twiss}{65}{section*.93}
+\contentsline {paragraph}{Misura della coerenza temporale}{66}{section*.95}
+\contentsline {section}{\numberline {3.2}Rumore}{66}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Teorema di Nyquist}{66}{subsection.3.2.1}
+\contentsline {paragraph}{Generalizzazione ad impedenze complesse}{68}{section*.98}
+\contentsline {subsection}{\numberline {3.2.2}Teorema di Wiener-Khintchine}{69}{subsection.3.2.2}
+\contentsline {subsubsection}{Serie di Fourier}{69}{section*.99}
+\contentsline {subsubsection}{Trasformata di Fourier}{69}{section*.100}
+\contentsline {subparagraph}{Modulo della trasformata}{70}{section*.101}
+\contentsline {subparagraph}{Manipolazioni algebriche}{70}{section*.102}
+\contentsline {subsection}{\numberline {3.2.3}Derivazione microscopica del Teorema di Nyquist}{71}{subsection.3.2.3}
+\contentsline {subsubsection}{Statistica di Maxwell-Boltzmann}{71}{section*.103}
+\contentsline {subsubsection}{Statistica di Fermi-Dirac}{72}{section*.104}
+\contentsline {subsection}{\numberline {3.2.4}Shot noise}{72}{subsection.3.2.4}
+\contentsline {subsubsection}{Distribuzione spettrale}{73}{section*.105}
+\contentsline {section}{\numberline {3.3}Bibliografia}{74}{section.3.3}
+\contentsline {chapter}{\numberline {4}Cristalli}{75}{chapter.4}
+\contentsline {section}{\numberline {4.1}Il dilemma della capacit\IeC {\`a} termica}{75}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Teorema di equipartizione}{75}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Modello di Einstein}{77}{subsection.4.1.2}
+\contentsline {subsubsection}{Numero di modi normali}{78}{section*.107}
+\contentsline {subsection}{\numberline {4.1.3}Modello di Debye}{79}{subsection.4.1.3}
+\contentsline {subsubsection}{Legge di dispersione per onde lunghe}{79}{section*.108}
+\contentsline {subsubsection}{Capacit\IeC {\`a} termica e propriet\IeC {\`a} termodinamiche}{80}{section*.109}
+\contentsline {subsubsection}{Fotoni}{82}{section*.111}
+\contentsline {paragraph}{Potenziale chimico}{83}{section*.112}
+\contentsline {paragraph}{Legge di dispersione}{83}{section*.113}
+\contentsline {section}{\numberline {4.2}Propriet\IeC {\`a} geometriche dei cristalli}{84}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Reticoli di Bravais}{84}{subsection.4.2.1}
+\contentsline {subsubsection}{Propriet\IeC {\`a} dei reticoli}{84}{section*.115}
+\contentsline {subsubsection}{Cella primitiva}{85}{section*.117}
+\contentsline {subparagraph}{Cella unitaria}{85}{section*.119}
+\contentsline {subparagraph}{Cella di Wigner-Seitz}{86}{section*.120}
+\contentsline {subsubsection}{Reticoli con una base}{86}{section*.121}
+\contentsline {subsection}{\numberline {4.2.2}Reticolo reciproco}{86}{subsection.4.2.2}
+\contentsline {subsubsection}{Reticolo di Bravais}{87}{section*.123}
+\contentsline {paragraph}{Il reciproco del reciproco}{87}{section*.124}
+\contentsline {paragraph}{Volume della cella}{87}{section*.125}
+\contentsline {paragraph}{Zone di Brillouin}{87}{section*.126}
+\contentsline {subsubsection}{Piani reticolari}{87}{section*.127}
+\contentsline {subsection}{\numberline {4.2.3}Diffrazione dei raggi X}{88}{subsection.4.2.3}
+\contentsline {subsubsection}{Formulazione di Bragg}{88}{section*.128}
+\contentsline {subsubsection}{Formulazione di von Laue}{88}{section*.130}
+\contentsline {paragraph}{Espressione alternativa}{89}{section*.132}
+\contentsline {subsubsection}{Equivalenza delle due formulazioni}{89}{section*.134}
+\contentsline {paragraph}{von Laue $ \rightarrow $ Bragg}{90}{section*.135}
+\contentsline {paragraph}{Bragg $ \rightarrow $ von Laue}{90}{section*.136}
+\contentsline {section}{\numberline {4.3}Hamiltoniana dei Cristalli}{90}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Approssimazione di Born-Oppenheimer}{91}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Hartree-Fock}{91}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Il teorema di Bloch}{92}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Teorema di Bloch}{93}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Prova del teorema di Bloch}{93}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Le condizioni al contorno di Born-von Karman}{94}{subsection.4.4.3}
+\contentsline {section}{\numberline {4.5}Bibliografia}{94}{section.4.5}
+\contentsline {chapter}{\numberline {A}Lacune}{95}{appendix.Alph1}
+\contentsline {chapter}{\numberline {B}Ringraziamenti}{97}{appendix.Alph2}

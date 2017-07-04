@@ -19,11 +19,13 @@ N = \sum_{\textbf{q}} \overline{n_{\textbf{q}}} = \int \exp \left(- \frac{\varep
 \begin{equation*}
 \Lambda = \frac{2\pi \hbar}{\sqrt{2\pi m k_B T}}
 \end{equation*}
+dove si sta imponendo la condizione di idealità, assumendo, nel calcolo di $ \overline{n_{\textbf{q}}} $, che ci sia al più una particella per microstato.
 
 Per cui la condizione di idealità può essere riespressa in funzione della densità $\rho$ del sistema:
 \begin{equation*}
 	e^{\mu/k_B T} = \Lambda^3 \frac{N}{V} = \Lambda^3 \rho	\qquad \implies \qquad \rho \ll \frac{1}{\Lambda^3}
 \end{equation*}
+Si può interpretare $ \Lambda^3 \rho $ come la frazione di volume occupata dal gas (cioè $ \Lambda^3 $ come il volume della particella).
 
 Per cui $\Lambda(T)$ fornisce il parametro su cui valutare l'idealità del gas, e dipende dalla temperatura $T$ del sistema, perciò è detta \textit{lunghezza d'onda termica} di De Broglie.
 
@@ -64,7 +66,7 @@ Questo risultato era prevedebile: nell'approccio canonico il sistema ha un numer
 	L'approssimazione di Stirling si può ricavare sviluppando $\log N!$ in forma di serie, e approssimandolo con un integrale su un supporto opportuno.
 \end{ex}
 
-\paragraph{Deviazioni dall'idealità} Si nota che la questione di un gas perfetto e non ideale è apparentemente quasi accademica. Infatti le tipiche condizioni sotto cui un gas è perfetto sono le stesse sotto cui è ideale:
+\paragraph{Deviazioni dall'idealità} Si nota che la questione di un gas perfetto e non ideale è apparentemente del tutto teorica. Infatti le tipiche condizioni sotto cui un gas è perfetto sono le stesse sotto cui è ideale:
 \begin{description}
 	\item[bassa densità] in modo tale che la distanza tra le particelle sia grande rispetto alla scala tipica dell'interazione (nel caso dell'idealità il confronto era da farsi con la scala di lunghezza data dall'indeterminazione quantistica);
 	\item[alta temperatura] l'energia delle interazioni dev'essere piccola rispetto all'altra scala di energia: l'energia termica (nel caso dell'idealità la temperatura entra in gioco nel determinare le scale di lunghezza).
@@ -74,12 +76,12 @@ Per cui tipicamente quando vengono meno le condizioni di idealità vengono meno 
 
 In realtà sono noti esempi in cui il gas si comporta come non ideale, anche se le interazioni continuano a non essere sostanzialmente rilevanti (elettroni in un metallo tipicamente, o in parte è anche il caso delle stelle di neutroni, in cui però sono coinvolti effetti relativi alla gravità).
 
-Per il momento si procede semplicementestudiando la questione.
+Per il momento si procede semplicemente studiando la questione.
 
 \section{Statistiche di Bose-Einstein e Fermi-Dirac}
 \label{sec:BFstat}
 
-In meccanica quantistica l'\textit{identicità} delle particelle ha un significato molto più forte che in meccanica classica: essa è strettamente correlata direttamente al \textit{principio di indeterminazione}.
+In meccanica quantistica l'\textit{identicità} delle particelle ha un significato molto più forte che in meccanica classica: essa è strettamente correlata al \textit{principio di indeterminazione}.
 
 Infatti l'identificazione di una particella implica la localizzazione nello spazio fisico, ma questo porta a una grande indeterminazione sull'impulso, che comporta che tale identificazione venga persa subito dopo. In altri termini: mentre in meccanica classica le particelle potevano essere identiche, ma data una configurazione iniziale era possibile \textit{seguire le traiettorie} e riconoscere a un dato istante che una data particella fosse quella che era partita in un dato punto, questa possibilità si perde in meccanica quantistica.
 \newline
@@ -92,14 +94,14 @@ In particolare:
 	\item se le funzioni d'onda possono essere solo completamente antisimmetriche, cioè sotto permutazione vengono moltiplicate per il segno di essa ($-1$ per le dispari, $1$ per le pari), vengono dette \textit{fermioni}, e soddisfano la statistica di Fermi-Dirac.
 \end{itemize}
 
-L'effetto dei due vincoli è quello di consentire, per ogni stato di singola particella, tutti i possibili \textit{numeri d'occupazione} nel caso dei bosoni, mentre esclusivamente $0,1$ per i fermioni (in fatti se ci fosse più di una particella nello stesso stato scambiando due si troverebbe che la funzione d'onda è pari a meno se stessa, e quindi nulla).
+L'effetto dei due vincoli è quello di consentire, per ogni stato di singola particella, tutti i possibili \textit{numeri d'occupazione} nel caso dei bosoni, mentre esclusivamente $0,1$ per i fermioni (infatti se ci fosse più di una particella nello stesso stato scambiandone due si troverebbe che la funzione d'onda è pari a meno se stessa, e quindi nulla).
 \newline
 
 Si considera quindi il caso di un gas perfetto nei due scenari descritti.
 
-Si noti che le probabilità di occupazione di uno stato di singola particella in un gas perfetto sono note dalla generalizzazione dell'ensemble di Gibbs al caso microcanonico, e sono:
+Si noti che le probabilità di occupazione di uno stato di singola particella in un gas perfetto sono note dalla generalizzazione dell'ensemble di Gibbs al caso grancanonico, e sono:
 \begin{equation*}
-w_{\textbf{q}} = \exp \left[-\frac{(\varepsilon_{\textbf{q}} - \mu) n_{\textbf{q}}}{k_B T}\right]
+w_{\textbf{q},n} = \exp \left[-\frac{(\varepsilon_{\textbf{q}} - \mu) n_{\textbf{q}}}{k_B T}\right]
 \end{equation*}
 \textit{indipendentemente} dalle considerazioni sull'\textit{identicità} delle particelle.
 
@@ -173,9 +175,9 @@ Infatti il criterio per valutare l'errore commesso nell'integrazione si basa su 
 
 In particolare confrontando tale differenza con l'energia termica si ottiene la condizione:
 \begin{equation*}
-	\frac{\hbar^2}{2m}\left(\frac{2\pi}{L}\right)^2
+	\frac{\hbar^2}{2m}\left(\frac{2\pi}{L}\right)^2 \ll \kt
 \end{equation*}
-dove $L$ sono è la scala tipica delle dimensioni lineari del sistema.
+dove $L$ è la scala tipica delle dimensioni lineari del sistema (che al limite termodinamico $ \rightarrow \infty $).
 
 \begin{es}
 Per dare un'idea degli ordini di grandezza in gioco nel caso di $L \sim \unit{1}{\centi\meter}$ e $m \sim \unit{10^{-24}}{\gram}$ - l'ordine di grandezza della massa dell'atomo di idrogeno - si ha che la temperatura fissata dall'\textit{energy gap} è pari a $\sim \unit{10^{-13}}{\kelvin}$. Se invece si usa la massa dell'elettrone $m \sim \unit{10^{-27}}{\gram}$ si ottiene una temperatura $\sim \unit{10^{-10}}{\kelvin}$.
@@ -196,7 +198,7 @@ e anche nella densità di stati compare quindi il fattore $g$.
 
 In seguito tale fattore sarà considerato $g=1$ per i bosoni e $g=2$ per i fermioni, in quanto il caso tipico di applicazione saranno fermioni di spin $1/2$ o bosoni a spin nullo.
 
-\paragraph{Equazione di stato} Si procede esaminando l'insorgere di effetti quantistici in un gas classico che comincia ad allontanarsi dal regime di idealità. Per fare ciò si espandano al secondo ordine nella condizione di idealità $e^{\mu/k_B T}$ le espressioni trovate per $\Omega$\footnote{Il segno superiore si riferisce a Fermi-Dirac, quello inferiore a Bose-Einstein}:
+\paragraph{Equazione di stato} Si procede esaminando l'insorgere di effetti quantistici in un gas classico che comincia ad allontanarsi dal regime di idealità. Per fare ciò si espandano al secondo ordine nella condizione di idealità $e^{\mu/k_B T} \ll 1$ le espressioni trovate per $\Omega$\footnote{Il segno superiore si riferisce a Fermi-Dirac, quello inferiore a Bose-Einstein}:
 \begin{align*}
 	\Omega &\simeq \mp \sum_{\textbf{q}} \log(1 \pm \exp[-\frac{\varepsilon_{\textbf{q}} - \mu}{k_B T}]) = -k_B T \sum_{\textbf{q}} \exp(-\frac{\varepsilon_{\textbf{q}} - \mu}{k_B T}) \pm \frac{k_B T}{2} \sum_{\textbf{q}} \exp(-2\frac{(\varepsilon_{\textbf{q}} - \mu)}{k_B T}) = \\
 	&= \Omega_{class} \pm \frac{k_B T}{2} \exp(\frac{2\mu}{k_B T})\sum_{\textbf{q}} \exp(-\frac{2\varepsilon_{\textbf{q}} }{k_B T})
@@ -259,7 +261,7 @@ e infine per la pressione:
 P = - \partdev{F}{V} = P_{class} \pm \frac{N^2 k_B T \Lambda^3}{2^{5/2} V^2} = \frac{N k_B T}{V} \left(1  \pm \frac{N\Lambda^3}{2^{5/2} V}\right)
 \end{equation*}
 
-Come atteso le correzioni sono piccole nella quantità $\Lambda^3 / \rho = N\Lambda^3 / V$, che evidenziano come gli effetti quantistici derivino dall'\textit{overlap} del supporto dei pacchetti d'onda delle particelle.
+Come atteso le correzioni sono piccole nella quantità $\Lambda^3 \rho = N\Lambda^3 / V$, che evidenziano come gli effetti quantistici derivino dall'\textit{overlap} del supporto dei pacchetti d'onda delle particelle.
 
 Osservando il segno delle correzioni si nota che:
 \begin{itemize}
@@ -277,18 +279,20 @@ Lo stato "asintotico" è relativamente facile da esaminare: si impone $T=0$, e q
 
 La struttura del fondamentale a molti corpi è piuttosto semplice: si comincia a riempire gli stati di singola particella a partire dal fondamentale e salendo via via, scegliendo sempre quello a più bassa energia disponibile, fino a esaurimento delle particelle. Per particelle di spin $S$ si deve ricordare di considerare l'ulteriore degenerazione $g_S$ degli stati.
 
-L'impulso relativo allo stato a più alta energia riempito è detto \textit{impulso di Fermi} $p_F$, e nello spazio degli impulsi di singola particella il fondamentale a molti corpi si struttura come una sfera di raggio $p_F$ al cui interno gli stati sono tutti occupati da $g$ particella ciascuno, e al cui esterno sono vuoti\footnote{Invece nello spazio degli impulsi a molti corpi, in cui il gas classico era un guscio sferico di stati, il gas di Fermi collassa \textit{"in un singolo punto"}, dato che lo stato è completamente determinato. In realtà non è esattamente un punto in cui collassa, ma una sovrapposizione quantistica (un singolo punto non sarebbe isotropo, e non ci sono direzioni privilegiate).}.
+L'impulso relativo allo stato a più alta energia riempito è detto \textit{impulso di Fermi} $p_F$, e nello spazio degli impulsi di singola particella il fondamentale a molti corpi si struttura come una sfera di raggio $p_F$ al cui interno gli stati sono tutti occupati da $g$ particelle ciascuno, e al cui esterno sono vuoti\footnote{Invece nello spazio degli impulsi a molti corpi, in cui il gas classico era un guscio sferico di stati, il gas di Fermi collassa \textit{"in un singolo punto"}, dato che lo stato è completamente determinato. In realtà non è esattamente un punto in cui collassa, ma una sovrapposizione quantistica (un singolo punto non sarebbe isotropo, e non ci sono direzioni privilegiate).}.
 
-Lo stesso risultato può essere ottenuto esaminando l'espressione per il numero medio di occupazione: quanto $T\rightarrow 0$ allora gli stati in cui $\varepsilon_{\textbf{q}} > \mu$ tendono a un numero medio di occupazione nullo, mentre se $\varepsilon_{\textbf{q}} < \mu$ allora $\overline{n_{\textbf{q}}} \rightarrow 1$.
+Lo stesso risultato può essere ottenuto esaminando l'espressione per il numero medio di occupazione: quando $T\rightarrow 0$ allora gli stati in cui $\varepsilon_{\textbf{q}} > \mu$ tendono a un numero medio di occupazione nullo, mentre se $\varepsilon_{\textbf{q}} < \mu$ allora $\overline{n_{\textbf{q}}} \rightarrow 1$.
 
 \begin{figure}[b]
 	\centering
+	\vspace*{-5pt}
 	\includegraphics[width=0.5\textwidth]{Immagini/FermiStep.png}
+	\vspace*{-5pt}
 	\caption{}
 	\label{fig:fermistep}
 \end{figure}
 
-La funzione $n_{\textbf{q}} (\varepsilon_{\textbf{q}})$ diventa quindi una funzione a gradino (vedi \cref{fig:fermistep}), in cui il punto di frontiere è $\varepsilon_{\textbf{q}} = \mu_0$, cioè il potenziale chimico a $T=0$, che è fissato dall'equazione:
+La funzione $n_{\textbf{q}} (\varepsilon_{\textbf{q}})$ diventa quindi una funzione a gradino (vedi \cref{fig:fermistep}), in cui il punto di frontiera è $\varepsilon_{\textbf{q}} = \mu_0$, cioè il potenziale chimico a $T=0$, che è fissato dall'equazione:
 \begin{equation*}
 N = \lim_{T\rightarrow 0} \sum_{\textbf{q}} \frac{1}{\exp\left[(\varepsilon_{\textbf{q}} - \mu)/k_B T\right] + 1}
 \end{equation*}
@@ -305,7 +309,9 @@ Invece di integrare la densità di stati si può ottenere $N$ direttamente consi
 \begin{equation*}
 N = \frac{gV \frac{4}{3} \pi p_F^3}{(2\pi \hbar)^3}
 \end{equation*}
-Da cui si ottiene:
+un altro modo, forse un poco più astuto, per trovare questo risultato è sfruttare il fatto che $ \rho(\varepsilon) \propto \varepsilon^\alpha $, cioè è una funzione omogenea in $ \varepsilon $.
+
+\noindent Dalla precedente si ottiene:
 \begin{align*}
 p_F &= 2\pi \hbar \left(\frac{N}{V} \frac{3}{4\pi g}\right)^{1/3}\\
 \mu_0 &= \frac{p_F^2}{2m} = \frac{(2\pi \hbar)^2}{2m} \left(\frac{N}{V} \frac{3}{4\pi g}\right)^{2/3}
@@ -326,7 +332,7 @@ E = \frac{3}{5} N \varepsilon_F = \frac{3(2\pi \hbar)^2}{10m} \left(\frac{N}{V} 
 \end{equation*}
 poiché l'entropia è nulla allora l'energia libera è pari all'energia $E=F$, e dunque per la pressione si ha:
 \begin{equation}
-P = - \partfix{F}{V}{T,N} = - \partfix{E}{V}{N} = \frac{2}{3} \frac{E}{V}
+P = - \partfix{F}{V}{T,N} = - \partfix{E}{V}{S,N} = \frac{2}{3} \frac{E}{V}
 \end{equation}
 Questa pressione finita temperatura nulla è la conseguenza estrema della forza efficace repulsiva tra fermioni che si iniziava a manifestare già in prossimità del limite classico (vedi \cref{sec:fewdegas}).
 
@@ -363,7 +369,7 @@ La forma che assume adesso il numero medio di occupazione è simile alla precede
 Si noti che la zona interessata ha uno spessore dell'ordine di $k_B T$.
 \newline
 
-Il modello di conduzione precedente all'introduzione dei gas di Fermi era quello di Drude, esso però presentava un problema fondamentale: se gli elettroni costituivano un gas non-interagente anche loro dovevano avere una loro capacità termica, proporzionale al numero di gradi di libertà (per il teorema di equipartizione), e misurandola si è potuto fissare un limite superiore al numero di elettroni in un metallo. Il limite così trovato risultava troppo ridotto: un tale numero di elettroni non erano sufficienti a dare conto delle proprietà di conduzine dei metalli.
+Il modello di conduzione precedente all'introduzione dei gas di Fermi era quello di Drude, esso però presentava un problema fondamentale: se gli elettroni costituivano un gas non-interagente anche loro dovevano avere una loro capacità termica, proporzionale al numero di gradi di libertà (per il teorema di equipartizione), e misurandola si è potuto fissare un limite superiore al numero di elettroni in un metallo. Il limite così trovato risultava troppo ridotto: un tale numero di elettroni non era sufficiente a dare conto delle proprietà di conduzione dei metalli.
 
 Questo dilemma può essere risolto dal modello proposto dal gas di fermioni: tutti gli elettroni contribuiscono alla conduzione elettrica, perché l'effetto del campo è quello di spostare l'intera sfera di Fermi (la perdita di isotropia è giustificata dalla direzione individuata dal campo), mentre la conduzione termica coinvolge solo gli elettroni del guscio, cioè una frazione dell'ordine $T/T_F$ del totale, dando ragione della capacità termica ridotta rispetto al grande numero di particelle.
 
@@ -390,11 +396,11 @@ Ci sono però dei punti da chiarire prima di potere applicare il modello del gas
 
 Si studiano ora le proprietà termiche del gas perfetto di Fermi, partendo dalla funzione di granpartizione:
 \begin{equation*}
-\Omega = - k_B T \sum_{\textbf{q}} \log \left[1 + \exp \left(-\frac{\varepsilon_{\textbf{q}} - \mu}{k_B T}\right)\right] = - k_B T \int_{0}^{\infty} \rho(\varepsilon)\log \left[1 + \exp \left(\frac{\mu - \varepsilon}{k_B T}\right)\right] \dd \varepsilon
+\Omega = - k_B T \sum_{\textbf{q}} \log \left[1 + \exp \left(-\frac{\varepsilon_{\textbf{q}} - \mu}{k_B T}\right)\right] = - \kt \int_{0}^{\infty} \rho(\varepsilon)\log \left[1 + \exp \left(\frac{\mu - \varepsilon}{k_B T}\right)\right] \dd \varepsilon
 \end{equation*}
 Che può essere integrata per parti, oppure si può prendere una scorciatoia e considerare che (finché $\varepsilon \propto p^2$) $E = -\frac{3}{2} \Omega$, e quindi:
 \begin{equation*}
-\Omega = =  -\frac{2}{3} E = -\frac{2}{3} \int_{0}^{\infty} \rho(\varepsilon)\bar{n}(\varepsilon)\dd \varepsilon = - \frac{2}{3} \frac{4\pi V g \sqrt{2} m^{3/2}}{\hplanck^3} \int_{0}^{\infty}\frac{\varepsilon^{3/2} \dd \varepsilon}{e^{(\varepsilon - \mu)/k_BT} +1}
+\Omega =  -\frac{2}{3} E = -\frac{2}{3} \int_{0}^{\infty} \varepsilon \rho(\varepsilon)\bar{n}(\varepsilon)\dd \varepsilon = - \frac{2}{3} \frac{4\pi V g \sqrt{2} m^{3/2}}{\hplanck^3} \int_{0}^{\infty}\frac{\varepsilon^{3/2} \dd \varepsilon}{e^{(\varepsilon - \mu)/k_BT} +1}
 \end{equation*}
 Per valutare questa espressione si deve quindi eseguire l'integrale di una funzione che è molto vicina al gradino.
 Si può quindi trattare il problema perturbativamente e trovare quale sia la correzione $\delta I$ al valore dell'integrale $I_0$ a temperatura nulla:
@@ -439,7 +445,7 @@ Si possono definire due funzioni di $z$, $g_0(z)$ e $g_1(z)$, che rappresentino 
 
 Si ottiene quindi:
 \begin{equation*}
-\delta I = \int_{-\infty}^{\infty} f(\varepsilon)[g_1(z) - g_0(z)] \dd \varepsilon = \int_{-\infty}^{\infty} f(\mu + k_B T z)[g_1(z) - g_0(z)] \kt \dd z
+\delta I \approxeq \int_{-\infty}^{\infty} f(\varepsilon)[g_1(z) - g_0(z)] \dd \varepsilon = \int_{-\infty}^{\infty} f(\mu + k_B T z)[g_1(z) - g_0(z)] \kt \dd z
 \end{equation*}
 i limiti di integrazione considerati non introducono un ulteriore approssimazione perché al di fuori della regione di integrazione precedente il valore delle funzioni $g$ è praticamente nullo ovunque.
 
@@ -499,7 +505,7 @@ poiché $N_0 \propto \mu^{3/2}$, in modo da riprodurre il risultato precedente. 
 \end{equation*} 
 in cui nella prima uguaglianza si è posto $\mu = \mu_0$ nel membro di destra, per limitarsi all'approssimazione al primo ordine non nullo, mentre nella seconda uguaglianza si sviluppato il denominatore.
 
-Era prevedibile, ma non ovvio, che il potenziale chimico: ad alte temperature si recupera il limite classico, per cui $\mu$ deve diventare negativo e grande con l'alzarsi della temperatura.
+Era prevedibile, ma non ovvio: ad alte temperature si recupera il limite classico, per cui $\mu$ deve diventare negativo e grande con l'alzarsi della temperatura.
 \newline
 
 A partire dalla funzione di granpartizione si può anche ricavare l'entropia:
@@ -551,7 +557,7 @@ Si inizia studiando il numero di particelle in un gas di Bose, dato da:
 \begin{equation*}
 N = \sum_{\textbf{q}}  \frac{1}{ \exp\left[(\varepsilon_{\textbf{q}} - \mu)/k_B T\right] - 1}
 \end{equation*}
-e considerando che a temperatura finita i la spaziatura tra i livelli è piccola in confronto all'energia termica (le grandezze che vanno confrontate sono la lunghezza d'onda termica con le dimensioni lineari del sistema) si può immediatamente convertire in un integrale:
+e considerando che a temperatura finita la spaziatura tra i livelli è piccola in confronto all'energia termica (le grandezze che vanno confrontate sono la lunghezza d'onda termica con le dimensioni lineari del sistema) si può immediatamente convertire in un integrale:
 \begin{equation*}
 N =  \frac{4\pi V g \sqrt{2} m^{3/2}}{\hplanck^3} \int_{0}^{\infty}  \frac{\varepsilon^{1/2} \dd \varepsilon}{ \exp\left[(\varepsilon - \mu)/k_B T\right] - 1}
 \end{equation*}
@@ -593,7 +599,7 @@ Si ottiene una figura analoga se si riporta su un grafico il caso del gas di Bos
 
 La domanda diventa quindi: perché il conteggio delle particelle sta perdendo traccia di alcune di esse? Si riesamina quindi il procedimento adoprato.
 \begin{itemize}
-	\item Potrebbe essere a causa dll'approssimazione fatta integrando sugli stati, anziché sommare; essa è giustificata se il sistema soddisfa:
+	\item Potrebbe essere a causa dell'approssimazione fatta integrando sugli stati, anziché sommare; essa è giustificata se il sistema soddisfa:
 	\begin{equation*}
 		\kt \gg \frac{\hbar^2}{2m} \left(\frac{2\pi}{L}\right)^2
 	\end{equation*}
@@ -607,7 +613,7 @@ La domanda diventa quindi: perché il conteggio delle particelle sta perdendo tr
 	
 	Gli stati quindi non sono realmente stati del continuo, ma discreti, per cui la densità di stati dovrebbe prevedere la presenza di uno stato anche a energia nulla \footnote{quasi in realtà, ma tende a $0$ con le dimensioni del sistema}, cioè il fondamentale. 
 	
-	Questo non ha creato problemi nel gas ideale e in quello di fermi: nel primo il numero di occupazione di ogni stato è piccolo per ipotesi, e nel secondo è $\leq g$ (la degenerazione di spin), per cui trascurare uno stato non può portare a effetti statisticamente rilevanti.
+	Questo non ha creato problemi nel gas ideale e in quello di Fermi: nel primo il numero di occupazione di ogni stato è piccolo per ipotesi, e nel secondo è $\leq g$ (la degenerazione di spin), per cui trascurare uno stato non può portare a effetti statisticamente rilevanti.
 	
 	Per il gas di Bose invece:
 	\begin{equation*}
@@ -623,11 +629,11 @@ La domanda diventa quindi: perché il conteggio delle particelle sta perdendo tr
 Le particelle che non sono nel fondamentale sono tutte correttamente incluse nel conteggio fatto per $ N $. Chiameremo ora questo numero $ N^\star $, per distinguerlo dal numero complessivo di particelle del sistema, che sarà sempre $ N $.
 Si ha quindi:
 \begin{equation*}
-N^\star = \int_{0}^{\infty}  \frac{\rho(\varepsilon) \dd \varepsilon}{ e^{\varepsilon/k_B T} - 1} = N \left(\frac{T}{T_C}\right)^{3/2}
+N^\star = \int_{0}^{\infty}  \frac{\rho(\varepsilon) \dd \varepsilon}{ e^{\varepsilon/k_B T} - 1} = N \left(\frac{T}{T_C}\right)^{3/2} \qquad \qquad \text{per } T < T_c
 \end{equation*}
 mentre per le particelle nel fondamentale si ha:
 \begin{equation*}
-	N_0 = N - N^\star = N \left[1 - \left(\frac{T}{T_C}\right)^{3/2}\right]
+	N_0 = N - N^\star = N \left[1 - \left(\frac{T}{T_C}\right)^{3/2}\right] \qquad \qquad \text{per } T > T_c
 \end{equation*}
 
 L'energia del gas è tutta nelle particelle $ N^\star $, essendo le altre nel fondamentale, e quindi a energia nulla.
@@ -719,7 +725,7 @@ J = n e \expval{v} = n e \expval{\Delta v}
 \end{equation*}
 con $ n $ la densità di elettroni.
 
-Introducendo una termine di attritto\footnote{Esso condurrà a un'evoluzione esponenziale verso l'equilibrio, che si può giustificare sulla base della teoria delle perturbazioni dipendenti dal tempo.} si ottiene l'equazione:
+Introducendo un termine di attrito\footnote{Esso condurrà a un'evoluzione esponenziale verso l'equilibrio, che si può giustificare sulla base della teoria delle perturbazioni dipendenti dal tempo.} si ottiene l'equazione:
 \begin{equation*}
 \derivative{\expval{\Delta v}}{t} = e \frac{E}{m} - \frac{\expval{\Delta v}}{\tau_c}
 \end{equation*}
@@ -744,7 +750,7 @@ dove $ \mu $ è il potenziale chimico.
 
 Il numero di elettroni che contribuiscono è dato dalla densità di stati in energia:
 \begin{equation*}
-\rho(\varepsilon) \Delta \varepsilon = \frac{3 n}{2 \mu^{3/2}} \sqrt{\varepsilon} \Delta \varepsilon
+\frac{\rho(\varepsilon) \Delta \varepsilon}{V} = \frac{3 n}{2 \mu^{3/2}} \sqrt{\varepsilon} \Delta \varepsilon
 \end{equation*}
 con $ \varepsilon $ l'energia degli elettroni di conduzione, e quindi $ \varepsilon = \mu $. L'intervallo di energia degli elettroni coinvolti è invece determinato dall'energia messa a disposizione dal campo per il singolo elettrone:
 \begin{equation*}
@@ -799,7 +805,7 @@ $ f_0 $ rappresenta la distribuzione delle particelle nello spazio delle fasi al
 	\begin{equation*}
 	(f-f_0)(t) = -  (f - f_0)e^{-\frac{t}{\tau_c}}
 	\end{equation*}
-	cioè evolve esponenzialmente verso lo stato di equilibrio (anche quest'ultimo dovrà essere a gradienti nulli, altrimenti compariranno nell'equazione subito dopo l'istante iniziale).
+	cioè evolve esponenzialmente verso lo stato di equilibrio (anche quest'ultimo dovrà essere a gradienti nulli, altrimenti essi contribuiranno nell'equazione subito dopo l'istante iniziale).
 \end{es}
 
 Il termine $ \tau_c $, che descrive il tempo caratteristico introdotto dalle collisioni, può essere modificato dall'azione di campi esterni. Tuttavia la forma del termine collisionale è giustificato dalla teoria delle perturbazioni dipendenti dal tempo, quindi, in linea con l'approccio perturbativo, si trascurerà la possibile dipendenza di $ \tau_c $ dagli agenti esterni.
@@ -840,7 +846,7 @@ All'ordine più basso, per il caso realistico di temperature basse rispetto a qu
 dove è stato posto $ \mu = \mu_0  $, cioè il potenziale chimico a temperatura nulla, coerentemente con l'approssimazione fissata.
 Inoltre per la conduzione elettrica la densità di corrente nella direzione dell'asse $ x $ è definita come:
 \begin{equation*}
-J_x = \int e v_x \rho(\textbf{v}) \dd^3 v
+J_x = \int f(\textbf{x},\textbf{v})~ e v_x \rho(\textbf{v}) \dd^3 v
 \end{equation*}
 dove $ \rho(\textbf{v}) $ è la densità di stati nelle velocità, calcolata in assenza di campo elettrico (infatti il contributo dato dagli agenti esterni opera sull'occupazione degli stati $ f $, e non sulla densità $ \rho $).
 
@@ -857,14 +863,14 @@ Utilizzando coordinate polari si ha:
 \begin{align*}
 v_x &= v \cos \theta\\
 v_x^2 &= v^2 \cos^2 \theta = \frac{2 \varepsilon}{m} \cos^2 \theta\\
-\rho(\textbf{v}) \dd^3 v = \rho(\varepsilon) \dd \varepsilon \frac{\sin \theta \dd \theta \dd \varphi}{4\pi}
+\rho(\textbf{v}) \dd^3 v &= \rho(\varepsilon) \dd \varepsilon \frac{\sin \theta \dd \theta \dd \varphi}{4\pi}
 \end{align*}
 e quindi:
 \begin{align*}
 J_x &= e^2 E \frac{2}{m} \int_0^\infty \tau_c \delta (\varepsilon - \mu_0) \varepsilon \rho(\varepsilon) \dd \varepsilon \frac{1}{2} \int_0^\pi \cos^2 \theta \dd \cos\theta \dd \sin\theta =\\
 &= e^2 E \frac{2}{m} \frac{3n}{2 \mu_0^{3/2}} \int_0^\infty \tau_c \delta (\varepsilon - \mu_0) \frac{1}{3} \varepsilon \sqrt{\varepsilon} \dd \varepsilon = \frac{e^2 E}{m} n \tau_{c,F}
 \end{align*}
-dove si è indicato con $ \tau_{c,F} $ il tempo di collisione per elettroni al livello di Fermi. Si trova infine una coduttività elettrica pari a:
+dove si è indicato con $ \tau_{c,F} $ il tempo di collisione per elettroni al livello di Fermi. Si trova infine una conduttività elettrica pari a:
 \begin{equation*}
 \sigma = \frac{n e^2}{m} \tau_{c,F}
 \end{equation*}
@@ -880,7 +886,7 @@ E = - \bm{\mu}\textbf{B} = \mp \mu B
 \end{equation*}
 Questo sistema è noto come \textit{modello di Ising classico}.
 
-In seguito le particelle con momento magnetico parallelo al campo magnetico saranno indicate con $ \uparrow $, mentre quelle con momento antiparallelo con $ \downarrow $.
+In seguito le particelle con momento magnetico parallelo al campo magnetico saranno indicate con $ \downarrow $, mentre quelle con momento antiparallelo con $ \uparrow $.
 
 Il numero di particelle nei due stati è dato dalla distribuzione di Boltzmann (approccio canonico) ed è:
 \begin{align*}
@@ -897,7 +903,7 @@ Se si considera il limite per alte temperature $ \mu B \ll \kt $, sviluppando le
 Z &\simeq 2\\
 N_\downarrow &\simeq \frac{N}{2} \left(1 + \frac{\mu B}{\kt}\right) \qquad N_\uparrow \simeq \frac{N}{2} \left(1 - \frac{\mu B}{\kt}\right)\\
 \end{align*}
-e quindi il momento magnetico totale risulta:
+e quindi il momento magnetico totale lungo l'asse del campo $ B $ risulta:
 \begin{equation*}
 M = \mu N_\downarrow - \mu N_\uparrow = N \frac{\mu^2 B}{\kt}
 \end{equation*}
@@ -990,10 +996,10 @@ Questo metodo si applica al raffreddamento degli elettroni in un solido, e parte
 Per calcolare la magnetizzazione nel caso di un gas di fermioni si può applicare il ragionamento semplicistico degli elettroni al livello di Fermi, affermando che in presenza di un campo magnetico debole (rispetto alla scala dell'energia di Fermi $ \mu B \ll \varepsilon_F $) gli unici elettroni in grado di cambiare stato siano quelli vicino a tale livello.
 
 Si applica quindi il risultato classico a quesi elettroni ottenendo:
-\[ M = \left(N \frac{\mu^2 B}{\kt}\right) \frac{\kt}{\mu_{0,F}} = N \frac{\mu^2}{\mu_{0,F}} B\]
+\[ M = \left(N \frac{\mu^2 B}{\kt}\right) \frac{\kt}{\mu_{0,F}} = \left(N \frac{\mu^2 B}{\kt}\right) \frac{T}{T_{F}} = N \frac{\mu^2}{\mu_{0,F}} B\]
 con $ \mu_{0,F} $ il potenziale chimico dei fermioni a temperatura nulla. 
 
-Da questa espressione risulta quindi che la suscettività magnetica $ \chi = M/B $di un metallo è indipendente dalla temperatura e più piccola di un fattore $ \kt/\mu_{0,F} $ rispetto al caso classico. Ambedue risultati in accordo con le osservazioni sperimentali.
+Da questa espressione risulta quindi che la suscettività magnetica $ \chi = \partial M/\partial B $ di un metallo è indipendente dalla temperatura e più piccola di un fattore $ \kt/\mu_{0,F} $ rispetto al caso classico. Ambedue risultati in accordo con le osservazioni sperimentali.
 
 \begin{figure}[t]
 \centering
@@ -1013,7 +1019,7 @@ Supponendo che al livello raggiunto dagli elettroni, cioé l'energia di Fermi $ 
 per cui la magnetizzazione risulta:
 \[ M = \mu \Delta N = \frac{3N}{2} \frac{\mu^2 B}{\mu_F} \]
 e la suscettività:
-\[ \chi = \frac{M}{B} = \frac{3N}{2} \frac{\mu^2}{\mu_F} \]
+\[ \chi = \partdev{M}{B} = \frac{3N}{2} \frac{\mu^2}{\mu_F} \]
 
 \subsection{Emissione di elettroni da un metallo}
 
@@ -1026,8 +1032,8 @@ Questa condizione è necessaria, ma non sufficiente, perché non è trascurabile
 \subsubsection{Effetto termoionico}
 
 Si consideri la superficie d'interfaccia perpendicolare all'asse $ z $. Si ha allora che il \textit{rate} di emissione per unità di superficie, cioè il numero di elettroni emessi per unità di tempo e di superficie, è:
-\[ R = \int_{p_z = (2mW)^{1/2}}^{\infty}\int_{p_x = -\infty}^{\infty} \int_{p_y = -\infty}^{\infty} \frac{2p_z \dd p_x \dd p_y \dd p_z}{m p_z}\frac{1}{e^{\varepsilon - \mu / \kt} + 1} \]
-ed esprimendo $ p_x $ e $ p_y $ attraverso coordinate polari $ (p', \varphi) $ si ottiene:
+\[ R = \int_{p_z = (2mW)^{1/2}}^{\infty}\int_{p_x = -\infty}^{\infty} \int_{p_y = -\infty}^{\infty} \frac{2p_z \dd p_x \dd p_y \dd p_z}{m \hplanck^3}\frac{1}{e^{\varepsilon - \mu / \kt} + 1} \]
+ed esprimendo $ p_x $, $ p_y $ e $ p_z $ attraverso coordinate cilndriche $ (p', \varphi, p_z) $ si ottiene:
 \begin{align*}
 R &= \frac{2}{\hplanck^3}\int_{p_z = (2mW)^{1/2}}^{\infty} \frac{p_z}{m} \dd p_z \int_{p' = 0}^{\infty} \frac{2\pi p' \dd p'}{\exp[(p'^2/2m) + (p_z^2/2m) - \mu / \kt] + 1} =\\
 &= \frac{4\pi \kt}{\hplanck^3} \int_{p_z = (2mW)^{1/2}}^{\infty} p_z \dd p_z \log[1 + \exp((\mu - p_z^2/2m)/\kt)]=\\
@@ -1062,7 +1068,7 @@ Procedendo come nel caso precedente si trova:
 In generale non è più possibile in questo caso approssimare il logartimo come nella sezione predente. Si opera quindi un cambiamento di variabile, introducendo $ x $.
 \begin{align*}
 x &= (\varepsilon_z - W + h\nu)/\kt\\
-R &= frac{4\pi m (\kt)^2}{\hplanck^3} \int_{0}^{\infty} \dd x \log[1 + \exp(\frac{h(\nu - \nu{_0})}{\kt} - x)]\\
+R &= \frac{4\pi m (\kt)^2}{\hplanck^3} \int_{0}^{\infty} \dd x \log \left[1 + \exp(\frac{h(\nu - \nu{_0})}{\kt} - x)\right] \\
 &\text{con} \qquad h\nu_0 = W -\mu \simeq W - \varepsilon_F = \phi
 \end{align*}
 la quantità $ \phi $ è quella definita nell'ambito dell'effetto termoionico, mentre $ \nu_0 $ è la \textit{frequenza di soglia} per l'effetto fotoelettrico, quella in risonanza col gap di energia fra gli elettroni nel metallo e quelli sulla superficie.
@@ -1070,7 +1076,7 @@ la quantità $ \phi $ è quella definita nell'ambito dell'effetto termoionico, m
 La densità di corrente di emissione fotoelettrica è quindi:
 \begin{align*}
 J &= \frac{4\pi m e k_B^2}{\hplanck^3} T^2 \int_{0}^{\infty} \dd x \log( 1 + e^{\delta -x}) = \frac{4\pi m e k_B^2}{\hplanck^3} T^2 \int_{0}^{\infty} \frac{x \dd x}{e^{x-\delta}+1} \\
-&\text{con} \qquad h(\nu - \nu_0)/\kt
+&\text{con} \qquad \delta = h(\nu - \nu_0)/\kt
 \end{align*}
 dove la seconda uguaglianza nella prima equazione è ottenuta tramite integrazione per parti.
 
@@ -1106,3 +1112,56 @@ Il contenuto di questo capitolo è quasi interamente ispirato al secondo capitol
 La sezione sugli elettroni contiene un certo numero di argomenti tratti da \textit{E. Arimondo - Lezioni di Struttura della Materia}, cioè le dispense del corso tenuto dal prof. Arimondo all'università di Pisa, lo stesso corso cui si riferiscono queste dispense, e due argomenti (effetto termoionico e fotoelettrico) tratti da \textit{R. K. Pathria, P. D. Beale - Statistical Mechanics}.
 
 Seguire più libri porta qualche incongruenza nella notazione. Le variabili usate sono di volta in volta specificate, per cui non c'è ambiguità sul loro significato, però non è garantito che fra sezioni diverse la notazione rimanga la stessa. Spesso è stato preferito riportare direttamente la notazione dei libri usati per limitare gli errori di battitura (se qualcuno volesse normalizzare la notazione è il benvenuto, per cui prenda il \code{tex} e corregga, e se vuole invii una copia corretta all'autore, all'indirizzo: \href{mailto:candido.ale@gmail.com}{candido.ale@gmail.com}).
+
+\vfill
+
+\pagebreak
+
+\section{Schema del capitolo}
+
+\begin{itemize}
+	\item Gas Ideale
+	\begin{itemize}
+		\item numero di particelle $ N $
+		\item potenziale di Gibbs $ G $
+		\item $ F_{gc} - F_c $, grancanonico - canonico
+	\end{itemize}
+	\item Statistiche quantistiche
+	\item Gas perfetto poco degenere
+	\begin{itemize}
+		\item $ \Omega $
+		\item Interazione efficace
+	\end{itemize}
+	\item Gas di Fermi
+	\begin{itemize}
+		\item Energia di Fermi $ \varepsilon_F $
+		\item Energia media
+		\item Obiezioni alla conduzione
+		\item Granpotenziale
+		\item Capacità termiche
+	\end{itemize}
+	\item Gas di Bose
+	\begin{itemize}
+		\item Temperatura critica - Densità critica
+		\item Proprietà di un condensato
+	\end{itemize}
+	\item Elettroni nei metalli
+	\begin{itemize}
+		\item Conduzione
+		\begin{itemize}
+			\item Drude
+			\item Drude quantistico
+			\item trasporto di Boltzmann
+		\end{itemize}
+		\item Campi magnetici
+		\begin{itemize}
+			\item classico
+			\item quantistico (2 modi)
+		\end{itemize}
+		\item Emissione
+		\begin{itemize}
+			\item termoionico
+			\item fotoelettrico
+		\end{itemize}
+	\end{itemize}
+\end{itemize}
