@@ -127,6 +127,7 @@
 \contentsline {subsection}{\numberline {3.2.4}Shot noise}{72}{subsection.3.2.4}
 \contentsline {subsubsection}{Distribuzione spettrale}{73}{section*.105}
 \contentsline {section}{\numberline {3.3}Bibliografia}{74}{section.3.3}
+\contentsline {section}{\numberline {3.4}Schema del capitolo}{74}{section.3.4}
 \contentsline {chapter}{\numberline {4}Cristalli}{75}{chapter.4}
 \contentsline {section}{\numberline {4.1}Il dilemma della capacit\IeC {\`a} termica}{75}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Teorema di equipartizione}{75}{subsection.4.1.1}

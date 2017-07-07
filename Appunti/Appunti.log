@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.2.20)  4 JUL 2017 13:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.2.20)  6 JUL 2017 17:12
 entering extended mode
 **./Appunti.tex
 (Appunti.tex
@@ -2169,7 +2169,369 @@ File: pgfcalendar.code.tex 2007/07/23 v3.0.1a (rcs-revision 1.11)
 \pgfcalendarcurrentjulian=\count195
 ))
 \@dtm@julianday=\count196
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\genealogytree\genealogytree.sty"
+Package: genealogytree 2017/01/29 version 1.10 genealogy trees
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcolorbox.sty"
+Package: tcolorbox 2017/04/25 version 4.03 text color boxes
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty"
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex"
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex")
+\pgf@x=\dimen258
+\pgf@y=\dimen259
+\pgf@xa=\dimen260
+\pgf@ya=\dimen261
+\pgf@xb=\dimen262
+\pgf@yb=\dimen263
+\pgf@xc=\dimen264
+\pgf@yc=\dimen265
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count197
+\c@pgf@countb=\count198
+\c@pgf@countc=\count199
+\c@pgf@countd=\count266
+\t@pgf@toka=\toks41
+\t@pgf@tokb=\toks42
+\t@pgf@tokc=\toks43
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg"
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
+Driver file for pgf: pgfsys-pdftex.def
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.def"
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
+"
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.t
+ex"
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count267
+\pgfsyssoftpath@bigbuffer@items=\count268
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.t
+ex"
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex"
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+ ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex"
+\pgfmath@dimen=\dimen266
+\pgfmath@count=\count269
+\pgfmath@box=\box74
+\pgfmath@toks=\toks44
+\pgfmath@stack@operand=\toks45
+\pgfmath@stack@operation=\toks46
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic.code.
+tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigonometr
+ic.code.tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.random.code
+.tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.comparison.
+code.tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.code.t
+ex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round.code.
+tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.code.t
+ex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integerarit
+hmetics.code.tex")))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count270
+))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
+"
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen267
+\pgf@picmaxx=\dimen268
+\pgf@picminy=\dimen269
+\pgf@picmaxy=\dimen270
+\pgf@pathminx=\dimen271
+\pgf@pathmaxx=\dimen272
+\pgf@pathminy=\dimen273
+\pgf@pathmaxy=\dimen274
+\pgf@xx=\dimen275
+\pgf@xy=\dimen276
+\pgf@yx=\dimen277
+\pgf@yy=\dimen278
+\pgf@zx=\dimen279
+\pgf@zy=\dimen280
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconstruct.c
+ode.tex"
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen281
+\pgf@path@lasty=\dimen282
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage.code.
+tex"
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen283
+\pgf@shorten@start@additional=\dimen284
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
+"
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box75
+\pgf@hbox=\box76
+\pgf@layerbox@main=\box77
+\pgf@picture@serial@count=\count271
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicstate.co
+de.tex"
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen285
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransformations
+.code.tex"
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen286
+\pgf@pt@y=\dimen287
+\pgf@pt@temp=\dimen288
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.code.tex"
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.code.te
+x"
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathprocessing.
+code.tex"
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
+"
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen289
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex"
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen290
+\pgf@sys@shading@range@num=\count272
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.code.te
+x"
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.code.t
+ex"
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box78
+))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
+"
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransparency.co
+de.tex"
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.code.t
+ex"
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box79
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.tex"
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.
+sty"
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen291
+\pgf@nodesepend=\dimen292
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.
+sty"
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\environ\environ.sty"
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\trimspaces\trimspaces.sty"
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box80
+\tcb@upperbox=\box81
+\tcb@lowerbox=\box82
+\tcb@phantombox=\box83
+\c@tcbbreakpart=\count273
+\c@tcblayer=\count274
+\tcolorbox@number=\count275
+\tcb@temp=\box84
+\tcb@temp=\box85
+\tcb@temp=\box86
+\tcb@temp=\box87
+\tcb@out=\write4
+\tcb@record@out=\write5
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbskins.code.tex"
+Library (tcolorbox): 'tcbskins.code.tex' version '4.03'
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex"
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex")
+\pgffor@iter=\dimen293
+\pgffor@skip=\dimen294
+\pgffor@stack=\toks47
+\pgffor@toks=\toks48
+))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex"
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.
+code.tex"
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count276
+\pgfplotmarksize=\dimen295
+)
+\tikz@lastx=\dimen296
+\tikz@lasty=\dimen297
+\tikz@lastxsaved=\dimen298
+\tikz@lastysaved=\dimen299
+\tikzleveldistance=\dimen300
+\tikzsiblingdistance=\dimen301
+\tikz@figbox=\box88
+\tikz@figbox@bg=\box89
+\tikz@tempbox=\box90
+\tikz@tempbox@bg=\box91
+\tikztreelevel=\count277
+\tikznumberofchildren=\count278
+\tikznumberofcurrentchild=\count279
+\tikz@fig@count=\count280
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.code.tex"
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count281
+\pgfmatrixcurrentcolumn=\count282
+\pgf@matrix@numberofcolumns=\count283
+)
+\tikz@expandcount=\count284
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
+librarytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+\tcb@waterbox=\box92
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbskinsjigsaw.code.tex"
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.03'
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbfitting.code.tex"
+Library (tcolorbox): 'tcbfitting.code.tex' version '4.03'
+\tcbfitdim=\dimen302
+\tcb@lowerfitdim=\dimen303
+\tcb@upperfitdim=\dimen304
+\tcb@cur@hbadness=\count285
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbexternal.code.tex"
+Library (tcolorbox): 'tcbexternal.code.tex' version '4.03'
+("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbprocessing.code.tex"
+Library (tcolorbox): 'tcbprocessing.code.tex' version '4.03'
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\shellesc.sty"
+Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 69.
+)))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryarrows.meta.c
+ode.tex"
+File: pgflibraryarrows.meta.code.tex 2015/05/13 v3.0.1a (rcs-revision 1.13)
+\pgfarrowinset=\dimen305
+\pgfarrowlength=\dimen306
+\pgfarrowwidth=\dimen307
+\pgfarrowlinewidth=\dimen308
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
+libraryfit.code.tex"
+File: tikzlibraryfit.code.tex 2013/07/12 v3.0.1a (rcs-revision 1.5)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\genealogytree\gtrcore.parser.code.tex"
+Library (genealogytree): 'gtrcore.parser.code.tex' version '1.10'
+\gtr@c@level=\count286
+\gtr@c@family=\count287
+\gtr@c@pid=\count288
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\genealogytree\gtrcore.processing.code.t
+ex"
+Library (genealogytree): 'gtrcore.processing.code.tex' version '1.10'
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\genealogytree\gtrcore.contour.code.te
+x"
+Library (genealogytree): 'gtrcore.contour.code.tex' version '1.10'
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\genealogytree\gtrcore.node.code.tex"
+Library (genealogytree): 'gtrcore.node.code.tex' version '1.10'
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\genealogytree\gtrcore.drawing.code.te
+x"
+Library (genealogytree): 'gtrcore.drawing.code.tex' version '1.10'
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\genealogytree\gtrcore.options.code.te
+x"
+Library (genealogytree): 'gtrcore.options.code.tex' version '1.10'
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\genealogytree\gtrcore.symbols.code.te
+x"
+Library (genealogytree): 'gtrcore.symbols.code.tex' version '1.10'
+\gtr@sym@Born@box=\box93
+\gtr@sym@Baptized@box=\box94
+\gtr@sym@Engaged@box=\box95
+\gtr@sym@Married@box=\box96
+\gtr@sym@Divorced@box=\box97
+\gtr@sym@Partnership@box=\box98
+\gtr@sym@Died@box=\box99
+\gtr@sym@Killed@box=\box100
+\gtr@sym@Buried@box=\box101
+\gtr@sym@Funeralurn@box=\box102
+\gtr@sym@Female@box=\box103
+\gtr@sym@Male@box=\box104
+\gtr@sym@Neuter@box=\box105
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\genealogytree\gtrlang.english.code.te
+x"
+Library (genealogytree): 'gtrlang.english.code.tex' version '1.10'
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\genealogytree\gtrlib.debug.code.tex"
+Library (genealogytree): 'gtrlib.debug.code.tex' version '1.10'
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen309
+\extrarowheight=\dimen310
+\NC@list=\toks49
+\extratabsurround=\skip68
+\backup@length=\skip69
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+\TX@col@width=\dimen311
+\TX@old@table=\dimen312
+\TX@old@col=\dimen313
+\TX@target=\dimen314
+\TX@delta=\dimen315
+\TX@cols=\count289
+\TX@ftn=\toks50
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbbreakable.code.tex"
+Library (tcolorbox): 'tcbbreakable.code.tex' version '4.03'
+\tcb@testbox=\box106
+\tcb@totalupperbox=\box107
+\tcb@totallowerbox=\box108
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\genealogytree\gtrlib.templates.code.tex
+"
+Library (genealogytree): 'gtrlib.templates.code.tex' version '1.10'
+))
 
 LaTeX Warning: Unused global option(s):
     [cleardoublepage=empty].
@@ -2177,42 +2539,42 @@ LaTeX Warning: Unused global option(s):
 (Appunti.aux)
 \openout1 = `Appunti.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 53.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 54.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Info: Redefining \it@ocap on input line 53.
-LaTeX Info: Redefining \it@ccap on input line 53.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Info: Redefining \it@ocap on input line 54.
+LaTeX Info: Redefining \it@ccap on input line 54.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count197
-\scratchdimen=\dimen258
-\scratchbox=\box74
-\nofMPsegments=\count198
-\nofMParguments=\count199
-\everyMPshowfont=\toks41
-\MPscratchCnt=\count266
-\MPscratchDim=\dimen259
-\MPnumerator=\count267
-\makeMPintoPDFobject=\count268
-\everyMPtoPDFconversion=\toks42
+\scratchcounter=\count290
+\scratchdimen=\dimen316
+\scratchbox=\box109
+\nofMPsegments=\count291
+\nofMParguments=\count292
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count293
+\MPscratchDim=\dimen317
+\MPnumerator=\count294
+\makeMPintoPDFobject=\count295
+\everyMPtoPDFconversion=\toks52
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -2266,32 +2628,32 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box75
-Package hyperref Info: Link coloring ON on input line 53.
+\AtBeginShipoutBox=\box110
+Package hyperref Info: Link coloring ON on input line 54.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count269
+\c@section@level=\count296
 LaTeX Info: Redefining \Ref on input line 515.
 )
-LaTeX Info: Redefining \ref on input line 53.
-LaTeX Info: Redefining \pageref on input line 53.
-LaTeX Info: Redefining \nameref on input line 53.
+LaTeX Info: Redefining \ref on input line 54.
+LaTeX Info: Redefining \pageref on input line 54.
+LaTeX Info: Redefining \nameref on input line 54.
 
 (Appunti.out) (Appunti.out)
-\@outlinefile=\write3
-\openout3 = `Appunti.out'.
+\@outlinefile=\write6
+\openout6 = `Appunti.out'.
 
-LaTeX Info: Redefining \Ref on input line 53.
+LaTeX Info: Redefining \Ref on input line 54.
 
 Option `squaren' provided! 
  Command \squaren defined by SIunits package!
 
 ABD: EveryShipout initializing macros (Copertina.tex
-<Immagini/MotherNaturecompress.png, id=295, 783.92876pt x 1927.2pt>
+<Immagini/MotherNaturecompress.png, id=302, 783.92876pt x 1927.2pt>
 File: Immagini/MotherNaturecompress.png Graphic file (type png)
 
 <use Immagini/MotherNaturecompress.png>
@@ -2341,7 +2703,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--34
 
  []
 
-<Licenza/by-sa.pdf, id=314, 96.36pt x 33.726pt>
+<Licenza/by-sa.pdf, id=321, 96.36pt x 33.726pt>
 File: Licenza/by-sa.pdf Graphic file (type pdf)
  <use Licenza/by-sa.pdf>
 Package pdftex.def Info: Licenza/by-sa.pdf used on input line 41.
@@ -2385,8 +2747,8 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 4.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [5])
-\tf@toc=\write4
-\openout4 = `Appunti.toc'.
+\tf@toc=\write7
+\openout7 = `Appunti.toc'.
 
 Package cleveref Info: loaded `italian' language definitions on input line 82.
 
@@ -2443,7 +2805,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 304--306
 Package cleveref Info: loaded `italian' language definitions on input line 378.
 
 [6] (Immagini/MaxRel.pdf_tex
-<Immagini/MaxRel.pdf, id=507, page=1, 221.33646pt x 162.22636pt>
+<Immagini/MaxRel.pdf, id=515, page=1, 221.33646pt x 162.22636pt>
 File: Immagini/MaxRel.pdf Graphic file (type pdf)
 
 <use Immagini/MaxRel.pdf, page 1>
@@ -2468,7 +2830,7 @@ Package cleveref Info: loaded `italian' language definitions on input line 553.
 Package cleveref Info: loaded `italian' language definitions on input line 610.
 
  [10]
-<Immagini/PhaseDiagram.png, id=557, 411.03563pt x 220.57407pt>
+<Immagini/PhaseDiagram.png, id=565, 411.03563pt x 220.57407pt>
 File: Immagini/PhaseDiagram.png Graphic file (type png)
 
 <use Immagini/PhaseDiagram.png>
@@ -2480,7 +2842,7 @@ Underfull \vbox (badness 3039) has occurred while \output is active []
 Package cleveref Info: loaded `italian' language definitions on input line 659.
 
  [11]
-<Immagini/PhasePV.png, id=566, 566.115pt x 295.1025pt>
+<Immagini/PhasePV.png, id=574, 566.115pt x 295.1025pt>
 File: Immagini/PhasePV.png Graphic file (type png)
 
 <use Immagini/PhasePV.png>
@@ -2584,7 +2946,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1310--1312
 
 Package cleveref Info: loaded `italian' language definitions on input line 1363
 .
-[24] <Immagini/Edistr1.png, id=700, 545.03625pt x 222.8325pt>
+[24] <Immagini/Edistr1.png, id=708, 545.03625pt x 222.8325pt>
 File: Immagini/Edistr1.png Graphic file (type png)
 
 <use Immagini/Edistr1.png>
@@ -2595,7 +2957,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1392--1394
 
  []
 
-<Immagini/EdistrN.png, id=703, 374.14781pt x 152.82094pt>
+<Immagini/EdistrN.png, id=711, 374.14781pt x 152.82094pt>
 File: Immagini/EdistrN.png Graphic file (type png)
 
 <use Immagini/EdistrN.png>
@@ -2649,7 +3011,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1693--1696
 Package cleveref Info: loaded `italian' language definitions on input line 1704
 .
 [31])
-Package cleveref Info: loaded `italian' language definitions on input line 70.
+Package cleveref Info: loaded `italian' language definitions on input line 71.
  [32]
 Capitolo 2.
 (Capitoli/PerfGas.tex [33
@@ -2683,7 +3045,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 274--276
 
 Package cleveref Info: loaded `italian' language definitions on input line 276.
 
-[37] <Immagini/FermiStep.png, id=809, 523.20468pt x 287.57437pt>
+[37] <Immagini/FermiStep.png, id=817, 523.20468pt x 287.57437pt>
 File: Immagini/FermiStep.png Graphic file (type png)
 
 <use Immagini/FermiStep.png>
@@ -2701,7 +3063,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 354--356
 
  []
 
-<Immagini/FStepT.png, id=822, 475.7775pt x 284.56313pt>
+<Immagini/FStepT.png, id=830, 475.7775pt x 284.56313pt>
 File: Immagini/FStepT.png Graphic file (type png)
 
 <use Immagini/FStepT.png>
@@ -2718,7 +3080,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 368--371
 
 Package cleveref Info: loaded `italian' language definitions on input line 375.
 
-[39] <Immagini/ElectronsDispersion.png, id=834, 590.95781pt x 394.47375pt>
+[39] <Immagini/ElectronsDispersion.png, id=842, 590.95781pt x 394.47375pt>
 File: Immagini/ElectronsDispersion.png Graphic file (type png)
 
 <use Immagini/ElectronsDispersion.png>
@@ -2728,7 +3090,7 @@ Package pdftex.def Info: Immagini/ElectronsDispersion.png used on input line 39
 Package cleveref Info: loaded `italian' language definitions on input line 407.
 
  [40 <./Immagini/FStepT.png>]
-<Immagini/SmoothStep.png, id=842, 501.37312pt x 283.81032pt>
+<Immagini/SmoothStep.png, id=850, 501.37312pt x 283.81032pt>
 File: Immagini/SmoothStep.png Graphic file (type png)
 
 <use Immagini/SmoothStep.png>
@@ -2742,7 +3104,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 429--431
 Package cleveref Info: loaded `italian' language definitions on input line 438.
 
 [41 <./Immagini/ElectronsDispersion.png> <./Immagini/SmoothStep.png>]
-<Immagini/SmoothStepDifferences.png, id=852, 582.67688pt x 185.19188pt>
+<Immagini/SmoothStepDifferences.png, id=860, 582.67688pt x 185.19188pt>
 File: Immagini/SmoothStepDifferences.png Graphic file (type png)
 
 <use Immagini/SmoothStepDifferences.png>
@@ -2775,7 +3137,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 578--581
 
 Package cleveref Info: loaded `italian' language definitions on input line 585.
 
-[44] <Immagini/GasToLiquid.png, id=871, 387.69844pt x 254.45062pt>
+[44] <Immagini/GasToLiquid.png, id=879, 387.69844pt x 254.45062pt>
 File: Immagini/GasToLiquid.png Graphic file (type png)
 
 <use Immagini/GasToLiquid.png>
@@ -2784,7 +3146,7 @@ Package pdftex.def Info: Immagini/GasToLiquid.png used on input line 588.
 Package cleveref Info: loaded `italian' language definitions on input line 631.
 
  [45 <./Immagini/GasToLiquid.png>]
-<Immagini/BoseThermalCapacity.png, id=881, 402.00188pt x 188.20313pt>
+<Immagini/BoseThermalCapacity.png, id=889, 402.00188pt x 188.20313pt>
 File: Immagini/BoseThermalCapacity.png Graphic file (type png)
 
 <use Immagini/BoseThermalCapacity.png>
@@ -2821,14 +3183,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 909--912
 
 Package cleveref Info: loaded `italian' language definitions on input line 916.
 
-[50] <Immagini/IsingCl.png, id=922, 560.0925pt x 326.72063pt>
+[50] <Immagini/IsingCl.png, id=930, 560.0925pt x 326.72063pt>
 File: Immagini/IsingCl.png Graphic file (type png)
 
 <use Immagini/IsingCl.png>
 Package pdftex.def Info: Immagini/IsingCl.png used on input line 929.
 (pdftex.def)             Requested size: 290.22107pt x 169.30244pt.
 
-<Immagini/IsingEntropy.png, id=925, 567.62062pt x 297.36093pt>
+<Immagini/IsingEntropy.png, id=933, 567.62062pt x 297.36093pt>
 File: Immagini/IsingEntropy.png Graphic file (type png)
 
 <use Immagini/IsingEntropy.png>
@@ -2841,7 +3203,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 972--974
 
  []
 
-<Immagini/DemagnAdiabatica.png, id=936, 673.76718pt x 356.83313pt>
+<Immagini/DemagnAdiabatica.png, id=944, 673.76718pt x 356.83313pt>
 File: Immagini/DemagnAdiabatica.png Graphic file (type png)
 
 <use Immagini/DemagnAdiabatica.png>
@@ -2850,7 +3212,7 @@ Package pdftex.def Info: Immagini/DemagnAdiabatica.png used on input line 987.
 Package cleveref Info: loaded `italian' language definitions on input line 1002
 .
  [52 <./Immagini/IsingEntropy.png> <./Immagini/DemagnAdiabatica.png>]
-<Immagini/FermiMagnSusc.png, id=946, 714.41907pt x 438.13687pt>
+<Immagini/FermiMagnSusc.png, id=954, 714.41907pt x 438.13687pt>
 File: Immagini/FermiMagnSusc.png Graphic file (type png)
 
 <use Immagini/FermiMagnSusc.png>
@@ -2874,7 +3236,7 @@ File: t1cmtl.fd 2005/04/13 v8.1 (WaS)
 Package cleveref Info: loaded `italian' language definitions on input line 1119
 .
  [56])
-Package cleveref Info: loaded `italian' language definitions on input line 75.
+Package cleveref Info: loaded `italian' language definitions on input line 76.
 
 [57] [58
 
@@ -2896,7 +3258,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--78
  []
 
 Package cleveref Info: loaded `italian' language definitions on input line 78.
-[60] <Immagini/Young.png, id=1003, 557.08125pt x 406.51875pt>
+[60] <Immagini/Young.png, id=1011, 557.08125pt x 406.51875pt>
 File: Immagini/Young.png Graphic file (type png)
 
 <use Immagini/Young.png>
@@ -2905,7 +3267,7 @@ Package pdftex.def Info: Immagini/Young.png used on input line 115.
 Package cleveref Info: loaded `italian' language definitions on input line 127.
 
  [61]
-<Immagini/Spatialcoh.png, id=1011, 294.34969pt x 224.33812pt>
+<Immagini/Spatialcoh.png, id=1019, 294.34969pt x 224.33812pt>
 File: Immagini/Spatialcoh.png Graphic file (type png)
 
 <use Immagini/Spatialcoh.png>
@@ -2918,84 +3280,106 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Package cleveref Info: loaded `italian' language definitions on input line 153.
 
 [62 <./Immagini/Young.png>]
-Package cleveref Info: loaded `italian' language definitions on input line 191.
+Package cleveref Info: loaded `italian' language definitions on input line 193.
 
  [63 <./Immagini/Spatialcoh.png>]
-<Immagini/StellarMichelson.png, id=1033, 566.115pt x 272.51813pt>
+<Immagini/StellarMichelson.png, id=1041, 566.115pt x 272.51813pt>
 File: Immagini/StellarMichelson.png Graphic file (type png)
 
 <use Immagini/StellarMichelson.png>
-Package pdftex.def Info: Immagini/StellarMichelson.png used on input line 220.
+Package pdftex.def Info: Immagini/StellarMichelson.png used on input line 222.
 (pdftex.def)             Requested size: 290.22107pt x 139.7101pt.
-Package cleveref Info: loaded `italian' language definitions on input line 230.
+Package cleveref Info: loaded `italian' language definitions on input line 232.
 
  [64 <./Immagini/StellarMichelson.png>]
-<Immagini/HanburyBrownTwiss.png, id=1044, 391.4625pt x 423.08063pt>
+<Immagini/HanburyBrownTwiss.png, id=1052, 391.4625pt x 423.08063pt>
 File: Immagini/HanburyBrownTwiss.png Graphic file (type png)
 
 <use Immagini/HanburyBrownTwiss.png>
-Package pdftex.def Info: Immagini/HanburyBrownTwiss.png used on input line 241.
+Package pdftex.def Info: Immagini/HanburyBrownTwiss.png used on input line 243.
 
 (pdftex.def)             Requested size: 290.22107pt x 313.67514pt.
-Package cleveref Info: loaded `italian' language definitions on input line 262.
+Package cleveref Info: loaded `italian' language definitions on input line 264.
 
  [65 <./Immagini/HanburyBrownTwiss.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 279--281
+Underfull \hbox (badness 10000) in paragraph at lines 281--283
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--302
+Underfull \hbox (badness 10000) in paragraph at lines 301--304
 
  []
 
-Package cleveref Info: loaded `italian' language definitions on input line 309.
+Package cleveref Info: loaded `italian' language definitions on input line 311.
 
-[66] <Immagini/NyquistLine.png, id=1061, 386.94562pt x 185.94469pt>
+[66] <Immagini/NyquistLine.png, id=1069, 386.94562pt x 185.94469pt>
 File: Immagini/NyquistLine.png Graphic file (type png)
 
 <use Immagini/NyquistLine.png>
-Package pdftex.def Info: Immagini/NyquistLine.png used on input line 321.
+Package pdftex.def Info: Immagini/NyquistLine.png used on input line 323.
 (pdftex.def)             Requested size: 290.22107pt x 139.46666pt.
 
-<Immagini/NyquistNoiseGenerator.png, id=1062, 392.96812pt x 208.52907pt>
+<Immagini/NyquistNoiseGenerator.png, id=1070, 392.96812pt x 208.52907pt>
 File: Immagini/NyquistNoiseGenerator.png Graphic file (type png)
 
 <use Immagini/NyquistNoiseGenerator.png>
 Package pdftex.def Info: Immagini/NyquistNoiseGenerator.png used on input line 
-345.
+347.
 (pdftex.def)             Requested size: 290.22107pt x 154.01634pt.
-Package cleveref Info: loaded `italian' language definitions on input line 357.
+Package cleveref Info: loaded `italian' language definitions on input line 359.
 
  [67 <./Immagini/NyquistLine.png>]
-Package cleveref Info: loaded `italian' language definitions on input line 391.
+Package cleveref Info: loaded `italian' language definitions on input line 393.
 
 
 [68 <./Immagini/NyquistNoiseGenerator.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 417--419
+Underfull \hbox (badness 10000) in paragraph at lines 419--421
 
  []
 
-Package cleveref Info: loaded `italian' language definitions on input line 423.
+Package cleveref Info: loaded `italian' language definitions on input line 426.
 
 [69]
-Package cleveref Info: loaded `italian' language definitions on input line 461.
+Package cleveref Info: loaded `italian' language definitions on input line 468.
 
  [70]
-Package cleveref Info: loaded `italian' language definitions on input line 502.
+Package cleveref Info: loaded `italian' language definitions on input line 509.
 
  [71]
-Package cleveref Info: loaded `italian' language definitions on input line 539.
+Package cleveref Info: loaded `italian' language definitions on input line 546.
 
  [72]
-Package cleveref Info: loaded `italian' language definitions on input line 579.
+Package cleveref Info: loaded `italian' language definitions on input line 586.
 
- [73])
-Package cleveref Info: loaded `italian' language definitions on input line 80.
- [74]
+ [73]
+\gtr@pbox=\box111
+\gtr@pbox=\box112
+\gtr@pbox=\box113
+\gtr@pbox=\box114
+\gtr@pbox=\box115
+\gtr@pbox=\box116
+\gtr@pbox=\box117
+\gtr@pbox=\box118
+\gtr@pbox=\box119
+\gtr@pbox=\box120
+\gtr@pbox=\box121
+\gtr@pbox=\box122
+)
+Overfull \hbox (20.06181pt too wide) in paragraph at lines 616--80
+[]|  []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 616--80
+
+ []
+
+Package cleveref Info: loaded `italian' language definitions on input line 81.
+[74]
 Capitolo 4.
 (Capitoli/Crystals.tex
-<Immagini/HeatCapacity.png, id=1127, 458.46281pt x 246.9225pt>
+<Immagini/HeatCapacity.png, id=1141, 458.46281pt x 246.9225pt>
 File: Immagini/HeatCapacity.png Graphic file (type png)
 
 <use Immagini/HeatCapacity.png>
@@ -3059,7 +3443,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 376--379
 
  []
 
-<Immagini/HeatCapacityDebye.png, id=1180, 403.5075pt x 219.06844pt>
+<Immagini/HeatCapacityDebye.png, id=1194, 403.5075pt x 219.06844pt>
 File: Immagini/HeatCapacityDebye.png Graphic file (type png)
 
 <use Immagini/HeatCapacityDebye.png>
@@ -3080,7 +3464,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 439--441
 
  []
 
-<Immagini/CorpoNero.png, id=1194, 509.65407pt x 287.57437pt>
+<Immagini/CorpoNero.png, id=1208, 509.65407pt x 287.57437pt>
 File: Immagini/CorpoNero.png Graphic file (type png)
 
 <use Immagini/CorpoNero.png>
@@ -3104,7 +3488,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 527--529
 
  []
 
-<Immagini/BodyCenteredCubic.png, id=1209, 341.02406pt x 428.35031pt>
+<Immagini/BodyCenteredCubic.png, id=1223, 341.02406pt x 428.35031pt>
 File: Immagini/BodyCenteredCubic.png Graphic file (type png)
 
 <use Immagini/BodyCenteredCubic.png>
@@ -3114,7 +3498,7 @@ Package pdftex.def Info: Immagini/BodyCenteredCubic.png used on input line 535.
 Package cleveref Info: loaded `italian' language definitions on input line 571.
 
  [84 <./Immagini/BodyCenteredCubic.png>]
-<Immagini/ElementaryCell.png, id=1222, 539.76656pt x 149.8097pt>
+<Immagini/ElementaryCell.png, id=1236, 539.76656pt x 149.8097pt>
 File: Immagini/ElementaryCell.png Graphic file (type png)
 
 <use Immagini/ElementaryCell.png>
@@ -3128,7 +3512,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 607--609
 Package cleveref Info: loaded `italian' language definitions on input line 622.
 
 [85 <./Immagini/ElementaryCell.png>]
-<Immagini/HoneycombLattice.png, id=1241, 686.565pt x 415.5525pt>
+<Immagini/HoneycombLattice.png, id=1255, 686.565pt x 415.5525pt>
 File: Immagini/HoneycombLattice.png Graphic file (type png)
 
 <use Immagini/HoneycombLattice.png>
@@ -3140,14 +3524,14 @@ Package cleveref Info: loaded `italian' language definitions on input line 676.
 Package cleveref Info: loaded `italian' language definitions on input line 730.
 
 
-[87] <Immagini/BraggXRay.png, id=1268, 416.30531pt x 371.88937pt>
+[87] <Immagini/BraggXRay.png, id=1282, 416.30531pt x 371.88937pt>
 File: Immagini/BraggXRay.png Graphic file (type png)
 
 <use Immagini/BraggXRay.png>
 Package pdftex.def Info: Immagini/BraggXRay.png used on input line 763.
 (pdftex.def)             Requested size: 193.47578pt x 172.83597pt.
 
-<Immagini/vonLaueXRay.png, id=1270, 545.78906pt x 335.00156pt>
+<Immagini/vonLaueXRay.png, id=1284, 545.78906pt x 335.00156pt>
 File: Immagini/vonLaueXRay.png Graphic file (type png)
 
 <use Immagini/vonLaueXRay.png>
@@ -3161,7 +3545,7 @@ LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <7> not available
 LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <5> not available
 (Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 808.
 
-<Immagini/vonLaueB.png, id=1284, 572.1375pt x 371.88937pt>
+<Immagini/vonLaueB.png, id=1298, 572.1375pt x 371.88937pt>
 File: Immagini/vonLaueB.png Graphic file (type png)
 
 <use Immagini/vonLaueB.png>
@@ -3189,7 +3573,7 @@ LaTeX Font Info:    Font shape `TS1/cmbr/m/it' in size <10> not available
 Package cleveref Info: loaded `italian' language definitions on input line 1007
 .
  [93])
-Package cleveref Info: loaded `italian' language definitions on input line 87.
+Package cleveref Info: loaded `italian' language definitions on input line 88.
  [94]
 Appendice A.
 (Capitoli/Missing.tex) [95
@@ -3199,29 +3583,29 @@ Appendice A.
 ]
 Appendice B.
 (Capitoli/Thanks.tex) [97]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 99.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 99.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 100.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
  (Appunti.aux
-Package cleveref Info: loaded `italian' language definitions on input line 19.
-Package cleveref Info: loaded `italian' language definitions on input line 23.
+Package cleveref Info: loaded `italian' language definitions on input line 20.
+Package cleveref Info: loaded `italian' language definitions on input line 24.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 99.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 99.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 100.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 100.
 Package rerunfilecheck Info: File `Appunti.out' has not changed.
-(rerunfilecheck)             Checksum: E0E7D74643AC404ABCB19D16BC40EAE2;5413.
+(rerunfilecheck)             Checksum: 34371AA673019B0F5F67341F8B31664E;5480.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 25613 strings out of 493333
- 455145 string characters out of 3139194
- 670753 words of memory out of 3000000
- 28280 multiletter control sequences out of 15000+200000
+ 40236 strings out of 493333
+ 799863 string characters out of 3139194
+ 1069303 words of memory out of 3000000
+ 42648 multiletter control sequences out of 15000+200000
  53318 words of font info for 131 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,16n,77p,10485b,798s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,16n,109p,10485b,1387s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi
 600\tbmo10.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\
 cmbright\dpi600\tbbx10.pk> <C:\Users\candi\AppData\Local\MiKTeX\2.9\fonts\pk\lj
@@ -3276,9 +3660,9 @@ enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cmex8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/euler/eurm1
 0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb>
-Output written on Appunti.pdf (107 pages, 3500335 bytes).
+Output written on Appunti.pdf (107 pages, 3518034 bytes).
 PDF statistics:
- 2469 PDF objects out of 2487 (max. 8388607)
- 433 named destinations out of 1000 (max. 500000)
- 750 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2488 PDF objects out of 2984 (max. 8388607)
+ 437 named destinations out of 1000 (max. 500000)
+ 770 words of extra memory for PDF output out of 10000 (max. 10000000)
 

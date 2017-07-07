@@ -6,12 +6,12 @@
 \label{sec:quantumfluct}
 
 Per trovare il numero medio di particelle $ N $ in un sistema grancanonico si ha:
-\[ N = \partfix{\Omega}{\mu}{T,V} \]
+\[ N = - \partfix{\Omega}{\mu}{T,V} \]
 Si è inoltre mostrato nella \cref{sec:fluct} che:
 \[ \overline{(\Delta N)^2} = -\kt \partfix{^2 \Omega}{\mu^2}{T,V} \]
 Applicando questa espressione al caso delle statistiche quantistiche si ha:
 \begin{align*}
-\partfix{^2 \Omega}{\mu^2}{T,V} &= \partdev{^2 \sum_{\textbf{q}} \Omega_{\textbf{q}}}{\mu^2} = \sum_{\textbf{q}} \partdev{^2 \Omega_{\textbf{q}}}{\mu^2} = - \sum_{\textbf{q}} \partdev{n_{\textbf{q}}}{\mu} = - \sum_{\textbf{q}} \partdev{}{\mu}  \frac{1}{\exp\left[(\varepsilon_{\textbf{q}} - \mu)/k_B T\right] \pm 1} =\\
+\partfix{^2 \Omega}{\mu^2}{T,V} &= \partdev{^2 \sum_{\textbf{q}} \Omega_{\textbf{q}}}{\mu^2} = \sum_{\textbf{q}} \partdev{^2 \Omega_{\textbf{q}}}{\mu^2} = - \sum_{\textbf{q}} \partdev{\overline{n_{\textbf{q}}}}{\mu} = - \sum_{\textbf{q}} \partdev{}{\mu}  \frac{1}{\exp\left[(\varepsilon_{\textbf{q}} - \mu)/k_B T\right] \pm 1} =\\
 &= - \frac{1}{\kt} \sum_{\textbf{q}}  \frac{\exp\left[(\varepsilon_{\textbf{q}} - \mu)/k_B T\right] \pm 1 \mp 1}{(\exp\left[(\varepsilon_{\textbf{q}} - \mu)/k_B T\right] \pm 1)^2} =\\
 & = - \frac{1}{\kt} \sum_{\textbf{q}}  \frac{1}{(\exp\left[\varepsilon_{\textbf{q}} - \mu)/k_B T\right] \pm 1} \mp \frac{1}{(\exp\left[(\varepsilon_{\textbf{q}} - \mu)/k_B T\right] \pm 1)^2} =\\
 &= - \frac{1}{\kt} \sum_{\textbf{q}} n_{\textbf{q}} \mp n_{\textbf{q}}^2
@@ -43,7 +43,7 @@ e facendo una media\footnotemark sulle fasi relative, che si sono supposte scorr
 Calcolando il valore di aspettazione del quadrato dell'intensità si può trovare l'entità delle fluttuazioni su tale valore medio:
 \begin{align*}
 \expval{\abs{E}^4} &= \varepsilon^4 \expval{\left[ N +  2 \sum_{j > l} \cos(\varphi_j - \varphi_l) \right]^2} = \varepsilon^4 \left[ N^2 + 4 N \expval{\sum_{j > l} cos(\varphi_j - \varphi_l)} + 4 \expval{ \sum_{j > l} \cos^2(\varphi_j - \varphi_l)} \right] =\\
-&= \varepsilon^4 \left[N^2 + 4 \frac{N(N - 1)}{2} \frac{1}{2}\right] = 2 N^2 \varepsilon^4
+&= \varepsilon^4 \left[N^2 + 4 \frac{N(N - 1)}{2} \frac{1}{2}\right] \approxeq 2 N^2 \varepsilon^4
 \end{align*}
 dove si sono posti nulli i doppi prodotti incoerenti già nella seconda uguaglianza, mentre nella seconda somma si è considerato che ciascuno degli $ N(N-1)/2 $ quadrati presenti nella somma (tanti quanti le coppie di $ j,l $) ha valor medio pari a $ 1/2 $. Si ottiene infine:
 \[ \expval{\left(\Delta\abs{E}^2\right)^2} = \expval{\abs{E}^4} - \expval{\abs{E}^2}^2 = N^2 \varepsilon^4\]
@@ -76,7 +76,7 @@ C = \frac{n_{\max} - n_{\min}}{n_{\max} + n_{\min}} = 1
 \end{equation*}
 \newline
 
-Nel caso in cui si osservino $ N_0 $ fotoni distribuit su $ g $ stati di singola particella si ha per le fluttuazioni un valore:
+Nel caso in cui si osservino $ N_0 $ fotoni distribuiti su $ g $ stati di singola particella si ha per le fluttuazioni un valore:
 \[ \sqrt{\overline{(\Delta N)^2}} = \sqrt{\sum_{\textbf{q}} \overline{(\Delta n_{\textbf{q}})^2}} = \sqrt{\sum_{\textbf{q}} \overline{n_{\textbf{q}}} +  \overline{n_{\textbf{q}}^2}} \simeq \sqrt{\sum_{\textbf{q}}  \overline{n_{\textbf{q}}^2}} \]
 in cui si assunto che la parte rilevante è solo il contributo dovuto all'interferenza, e si è trascurato quello corpuscolare. Considerando l'occupazione media pressoché uniforme, e si ottiene $ n_{\textbf{q}} \simeq N_0/g$ e quindi:
 \[  \sqrt{\overline{(\Delta N)^2}} \simeq \sqrt{\sum_{\textbf{q}}  N_0^2/g^2} = \sqrt{\frac{N_0^2}{g}} = \frac{N_0}{\sqrt{g}} \]
@@ -130,7 +130,7 @@ dove $ \Delta\theta_c $ è la quantità che satura la disuguaglianza precedente.
 C'è anche un altro angolo solido che può essere utile: quello sotteso dall'estensione della sorgente centrato nel punto medio fra le sorgenti secondarie, $ \Delta\Omega' $:
 \[ S =  R^2 \Delta\Omega'\]
 da cui si ottiene:
-\[ A_c = \frac{\lambda^2}{\Delta\Omega'} \]
+\[ A_c = \frac{\lambda^2}{\Delta\Omega'} = \frac{\Delta\Omega}{\Delta\Omega'} S\]
 
  \subparagraph{Interpretazione della coerenza spaziale} L'essenza della coerenza spaziale può essere tratta dalla seguente situazione: si immaginino due sorgenti puntiformi identiche spazialmente distanti e statisticamente indipendenti, \cref{fig:spcoh}.
 
@@ -145,7 +145,7 @@ da cui si ottiene:
 
 Si immaginino quindi due sorgenti secondarie come nel caso precedente, per le quali la differenza di cammino fra i fasci sia inferiore alla lunghezza di coerenza, $ c/\Delta\omega $, per entrambe le sorgenti. Si avrà allora che il valore dei campi prodotti nei due punti sarà lo stesso, a meno di un fattore di fase costante, dipendente dalla differenza di cammino.
 
-Il campo totale sulle due sorgenti secondarie sarà la somma di due contributi statisticamente indipendenti. I due valori ottenuti, uno per sorgente secondaria, sono fortemente correlati: i singoli addendi differiscono solo per un termine di fase costante. In questo modo se anche le sorgenti primarie erano statisticamente indipendenti, quelle secondarie non lo sono affatto, e formano quindi una figura di interferenza sullo schermo.
+Il campo totale sulle due sorgenti secondarie sarà la somma di due contributi statisticamente indipendenti. I due valori ottenuti (uno per ogni sorgente secondaria) sono fortemente correlati: i singoli addendi differiscono solo per un termine di fase costante. In questo modo se anche le sorgenti primarie erano statisticamente indipendenti, quelle secondarie non lo sono affatto, e formano quindi una figura di interferenza sullo schermo.
 
 \begin{oss}[Diffrazione]
 	Si noti che la formula trovata per l'angolo solido di coerenza coincide con quella ottenuta per caratterizzare l'angolo solido di emissione di una sorgente diffrattiva secondaria di estensione $ S $, realizzata forando una parete opaca\footnote{Il contenuto di questa frase è che sostanzialmente non è interessante se la sorgente sia primaria o secondaria, a patto che nel secondo caso la radiazione incidente sia coerente (tipo onda piana)}.
@@ -171,18 +171,20 @@ e si può interpretare come la regione dello spazio in cui i fotoni sono indisti
 Si consideri ancora la sorgente descritta nell'esperienza di Young. Per il calcolo degli stati di singola particella si applica il procedimento descritto in \cref{sec:sumasint}: si calcola il volume di spazio delle fasi unitario e si divide per il volume della cella unitaria.
 
 Il numero di stati è quindi:
-\[ g = \frac{\Delta\Omega V p^2 \Delta p}{\hplanck^3} \]
+\[ g = \frac{\Delta\Omega ~V p^2 \Delta p}{\hplanck^3} \]
 in cui si è considerata una distribuzione isotropa in impulsi, e si selezionata la frazione a energia fissata, racchiusa nell'angolo solido di osservazione, mentre il volume $ V $ è dato dal volume occupato dai fotoni ricevuti nel tempo $ T $ di misura:
 \[ V = S c T \]
+\noindent dove S è ancora la superficie della sorgente.
+
 L'impulso si trova a partire dall'energia dei singoli fotoni e dalla legge di dispersione:
 \[ p = \frac{E}{c} = \frac{\hplanck\nu}{c} = \frac{\hbar \omega}{c} \]
 Si ottiene quindi:
-\[ g = \frac{\Delta\Omega S}{\lambda^2} \frac{T}{\tau_c} \]
+\[ g = \frac{S \Delta\Omega}{\lambda^2} \frac{T}{\tau_c} \]
 
 \begin{defn}[Estensione del fascio]
 	Si definisce \textit{estensione} di un fascio luminoso la quantità:
 	\begin{equation*}
-	U = \Delta\Omega S
+	U = S \Delta\Omega
 	\end{equation*}
 \end{defn}
 La definizione di $ U $ è importante perché questa grandezza mantiene un valore costante nella propagazione di un fascio luminoso sotto le leggi dell'ottica geometrica.
@@ -268,7 +270,7 @@ Quando i rivelatori vengono allontanati e la loro distanza supera la lunghezza t
 \begin{oss}[Altre statistiche]
 	La formula trovata vale per particelle che obbediscono alla statistica di Bose, per trovare l'espressione nel caso delle statistiche di Fermi e di Boltzmann è sufficiente modificare l'espressione per $ \overline{(N_1 - \overline{N_1})^2} $: nel primo caso al secondo membro il termine ondulatorio ha un segno meno, mentre nel caso classico è del tutto assente.
 	
-	Questo porta ad un segno $ - $ nella correlazione media dei fermioni, rispetto a quella dei bosoni, mentre porta ad annullarsi completamente la correlazione nel caso di particelle classiche.
+	Questo porta ad un segno meno nella correlazione media dei fermioni, rispetto a quella dei bosoni, mentre porta ad annullarsi completamente la correlazione nel caso di particelle classiche.
 \end{oss}
 
 Per bosoni e fermioni il comportamento della correlazione media può essere spiegato in termine dei fenomeni di bunching e anti-bunching introdotto nella \cref{sec:fotonfluct}:
@@ -279,9 +281,9 @@ Per bosoni e fermioni il comportamento della correlazione media può essere spie
 I comportamenti discussi si possono anche pensare alla luce delle interazioni efficaci fra particelle quantistiche introdotte nella \cref{sec:fewdegas}.
 \newline
 
-Il vantaggio di questo esperimento rispetto a quello di Michelson è che impiegano i due rivelatori anziché uno solo si elimina il termine classico delle fluttuazioni e si misura solo quello quantistico.
+Il vantaggio di questo esperimento rispetto a quello di Michelson è che impiegando i due rivelatori anziché uno solo si elimina il termine classico delle fluttuazioni e si misura solo quello quantistico.
 
-Poiché cioè che si misura è il prodotto delle intensità sui due rivelatori l'uscita dipende dalla quarta potenza del campo elettrico.
+Poiché ciò che si misura è il prodotto delle intensità sui due rivelatori l'uscita dipende dalla quarta potenza del campo elettrico.
 
 \paragraph{Misura della coerenza temporale} Nella descrizione dell'esperimento si è detto che viene variata la distanza $ d $ al fine di trovare la coerenza spaziale del segnale (lunghezza di coerenza trasversale).
 Si può però scegliere di tenere fissa la distanza $ d $, all'interno dell'area di coerenza, e introdurre un ritardo temporale all'uscita di uno dei due rivelatori, e misurare la coerenza temporale:
@@ -297,11 +299,11 @@ Si osserverà quindi una forte correlazione per ritardi $ \tau < \tau_c $, mentr
 \label{sec:nyquistth}
 
 Nel $ 1927 $ Johnson ha osservato che ai capi di un elemento generico di un circuito elettrico (tipicamente il più semplice: una resistenza) sono presenti della fluttuazioni nel segnale dovute alla temperatura finita del componente. Tali fluttuazioni sono perciò definite \textit{rumore termico} o \textit{Johnson}.
-La spiegazione fu immediatamente fornita Nyquist, da cui il risultato teorico noto come \textit{teorema di Nyquist}.
+La spiegazione fu immediatamente fornita da Nyquist, da cui il risultato teorico noto come \textit{teorema di Nyquist}.
 \newline
 
-L'enunciato del teorema è il seguente: si consideri una resistenza $ R $ alla temperatura $ T $, ai suoi capi verrà generata una tensione fluttuante che se misurata in una banda di frequenza $ \Delta f $ possiede un valore quadratico medio:
-\[ \overline{V_{\Delta f}^2} = 4 R \kt \Delta f \]
+L'enunciato del teorema è il seguente: si consideri una resistenza $ R $ alla temperatura $ T $, ai suoi capi verrà generata una tensione fluttuante che se misurata in una banda di frequenza $ \Delta \nu $ possiede un valore quadratico medio:
+\[ \overline{V_{\Delta \nu}^2} = 4 R \kt \Delta \nu \]
 
 Il teorema di Nyquist ha due importanti caratteristiche:
 \begin{itemize}
@@ -330,7 +332,7 @@ Se si considera la propagazione di onde elettromagnetiche di lunghezza $ \lambda
 Se $ c' $ è la velocità di propagazione lungo la linea si ha:
 \[ l = n \frac{c'}{2 \nu} \implies n = l \frac{2\nu}{c'} \]
 per cui in un intervallo di frequenza $ \Delta \nu $ ci saranno $ 2l \Delta \nu /c' $ modi di vibrazione.
-Secondo la statistica di Bose ad ogni modo è associata un'energia:
+Secondo la statistica di Bose ad ogni modo di vibrazione elettromagnetica è associata un'energia:
 \[ h\nu \bar{n} = h \nu \frac{1}{\exp[\frac{h\nu}{\kt}] - 1} \]
 e nel limite classico $ h\nu \ll \kt $ l'energia diventa proprio $ \kt $. L'energia associata alla linea quindi risulta:
 \[ h\nu \bar{n} \frac{2l}{c'} \Delta\nu \simeq \kt \frac{2l}{c'} \Delta\nu \]
@@ -352,25 +354,25 @@ Poiché si è all'equilibrio anche il carico $ R $ emette energia allo stesso ri
 Il sistema può essere schematizzato sostituendo la linea di trasmissione con un generatore di rumore e un filtro per la banda di frequenza d'interesse, come mostrato in \cref{fig:nyqgen}.
 
 Nella resistenza di carico scorre quindi una corrente $ I_{\Delta\nu} $ tale che la potenza sia quella prodotta dalla linea, cioè:
-\[ I_{\Delta\nu}^2 R = \kt \Delta\nu \]
+\[ \overline{I_{\Delta\nu}^2} R = \kt \Delta\nu \]
 allora il generatore di rumore è un generatore di tensione $ V_{\Delta\nu} $ con:
 \[ V_{\Delta\nu} = 2 R I_{\Delta\nu} \]
 % non capisco perché il 2
 e quindi:
-\[ V_{\Delta\nu}^2 = 4 R \kt \Delta\nu \]
+\[ \overline{V_{\Delta\nu}^2} = 4 R \kt \Delta\nu \]
 che è esattamente la tesi del teorema di Nyquist.
 
 \paragraph{Generalizzazione ad impedenze complesse} Il teorema può essere generalizzato per impedenze complesse, semplicemente considerando un circuito costituito da tre elementi in serie: una resistenza $ R $, un'impedenza complessa $ Z = X + i Y $ e un filtro, che selezioni la banda d'interesse.
 
 Sia $ \overline{V_{\Delta\nu}^2(R)} $ il quadrato della tensione di rumore prodotta da $ R $ in una banda di frequenza $ \Delta\nu $. La potenza dissipata in $ Z $ sarà:
-\[ P_Z = \overline{\Re\{IZ\} \Re\{I\}} = \frac{1}{2} \Re\{(IZ) I^\ast\} = \frac{1}{2} ((IZ) I^\ast + (IZ)^\ast I) = \frac{1}{2}\abs{I}^2 (Z + Z^\ast) = \frac{\overline{V_{\Delta\nu}^2(R)}}{(R+X)^2 + Y^2}X\]
+\[ P_Z = \overline{\Re\{IZ\} \Re\{I\}} = \frac{1}{2} \Re\{(IZ) I^\ast\} = \frac{1}{4} ((IZ) I^\ast + (IZ)^\ast I) = \frac{1}{4}\abs{I}^2 (Z + Z^\ast) = \frac{\overline{V_{\Delta\nu}^2(R)}}{(R+X)^2 + Y^2}X\]
 dove si è usato che:
 \[ I = \frac{\overline{V_{\Delta\nu}^2(R)}}{R + X +iY} \]
 
 Viceversa associando una tensione $ V_{\Delta\nu}(Z) $ di rumore all'impedenza $ Z $ si scrive la potenza dissipata in $ R $ come:
 \[  P_R = \frac{\overline{V_{\Delta\nu}^2(Z)}}{(R+X)^2 + Y^2}R \]
 
-Essendo all'equilibrio le due potenza scritte sopra devono essere uguali, per cui:
+Essendo all'equilibrio le due potenze scritte sopra devono essere uguali\footnote{Per il secondo principio della termodinamica una non si può scaldare a spese dell'altra.}, per cui:
 \[ \overline{V_{\Delta\nu}^2(Z)} R = \overline{V_{\Delta\nu}^2(R)} X \]
 da cui si ricava facilmente il valore per $ \overline{V_{\Delta\nu}^2(Z)} $:
 \[ V_{\Delta\nu}^2(Z) = 4 X \kt \Delta\nu\]
@@ -389,22 +391,22 @@ Si supponga di avere una variabile fluttuante $ V(t) $, osservata per un interva
 
 Il generico elemento dell'ensemble sarà quindi:
 \[ V(t) = \sum_{n=1}^{\infty} a_n \cos(2\pi \nu_n t) + b_n \sin(2\pi\nu_n t)\]
-dove $ \nu_n = n/T $ e, poiché la media temporale è supposta nulla non è stato incluso il termine in $ n = 0 $, in accordo con l'ipotesi ergodica (sarà nullo per tutti gli elementi dell'ensemble). Si introducono quindi le medie sull'ensemble delle componenti spettrali, esse saranno indicate con $ \expval(a_n) $ e $ \expval(b_n) $.
+dove $ \nu_n = n/T $ e, poiché la media temporale è supposta nulla non è stato incluso il termine in $ n = 0 $, in accordo con l'ipotesi ergodica (sarà nullo per tutti gli elementi dell'ensemble). Si introducono quindi le medie sull'ensemble delle componenti spettrali, esse saranno indicate con $ \expval{a_n} $ e $ \expval{b_n} $.
 
-Se per $ V(t) $ si considera una tensione fluttuante ai capi di una resistenza $ R $ la potenza elettrico dissipata per effetto Joule è $ V^2(t)/R $. La $ n $-esima componente di Fourier si ottiene come una media sul tempo:
+Se per $ V(t) $ si considera una tensione fluttuante ai capi di una resistenza $ R $ la potenza elettrica dissipata per effetto Joule è $ V^2(t)/R $. La $ n $-esima componente di Fourier si ottiene come una media sul tempo:
 \[ P_n = \overline{F_n} \]
 dove:
 \[ F_n = \frac{(a_n \cos(2\pi \nu_n t) + b_n \sin(2\pi\nu_n t))^2}{R} \]
 e non ci sono termini misti fra le varie frequenze perché le oscillazioni sono sfasate e mediano quindi a $ 0 $, e in tal modo si annulla anche la media del doppio prodotto nell'espressione precedente. Si ha dunque:
-\[ P_n = \frac{a_n^2 + b_n^2}{R} \]
+\[ P_n = \frac{a_n^2 + b_n^2}{2R} \]
 e introducendo una media sull'ensemble:
 \[ \expval{P_n} = \frac{\expval{a_n^2 }+ \expval{b_n^2}}{2R} \]
 
 Si ottiene quindi per la potenza totale dissipata:
-\[ \frac{\expval{V^2(t)}}{R} = \sum_n \expval{P_n} =\frac{1}{R} \sum_n \frac{\expval{a_n^2 }+ \expval{b_n^2}}{2}\]
+\[ \frac{\expval{\overline{V^2(t)}}}{R} = \sum_n \expval{P_n} =\frac{1}{R} \sum_n \frac{\expval{a_n^2 }+ \expval{b_n^2}}{2}\]
 
 Si può quindi definire $ G(\nu_n) \Delta \nu $ la potenza spettrale mediata sull'intervallo di frequenze fra $ (n-1)/2T $ e $ (n+1)/2T $, e scrivere quindi:
-\[ \frac{\expval{V^2(t)}}{R} = \sum_n G(\nu_n) \Delta \nu \qquad \qquad \text{con} \quad G(\nu_n) \Delta \nu = \frac{\expval{a_n^2 }+ \expval{b_n^2}}{2R} \]
+\[ \frac{\expval{\overline{V^2(t)}}}{R} = \sum_n G(\nu_n) \Delta \nu \qquad \qquad \text{con} \quad G(\nu_n) \Delta \nu = \frac{\expval{a_n^2 }+ \expval{b_n^2}}{2R} \]
 
 \subsubsection{Trasformata di Fourier}
 
@@ -419,17 +421,20 @@ dove la variabile $ x(t) $ è supposta nulla al di fuori dell'intervallo $ (-T/2
 
 Si applica quindi il \textit{teorema di Parseval}, noto dalla teoria generale, per le funzioni $ \mathbb{L}^2 $.
 \[ \int_{-T/2}^{T/2} x^2(t) \dd t = \int_{-\infty}^{\infty} \abs{x}^2(t) \dd t = \int_{-\infty}^{\infty} \abs{\tilde{x}}^2(\nu) \dd \nu = 2 \int_{0}^{\infty} \abs{\tilde{x}}^2(\nu) \dd \nu \]
-dove si è usata la restrizione su $ x(t) $ nella prima uguaglianza, il teorema di Parseval nella seconda e la partià del modulo nella terza. Dalla precedente espressione si ottiene:
+dove si è usata la restrizione su $ x(t) $ nella prima uguaglianza, il teorema di Parseval nella seconda e la parità del modulo nella terza. Dalla precedente espressione si ottiene\footnotemark:
+\footnotetext{Nel limite per $ T \rightarrow \infty $ si intende che il supporto della funzione $ x(t) $ si allarghi, altrimenti tale limite sarebbe banalmente nullo.}
 \[ \overline{x^2} = \lim\limits_{T \rightarrow \infty} \frac{1}{T} \int_{-T/2}^{T/2} x^2(t) \dd t = \lim\limits_{T \rightarrow \infty} \frac{2}{T} \int_{0}^{\infty} \abs{\tilde{x}}^2(\nu) \dd \nu \]
 
 Ricordando che un processo stocastico è definito da un ensemble, si effetua la media sugli elementi di questo:
 \[ \expval{\overline{x^2}} = \lim\limits_{T \rightarrow \infty} \frac{2}{T} \int_{0}^{\infty} \expval{\abs{\tilde{x}}^2(\nu)} \dd \nu = \int_{0}^{\infty} \lim\limits_{T \rightarrow \infty} \frac{2}{T} \expval{\abs{\tilde{x}}^2(\nu)} \dd \nu  = \int_{0}^\infty G(\nu) \dd \nu \]
 dove nell'ultimo passaggio è stata definita la \textit{densità spettrale mediata sul tempo e sull'ensemble}, $ G(\nu) $\footnote{E nel penultimo è stato applicato il noto \textit{teorema fisico}, descritto in \cref{note:physth} nella \cref{sec:fermigas}.}.
 
-Dopo aver introdotto la densità spettrale per caratterizzare una variabile stocastica, si può esamnare un'alra quantità che da informazioni dirette sull'andamento temporale delle fluttuazioni, cioè la \textit{correlazione mediata sul tempo e sull'ensemble}, $ C(\tau) $.\vspace*{-10pt}
+Dopo aver introdotto la densità spettrale per caratterizzare una variabile stocastica, si può esamnare un'altra quantità che da informazioni dirette sull'andamento temporale delle fluttuazioni, cioè la \textit{correlazione mediata sul tempo e sull'ensemble}, $ C(\tau) $.\vspace*{-10pt}
 \[ C(\tau) = \expval{\overline{x(t)x(t+\tau)}} = \expval{\lim\limits_{T \rightarrow \infty} \frac{1}{T} \int_{-T/2}^{T/2} x(t)x(t+\tau) \dd t} \]
 
+\vspace*{-3pt}
 \hrule
+\vspace*{-3pt}
 \subparagraph{Manipolazioni algebriche} Si studia quindi l'espressione algebrica della correlazione.
 \begin{align*}
 &\lim\limits_{T \rightarrow \infty} \frac{1}{T} \int_{-T/2}^{T/2} x(t)x(t+\tau) \dd \tau = \lim\limits_{T \rightarrow \infty} \frac{1}{T} \int_{-T/2}^{T/2} \dd t \int_{-\infty}^{\infty} \tilde{x}(\nu) e^{i 2\pi \nu t} \dd \nu \int_{-\infty}^{\infty} \tilde{x}(\nu') e^{i 2\pi \nu' (t + \tau)} \dd \nu'  =\\
@@ -437,21 +442,23 @@ Dopo aver introdotto la densità spettrale per caratterizzare una variabile stoc
 &\qquad = \lim\limits_{T \rightarrow \infty} \frac{1}{T} \int_{-\infty}^{\infty} \tilde{x}(\nu) \dd \nu \int_{-\infty}^{\infty} \tilde{x}(\nu') e^{i 2\pi \nu' \tau} \dd \nu' \delta_T(\nu + \nu')
 \end{align*}
 dove nella prima uguaglianza è stata usata la definizione della trasformata, nella seconda si è commutato gli integrali sulle frequenza con quello sui tempi\footnote{In sostanza è sempre il \textit{teorema fisico}, perché gli integrali prevedono un limite sugli estremi.} e nella terza si è introdotta la definizione di $ \delta_T(\nu + \nu') $:
-\[ \delta_T(\nu + \nu') = \frac{\sin(\pi T x)}{\pi x} \]
-Usando ora l'importante proprietà che $ \delta_T(\nu + \nu') ~\rightarrow_{T \rightarrow \infty}~ \delta(x) $ si ottiene:
+\[ \delta_T(x) = \frac{\sin(\pi T x)}{\pi x} \]
+Usando ora l'importante proprietà che $ \delta_T(x) ~\rightarrow_{T \rightarrow \infty}~ \delta(x) $ si ottiene:
 \[ \lim\limits_{T \rightarrow \infty} \frac{1}{T} \int_{-\infty}^{\infty} \tilde{x}(\nu) \tilde{x}(- \nu) e^{- i 2\pi \nu \tau} \dd \nu \]
 e sfruttando la relazione trovata sopra che lega componenti a frequenza positiva e negativa per trasformate di funzioni reali si ottiene:
 \begin{align*}
 &\lim\limits_{T \rightarrow \infty} \frac{1}{T} \int_{-\infty}^{\infty} \tilde{x}(\nu) \tilde{x}^\ast(\nu) e^{- i 2\pi \nu \tau} \dd \nu = \lim\limits_{T \rightarrow \infty} \frac{1}{T} \int_{-\infty}^{\infty} \abs{\tilde{x}(\nu)}^2 e^{- i 2\pi \nu \tau} \dd \nu =\\
 &=  \lim\limits_{T \rightarrow \infty} \frac{1}{T} \int_{-\infty}^{\infty} \abs{\tilde{x}(\nu)}^2 [\cos( 2\pi \nu  \tau) - \sin( 2\pi \nu \tau)] \dd \nu 
-= \lim\limits_{T \rightarrow \infty} \frac{2}{T} \int_{0}^{\infty} \abs{\tilde{x}(\nu)}^2 [\cos( 2\pi \nu \tau)] \dd \nu  
+= \lim\limits_{T \rightarrow \infty} \frac{2}{T} \int_{0}^{\infty} \abs{\tilde{x}(\nu)}^2 \cos( 2\pi \nu \tau) \dd \nu  
 \end{align*}
-\hrule\vspace*{12pt}
+\vspace*{-3pt}
+\hrule
+\vspace*{8pt}
 
 Nell'espressione ottenuta dalle manipolazione eseguite si introduce infine la media sull'ensemble:
 \begin{align*}
-C(\tau) &= \expval{\lim\limits_{T \rightarrow \infty} \frac{2}{T} \int_{0}^{\infty} \abs{\tilde{x}(\nu)}^2 [\cos( 2\pi \nu \tau)] \dd \nu  } =\\
-&= \int_{0}^{\infty}  \expval{\frac{2}{T} \lim\limits_{T \rightarrow \infty} \abs{\tilde{x}(\nu)}^2} [\cos( 2\pi \nu \tau)] \dd \nu = \int_{0}^{\infty}  G(\nu) [\cos( 2\pi \nu \tau)] \dd \nu
+C(\tau) &= \expval{\lim\limits_{T \rightarrow \infty} \frac{2}{T} \int_{0}^{\infty} \abs{\tilde{x}(\nu)}^2 \cos( 2\pi \nu \tau) \dd \nu  } =\\
+&= \int_{0}^{\infty}  \expval{\lim\limits_{T \rightarrow \infty} \frac{2}{T} \abs{\tilde{x}(\nu)}^2} \cos( 2\pi \nu \tau) \dd \nu = \int_{0}^{\infty}  G(\nu) \cos( 2\pi \nu \tau) \dd \nu
 \end{align*}
 
 Si è quindi dimostrato che la funzione di correlazione è la coseno trasformata di Fourier della densità spettrale. Questa relazione e la sua inversa costituiscono il teorema in oggetto.
@@ -459,8 +466,8 @@ Si è quindi dimostrato che la funzione di correlazione è la coseno trasformata
 \begin{thm}[Teorema di Wiener-Khintchine]
 	Data la densità spettrale $ G(\nu) $ e la funzione di correlazione temporale $ C(\tau) $, entrambe mediate sui tempi e sull'ensemble, esse sono direttamente legate da una coseno trasformata, come espresso nelle seguenti relazioni:
 	\begin{align*}
-		C(\tau) &= \int_{0}^{\infty} G(\nu) [\cos( 2\pi \nu \tau)] \dd \nu\\
-		G(\nu) &= 4 \int_{0}^{\infty} C(\tau) [\cos( 2\pi \nu \tau)] \dd \tau
+		C(\tau) &= \int_{0}^{\infty} G(\nu) \cos( 2\pi \nu \tau) \dd \nu\\
+		G(\nu) &= 4 \int_{0}^{\infty} C(\tau) \cos( 2\pi \nu \tau) \dd \tau
 	\end{align*}
 \end{thm}
 
@@ -471,7 +478,7 @@ Questo teorema esprime in modo quantitativo l'osservazione intuitiva che un sist
 	Si supponga un andamento esponenziale delle correlazioni, su una scala data da $ \tau_c $, tempo tipico di correlazione (è una misura del tempo medio in cui il sistema mantiene lo stato corrente, prima di perderlo e acquisirne uno nuovo casuale).
 	\[ C(\tau) = C(0) e^{-\tau/\tau_c} \]
 	Dal teorema di Wiener-Khintchine si può derivare la sua densità spettrale:
-	\[ G(\nu) = 4 \int_{0}^{\infty} C(0) e^{-\tau/\tau_c} [\cos( 2\pi \nu \tau)] \dd \tau = \frac{4 C(0) \tau_c}{1 + (2\pi \nu \tau_c)^2} \]
+	\[ G(\nu) = 4 \int_{0}^{\infty} C(0) e^{-\tau/\tau_c} \cos( 2\pi \nu \tau) \dd \tau = \frac{4 C(0) \tau_c}{1 + (2\pi \nu \tau_c)^2} \]
 	dove si è usata la relazione:
 	\[ \int_0^\infty e^{-ax} \cos mx \dd x = \frac{a}{a^2 + m^2} \]
 	
@@ -482,7 +489,7 @@ Questo teorema esprime in modo quantitativo l'osservazione intuitiva che un sist
 
 Utilizzando il teorema di Wiener-Khintchine dimostrato nella sezione precedente si può dare una dimostrazione del teorema di Nyquist basata sulle caratteristiche microscopiche della materia.
 
-Si mostrerà inizialmente la dimostrazione supponendo che gli elettroni obbediscano alla statistica di Maxwell-Boltzmann, come nel caso in cui fossero verificate le condizioni per il limite classico, e a partire da questo si dimostrerà che il teorema è ugualmente valido anche nel caso più generale in cui essi obbediscano alla statistica di Fermi-Dirac.
+Si effettuerà inizialmente la dimostrazione supponendo che gli elettroni obbediscano alla statistica di Maxwell-Boltzmann, come nel caso in cui fossero verificate le condizioni per il limite classico, e a partire da questo si dimostrerà che il teorema è ugualmente valido anche nel caso più generale in cui essi obbediscano alla statistica di Fermi-Dirac.
 
 \subsubsection{Statistica di Maxwell-Boltzmann}
 Si consideri un conduttore con $ n $ elettroni per unità di volume e di sezione $ S $, lunghezza $ l $, conducibilità $ \sigma $ e resistenza $ R $. Il numero totale degli elettroni sarà quindi $ N = S l n $. Gli elettroni collidono col reticolo con un tempo medio $ \tau_c $ fra collisioni successive.
@@ -495,8 +502,8 @@ La densità di corrente elettrica è quindi:
 e la resistenza:
 \[ R = \frac{l}{\sigma S} = \frac{lm}{n e^2 \tau_c S} \]
 per cui la legge di Ohm può essere scritta esplicitando le quantità trovate:
-\[ V = RI = R S J_x = R S n e \Delta v_x = \frac{R e}{l} \sum_{i=1}^{N} \Delta v_{x,i} = \frac{R e}{l} \sum_{i=1}^{N} v_{x,i} = \sum_{i=1}^{N} V_{i} \]
-dove, nella penultima uguaglianza, si sono considerate direttamente le velocità degli elettroni e non le loro variazioni, infatti il contributo in assenza di campo elettrico si annulla sommando su tutte le particelle. La velocità dell'elettrone $ i $-esimo, $ v_{x,i} $, e le grandezze $ V_i $ e $ V $ sono variabili aleatorie.
+\[ V = RI = R S J_x = R S n e \Delta v_x = \frac{R e}{l} \sum_{i=1}^{N} \Delta v_{x,i} = \frac{R e}{l} \sum_{i=1}^{N} v_{x,i} \] % = \sum_{i=1}^{N} V_{i} \]
+dove, nell'ultima uguaglianza, si sono considerate direttamente le velocità degli elettroni e non le loro variazioni, infatti il contributo in assenza di campo elettrico si annulla sommando su tutte le particelle. La velocità dell'elettrone $ i $-esimo, $ v_{x,i} $, e le grandezze $ V_i $ e $ V $ sono variabili aleatorie.
 
 Poiché le variabili $ v_{x,i} $ sono fra loro indipendenti, per cui le fluttuazioni della variabile al $ V $ in una banda di frequenza $ \Delta \nu $ possono essere scritte:
 \[ \overline{V_{\Delta \nu}^2} = \left(\frac{R e}{l}\right)^2 \sum_{i=1}^{N} \overline{v_{x,i,\Delta \nu}^2} = \left(\frac{R e}{l}\right)^2 \sum_{i=1}^{N} G_i(\nu) \Delta \nu\]
@@ -505,9 +512,9 @@ Inoltre considerando che il tempo $ \tau_c $ descriva bene il tempo di rilassame
 \[ C_i(\tau) = \expval{\overline{v_{x,i}(t) v_{x,i}(t + \tau)}} = \expval{v_{x,i}^2} \exp(-\tau/\tau_c) \]
 e applicando il teorema di Wiener-Khintchine, come nell'\cref{es:expcorr}:
 \[ G_i(\nu) = \frac{4\expval{v_{x,i}^2}\tau_c}{1 + (2\pi \nu \tau_c)} \simeq 4\expval{v_{x,i}^2}\tau_c \]
-avendo utilizzato che nelle condizioni ordinarie $ \nu \tau_c \ll 1 $.
-Inoltre all'equilibrio si può applicare il teorema di equipartizione, per cui $ m4\expval{v_{x,i}^2}/2 = \kt/2 $ e si ottiene infine:
-\[ \overline{V_{\Delta \nu}^2} = \left(\frac{R e}{l}\right)^2 \sum_{i=1}^{N} 4\frac{\kt}{m}\tau_c \Delta \nu = n l S \frac{R e^2}{l^2} = \frac{lm}{ne^2 \tau_c S} 4\frac{\kt}{m}\tau_c \Delta \nu = 4 R \kt \Delta \nu \]
+avendo utilizzato che nelle condizioni ordinarie $ \nu \tau_c \ll 1 $\footnote{Cioè che il tempo di collisione sia molto minore del tempo in cui viene acquisita la misura.}.
+Inoltre all'equilibrio si può applicare il teorema di equipartizione, per cui $ m\expval{v_{x,i}^2}/2 = \kt/2 $ e si ottiene infine:
+\[ \overline{V_{\Delta \nu}^2} = \left(\frac{R e}{l}\right)^2 \sum_{i=1}^{N} 4\frac{\kt}{m}\tau_c \Delta \nu = n l S \frac{R e^2}{l^2} \frac{lm}{ne^2 \tau_c S} 4\frac{\kt}{m}\tau_c \Delta \nu = 4 R \kt \Delta \nu \]
 cioè il teorema di Nyquist. Inoltre, grazie alla dimostrazione fatta, si è trovato che lo spettro del rumore è approssimativamente piatto fino alla frequenza di taglio $ \nu_c = 1/2\pi\tau_c $ (si veda l'\cref{es:expcorr}).
 
 \subsubsection{Statistica di Fermi-Dirac}
@@ -526,9 +533,9 @@ per cui l'affermazione fatta sull'indipendenza dal meccanismo di conduzione è d
 
 \subsection{Shot noise}
 
-Il rumore termico è la sorgente principale in esperimente a bassa frequenza, ma un'altra sorgente importante è quella dovuta alla natura corpuscolare degli elettroni, per cui la corrente, per valori piccoli, appare come una funzione discontinua nel tempo, poiché è possibile distinguere il contributo dei singoli elettroni. Tale rumore è detto \textit{shot noise}.
+Il rumore termico è la sorgente principale in esperimenti a bassa frequenza, ma un'altra sorgente importante è quella dovuta alla natura corpuscolare degli elettroni, per cui la corrente, per valori piccoli, appare come una funzione discontinua nel tempo, poiché è possibile distinguere il contributo dei singoli elettroni. Tale rumore è detto \textit{shot noise}.
 
-Sia $ n $ il numero di elettroni che raggiunge il rivelatore nel tempo $ T_m $, che caratterizza il tipo di misura con cui viene determinata la corrente, e $ I $ la corrente che scorre entro questo lasso di tempo.
+Sia $ n $ il numero di elettroni che raggiunge il rivelatore nel tempo $ T_m $, che caratterizza il tipo di misura in cui viene determinata la corrente, e $ I $ la corrente che scorre entro questo lasso di tempo.
 
 Se $ \expval{n} $ è la media di $ n $ sull'ensemble allora la corrente media è:
 \[ \expval{I} = \expval{n} \frac{e}{T_m} \]
@@ -554,7 +561,7 @@ Per calcolare $ G_I(\nu) $ si utilizza un modello di variabile stocastica $ I_{T
 Tutti gli eventi individuali sono identici fra loro, e quindi descritti dalla stessa funzione $ F(t) $, si può quindi scrivere:
 \[ I_{T_m}(t) = \sum_{i =1}^n F(t-t_i) \]
 con
-\[ \int_{-\tau_c/2}^{\tau_c/2} = e \]
+\[ \int_{-\tau_c/2}^{\tau_c/2} F(t) \dd t = e \]
 dove $ \tau_c $ è il tempo di correlazione associato al passaggio di un singolo elettrone. Si ha dunque:
 \[ \expval{I} = \frac{1}{T_m} \expval{\int_{0}^{T_m} I_{T_m}(t) \dd t} \]
 
@@ -564,7 +571,7 @@ C(\tau) = \expval{\overline{I_{T_m}(t) I_{T_m}(t + \tau)}} = \expval{\overline{\
 \end{align*}
 dove si è utilizzato che le correnti associate ai singoli elettroni sono indipendenti.
 
-Dato che la correlazione temporale è determinata dalla scala temporale $ \tau_c $ di ciascun elettrone il teorema di Wiener-Khintchine afferma che la distribuzione spettrale $ G_I(\nu) $ si estende su un intervallo di frequenze dell'ordine di $ 1/\tau_c $ (è l'espressione del principio di indeterminazione per trasformte di Fourier).
+Dato che la correlazione temporale è determinata dalla scala temporale $ \tau_c $ di ciascun elettrone il teorema di Wiener-Khintchine afferma che la distribuzione spettrale $ G_I(\nu) $ si estende su un intervallo di frequenze dell'ordine di $ \expval{n}/~\tau_c $ (è l'espressione del principio di indeterminazione per trasformate di Fourier).
 Poiché il tempo di correlazione $ \tau_c $ è molto breve il rumore shot ha praticamente uno spettro bianco, infatti la formula per la varianza della corrente corrisponde ad un rumore bianco rivelato in un intervallo di frequenza $ 1/T_m $.
 
 Si ottiene infine per la densità spettrale:
@@ -572,7 +579,7 @@ Si ottiene infine per la densità spettrale:
 per cui si trova che questo rumore è più grande del rumore Johnson se la tensione ai capi della resistenza è superiore a $ 2\kt/e $, cioè $ 50 \milli\volt $ a temperatura ambiente.
 
 \begin{oss}[Indipendenza dei portatori]
-	Lo shot noise è stato derivato nell'ipotesi che le cariche contribuiscano in modo indipendente. Questa indipendenza è verificata in sistemi come i diodi a giunzione (in cui le cariche passan attraverso una barriera), ma non nel caso di conduttori metallici, dove esistono correlazioni a lungo raggio fra i portatori di carica.
+	Lo shot noise è stato derivato nell'ipotesi che le cariche contribuiscano in modo indipendente. Questa indipendenza è verificata in sistemi come i diodi a giunzione (in cui le cariche passano attraverso una barriera), ma non nel caso di conduttori metallici, dove esistono correlazioni a lungo raggio fra i portatori di carica.
 \end{oss}
 \begin{oss}[Unificazione al rumore Johnson]
 	\`E possibile trattare in modo unificato i rumori termico e shot, per cui si ottiene che il rumore è del tipo shot quando la lunghezza del dispositivo è minore del libero cammino medio degli elettroni, per cui essi contribuiscono in modo indipendente, mentre diventa di tipo termico nel caso opposto.
@@ -581,3 +588,53 @@ per cui si trova che questo rumore è più grande del rumore Johnson se la tensi
 \section{Bibliografia}
 
 Questa sezione è stata interamente tratta dal testo di \textit{E. Arimondo}, anche se spesso le notazioni usate sono leggermente diverse, e si è cercato di uniformare la terminologia al resto delle dispense, quindi di adattarla al linguaggio impiegato nel testo di \textit{D.L. Goodstein}.
+%\vfill
+
+\section{Schema del capitolo}
+
+%\begin{itemize}
+%	\item Fluttuazioni
+%	\begin{itemize}
+%		\item Statistiche quantistiche
+%		\item Caso puramente ondulatorio
+%		\item Caratteristiche di coerenza
+%		\item Interferometria
+%		\begin{itemize}
+%			\item Michelson
+%			\item Hanbury Brown-Twiss
+%		\end{itemize}
+%	\end{itemize}
+%	\item Rumore
+%	\begin{itemize}
+%		\item Teorema di Nyquist
+%		\item Wiener-Khintchine
+%		\item Nyquist microscopico
+%		\item Shot noise
+%	\end{itemize}
+%\end{itemize}
+
+\hspace*{-0.5cm}
+\begin{tikzpicture}
+	\genealogytree[template=signpost]{
+		child{
+			g{Fluttuazioni}
+			c{Statistiche quantistiche}
+			c{Caso puramente ondulatorio}
+			c{Caratteristiche di coerenza}
+			child{
+				g{Interferometria}
+				c{Michelson}
+				c{Hanbury Brown-Twiss}
+			}
+		}
+	}
+	\genealogytree[tree offset=9cm]{
+		child{
+			g{Rumore}
+			c{Teorema di Nyquist}
+			c{Wiener-Khintchine}
+			c{Nyquist microscopico}
+			c{Shot noise}
+		}
+	}
+\end{tikzpicture}
