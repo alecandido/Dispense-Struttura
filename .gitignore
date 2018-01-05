@@ -4,5 +4,7 @@
 *.toc
 *.out
 *.synctex.gz
+*.fdb_latexmk
+*.fls
 !Appunti/Immagini/*
 !Appunti/Licenza/*
