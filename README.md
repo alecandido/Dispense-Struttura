@@ -1,8 +1,8 @@
 # Dispense-Struttura
 
-Le dispense sono per chiunque le voglia, ad oggi sono interamente a cura di Alessandro Candido.
+Le dispense sono rimaste incompiute e non sono più manutenute, rimangono liberamente disponibili e aperte alle modifiche (a questo scopo si consiglia una fork su GitHub).
 
-A breve però altri due meritevoli contributori prenderanno parte al progetto:
+<!-- A breve però altri due meritevoli contributori prenderanno parte al progetto:
 
 - Roberto Ribatti 
     - bande elettroniche
@@ -19,7 +19,7 @@ e non solo, gli ultimi due acquisti del team sono:
 - Federico Belliardo 
     - struttura dei liquidi
 - Marco Costa
-    - tecniche di condensazione
+    - tecniche di condensazione -->
 
 ## PDF
 

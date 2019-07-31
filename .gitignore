@@ -5,5 +5,7 @@
 *.out
 *.synctex.gz
 *.directory
+*.fdb_latexmk
+*.fls
 !Appunti/Immagini/*
 !Appunti/Licenza/*
